@@ -24,14 +24,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
   // Insert the new user into the database
-  $sql = "INSERT INTO USER (USER_NAME, USER_LNAME, USER_FNAME, USER_PHONE, USER_EMAIL, USER_TYPE)
+  $sql = "INSERT INTO user (USER_NAME, USER_LNAME, USER_FNAME, USER_PHONE, USER_EMAIL, USER_TYPE)
 VALUES ('$username', '$lname', '$fname', '$phone', '$email', 'APPLICANT')";
   $result = mysqli_query($conn, $sql);
     //echo "result run";
   if ($result) {
     // User was added successfully, redirect to the login page
     echo "added user";
-    //header("Location: login.html");
+    header("Location: login.html");
   } else {
     // There was an error adding the user to the database
     echo "Error: " . mysqli_error($conn);
