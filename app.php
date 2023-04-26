@@ -16,12 +16,21 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
   // Get the input values from the form
   $username = $_POST["username"];
-
+  $company = $_POST["company"];
+  $title = $_POST["title"];
+  
   $sql = "SELECT APPLICANT_ID from APPLICANT where USER_NAME = " . $username;
 
   $result = conn->query($sql);
 
   $id = $result->fetch_assoc();
+
+  $sql = "SELECT POST_ID from APPLICANT where USER_NAME = " . $username;
+
+  $result = conn->query($sql);
+
+  $id = $result->fetch_assoc();
+
   $date = date('Y-m-d H:i:s');
   // Insert the new user into the database
   $sql = "INSERT INTO APPLICATIONS (APPLICANT_ID, )
@@ -52,6 +61,12 @@ mysqli_close($conn);
 		<label>Username:</label>
 		<input type="text" name="username" required>
 		<br>
+        <label>Company:</label>
+		<input type="text" name="company" required>
+        <br>
+        <label>Job Title:</label>
+		<input type="text" name="title" required>
+        <br>
 		<input type="submit" value="Create Account">
 	</form>
 </body>
