@@ -80,18 +80,32 @@
 </div>
 <div class="paragraph">
 <p>This guide walks you through the process, showing you how to use a git client to transfer code from a public online git repository to your XAMPP server. As an example, this guide assumes that you wish to download the latest version of <a href="http://www.slimframework.com/">Slim</a>, a popular PHP micro-framework for Web application development that also has its own Github repository.
+<<<<<<< HEAD
 NOTE: This guide uses <a href="http://code.google.com/p/gitextensions/">Git Extensions</a>, an open source git client that&#8217;s available for Windows, Linux and Mac OS, and assumes that you have already downloaded and installed this software. If you don&#8217;t already have this, you can <a href="http://code.google.com/p/gitextensions/">download it from the official Git Extensions website</a>, and <a href="http://git-extensions-documentation.readthedocs.org/en/latest/getting_started.html">install it using these instructions</a>.</p>
 </div>
 <div class="paragraph">
 <p>To download Slim (or any other application) from its git repository, follow these steps:</p>
+=======
+NOTE: This guide uses the command-line git client for Mac OS X. If you don&#8217;t already have this, you can install it easily by running the command <em>brew install git</em> from a terminal.</p>
+</div>
+<div class="paragraph">
+<p>To download files with git, you must first ensure that you have privileges to write to the <em>htdocs/</em> subdirectory of the XAMPP installation directory (typically, <em>/Applications/XAMPP</em>). Follow these steps:</p>
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
 </div>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
+<<<<<<< HEAD
 <p>Ensure that your Apache server is running.</p>
 </li>
 <li>
 <p>Obtain the repository&#8217;s clone URL. On Github, this can be easily obtained by visiting the project&#8217;s Github page and copying the clone URL from the right side of the page. For third-party or private git repositories, you can obtain the clone URL by asking the project team directly. Make a note of the clone URL, as you&#8217;ll need it in subsequent steps.</p>
+=======
+<p>Open a new terminal and ensure you are logged in as an administrator.</p>
+</li>
+<li>
+<p>Create a new group named <em>gitusers</em>. This group will contain those user accounts allowed to download files via git.</p>
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
 <div class="imageblock">
 <div class="content">
 <img src="./images/deploy-git-app/image1.png" alt="image1">
@@ -99,10 +113,14 @@ NOTE: This guide uses <a href="http://code.google.com/p/gitextensions/">Git Exte
 </div>
 </li>
 <li>
+<<<<<<< HEAD
 <p>Launch Git Extensions by double-clicking the icon in the Windows Start menu or Start screen.</p>
 </li>
 <li>
 <p>Click the "Clone repository" link or use the "Start &#8594; Clone repository&#8230;&#8203;" menu item.</p>
+=======
+<p>Add your account (in this example, <em>susan</em>) to the new group. Add other users if needed.</p>
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
 <div class="imageblock">
 <div class="content">
 <img src="./images/deploy-git-app/image2.png" alt="image2">
@@ -110,42 +128,123 @@ NOTE: This guide uses <a href="http://code.google.com/p/gitextensions/">Git Exte
 </div>
 </li>
 <li>
+<<<<<<< HEAD
 <p>In the resulting "Clone" dialog box, enter the clone URL obtained in the first step. Set the destination directory to the <em>htdocs\</em> subdirectory of your XAMPP installation directory (typically, <em>C:\xampp</em>). Optionally, change the name of the subdirectory that will hold the downloaded code.</p>
+=======
+<p>Change the ownership and permissions of the <em>htdocs/</em> subdirectory so that it is writable by the the new <em>gitusers</em> group.</p>
+<div class="literalblock">
+<div class="content">
+<pre>cd /Applications/XAMPP/xamppfiles</pre>
+</div>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>chown root:gitusers htdocs</pre>
+</div>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>chmod 775 htdocs</pre>
+</div>
+</div>
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
 <div class="imageblock">
 <div class="content">
 <img src="./images/deploy-git-app/image3.png" alt="image3">
 </div>
 </div>
+<<<<<<< HEAD
 </li>
 <li>
 <p>Click the "Clone" button to start cloning the repository. Git Extensions will display a progress dialog as it downloads the code from the source repository.</p>
+=======
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+If you&#8217;re using XAMPP in a single-user scenario and there will only be one user downloading files via git, you can skip creating a new group and instead simply transfer full ownership of the <em>htdocs/</em> directory to that user. To do this, use a command like <em>chown susan:susan htdocs</em>.
+</td>
+</tr>
+</table>
+</div>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>To download Slim (or any other application) from its git repository, follow these steps:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Ensure that your Apache server is running and that yopiu are logged in as a member of the <em>gitusers</em> group.</p>
+</li>
+<li>
+<p>Obtain the repository&#8217;s clone URL. On Github, this can be easily obtained by visiting the project&#8217;s Github page and copying the clone URL from the right side of the page. For third-party or private git repositories, you can obtain the clone URL by asking the project team directly. Make a note of the clone URL, as you&#8217;ll need it in subsequent steps.</p>
+</li>
+</ol>
+</div>
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
 <div class="imageblock">
 <div class="content">
 <img src="./images/deploy-git-app/image4.png" alt="image4">
 </div>
 </div>
+<<<<<<< HEAD
 </li>
 <li>
 <p>Once the repository has been cloned, Git Extensions will prompt you to open the new repository. Click "Yes".</p>
 <div class="paragraph">
 <p>You should now see the entire commit history of the repository in a graphical tree structure, together with details on the changes made in each commit.</p>
+=======
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Open a new terminal.</p>
+</li>
+<li>
+<p>Change to the <em>htdocs/</em> subdirectory of your XAMPP installation directory (typically, <em>/Applications/XAMPP</em>). Use the following command to clone the remote repository, remembering to replace the clone URL in the example below with the URL you obtained in the first step.</p>
+<div class="literalblock">
+<div class="content">
+<pre>git clone https://github.com/slimphp/Slim.git</pre>
+</div>
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
 </div>
 <div class="imageblock">
 <div class="content">
 <img src="./images/deploy-git-app/image5.png" alt="image5">
 </div>
 </div>
+<<<<<<< HEAD
 </li>
 </ol>
 </div>
 <div class="paragraph">
 <p>At this point, the code has been downloaded from the remote git repository and you can begin using it. In this particular case, since the Slim framework includes a starter application, you can simply browse to the URL <a href="http://localhost/Slim" class="bare">http://localhost/Slim</a> and you should see the example application&#8217;s welcome page, as shown below.</p>
+=======
+<div class="paragraph">
+<p>The git client will begin downloading the code from the remote repository.</p>
+</div>
+</li>
+<li>
+<p>Once the process is complete, you should see a new directory containing the downloaded code, and you can now begin using it.</p>
+<div class="paragraph">
+<p>In this particular case, since the Slim framework includes a starter application, you can simply browse to the URL <a href="http://localhost/Slim" class="bare">http://localhost/Slim</a> and you should see the example application&#8217;s welcome page, as shown below.</p>
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
 </div>
 <div class="imageblock">
 <div class="content">
 <img src="./images/deploy-git-app/image6.png" alt="image6">
 </div>
 </div>
+<<<<<<< HEAD
+=======
+</li>
+</ol>
+</div>
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
 <div class="admonitionblock note">
 <table>
 <tr>
@@ -153,7 +252,11 @@ NOTE: This guide uses <a href="http://code.google.com/p/gitextensions/">Git Exte
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
+<<<<<<< HEAD
 You can use Git Extensions to create a new branch of the codebase should you wish to make any changes to it. Any changes you make will be automatically reflected in the Git Extensions interface, and if you have appropriate privileges, you can also commit your changes back to the remote repository. <a href="http://git-scm.com/book">Learn more about git</a>, or <a href="https://git-extensions-documentation.readthedocs.org/">read the Git Extensions documentation</a>.
+=======
+You can use the git command-line client to create a new branch of the codebase should you wish to make any changes to it. If you have appropriate privileges, you can also commit your changes back to the remote repository. <a href="http://git-scm.com/docs/gittutorial">Learn more about the git command-line client</a>.
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
 </td>
 </tr>
 </table>

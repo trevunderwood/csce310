@@ -76,10 +76,17 @@
     <article class="asciidoctor">
       <h1>Configure FTP Access</h1>
 <div class="paragraph">
+<<<<<<< HEAD
 <p>XAMPP includes the server version of <a href="https://filezilla-project.org/">FileZilla</a>, an open-source FTP solution. This makes it easy to transfer files to and from a XAMPP environment using FTP.</p>
 </div>
 <div class="paragraph">
 <p>To illustrate, assume that you have a simple PHP script named <em>example.php</em> on your Windows desktop containing the following code, that you wish to transfer to the XAMPP server.</p>
+=======
+<p>XAMPP includes <a href="http://www.proftpd.org/">proFTPD</a>, an open-source FTP server. This makes it easy to transfer files to and from a XAMPP environment using FTP.</p>
+</div>
+<div class="paragraph">
+<p>To illustrate, assume that you have a simple PHP script named <em>example.php</em> in your home directory containing the following code, that you wish to transfer to the XAMPP server.</p>
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
 </div>
 <div class="literalblock">
 <div class="content">
@@ -93,15 +100,26 @@
 </div>
 </div>
 <div class="paragraph">
+<<<<<<< HEAD
 <p>To transfer files using FTP, you must first configure the FileZilla FTP server. Follow the steps below.</p>
+=======
+<p>To transfer files via the proFTPD server, you first need to configure FTP access rules. Follow these steps.</p>
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
 </div>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
+<<<<<<< HEAD
 <p>Ensure that FileZilla is running.</p>
 </li>
 <li>
 <p>Start the FileZilla administration interface by clicking the "Admin" button in the XAMPP control panel.</p>
+=======
+<p>Open a new terminal and ensure you are logged in as an administrator.</p>
+</li>
+<li>
+<p>Create a new group named <em>ftp</em>. This group will contain those user accounts allowed to upload files via FTP.</p>
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
 <div class="imageblock">
 <div class="content">
 <img src="./images/transfer-files-ftp/image1.png" alt="image1">
@@ -109,31 +127,104 @@
 </div>
 </li>
 <li>
+<<<<<<< HEAD
 <p>In the resulting "Connect to Server" dialog box, leave all values at their default values and click "OK".</p>
+=======
+<p>Add your account (in this example, <em>susan</em>) to the new group. Add other users if needed.</p>
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
 <div class="imageblock">
 <div class="content">
 <img src="./images/transfer-files-ftp/image2.png" alt="image2">
 </div>
 </div>
+<<<<<<< HEAD
 <div class="paragraph">
 <p>You should now arrive at the FileZilla server console.</p>
+=======
+</li>
+<li>
+<p>Change the ownership and permissions of the <em>htdocs/</em> subdirectory of the XAMPP installation directory (typically, <em>/Applications/XAMPP/</em>) so that it is writable by the the new <em>ftp</em> group.</p>
+<div class="literalblock">
+<div class="content">
+<pre>cd /Applications/XAMPP/xamppfiles</pre>
+</div>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>chown root:ftp htdocs</pre>
+</div>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>chmod 775 htdocs</pre>
+</div>
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
 </div>
 <div class="imageblock">
 <div class="content">
 <img src="./images/transfer-files-ftp/image3.png" alt="image3">
 </div>
 </div>
+<<<<<<< HEAD
 </li>
 <li>
 <p>You now need to set up at least one FTP user. To do this, click the "Edit &#8594; Users" menu item. This will bring you to the user management interface.</p>
+=======
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+If you&#8217;re using XAMPP in a single-user scenario and there will only be one user transferring files via FTP, you can skip creating a new group and instead simply transfer full ownership of the <em>htdocs/</em> directory to that user. To do this, use a command like <em>chown susan:susan htdocs</em>.
+</td>
+</tr>
+</table>
+</div>
+</li>
+<li>
+<p>Ensure that proFTPD is running in the XAMPP control panel.</p>
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
 <div class="imageblock">
 <div class="content">
 <img src="./images/transfer-files-ftp/image4.png" alt="image4">
 </div>
 </div>
 </li>
+<<<<<<< HEAD
 <li>
 <p>Click the "Add" button to add a new user account. Enter a name for the new user account.</p>
+=======
+</ol>
+</div>
+<div class="paragraph">
+<p>You can now transfer files to the XAMPP server using the steps below:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Start an FTP client and enter connection details as below.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>If you’re connecting to the server from the same system, use "127.0.0.1" as the host address. If you’re connecting from a different system, use the network hostname or IP address of the XAMPP server.</p>
+</li>
+<li>
+<p>Use "21" as the port for a standard FTP connection or "22" for an SFTP connection.</p>
+</li>
+<li>
+<p>Enter your system username and password as your FTP credentials.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Your FTP client should now connect to the server and enter the <em>/Applications/XAMPP/xamppfiles/htdocs/</em> directory, which is the default Web server document root.</p>
+</div>
+</li>
+<li>
+<p>Transfer the file from your home directory to the server using normal FTP transfer conventions. If you’re using a graphical FTP client, you can usually drag and drop the file from one directory to the other. If you’re using a command-line FTP client, you can use the FTP PUT command.</p>
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
 <div class="imageblock">
 <div class="content">
 <img src="./images/transfer-files-ftp/image5.png" alt="image5">
@@ -141,6 +232,7 @@
 </div>
 </li>
 <li>
+<<<<<<< HEAD
 <p>Select and check the "Password" field and enter a password for the new user.</p>
 <div class="imageblock">
 <div class="content">
@@ -217,6 +309,12 @@
 <div class="imageblock">
 <div class="content">
 <img src="./images/transfer-files-ftp/image11.png" alt="image11">
+=======
+<p>Once the file is successfully transferred, you should be able to see it in action by browsing to <a href="http://localhost/example.php" class="bare">http://localhost/example.php</a>, as shown below:</p>
+<div class="imageblock">
+<div class="content">
+<img src="./images/transfer-files-ftp/image6.png" alt="image6">
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
 </div>
 </div>
 </li>

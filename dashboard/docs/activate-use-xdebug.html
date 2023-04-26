@@ -84,10 +84,17 @@
 <div class="olist arabic">
 <ol class="arabic">
 <li>
+<<<<<<< HEAD
 <p>Edit the <em>php.ini</em> file in the <em>php\</em> subdirectory of your XAMPP installation directory (usually, <em>C:\xampp</em>). Within this file, find the [XDebug] section and within it, add the following configuration directive (or modify the existing one):</p>
 <div class="literalblock">
 <div class="content">
 <pre>zend_extension = "C:/xampp/php/ext/php_xdebug.dll"</pre>
+=======
+<p>Edit the <em>php.ini</em> file in the <em>etc/</em> subdirectory of your XAMPP installation directory (usually, <em>/Applications/XAMPP</em>). Within this file, activate the Xdebug extension by adding the following line to it:</p>
+<div class="literalblock">
+<div class="content">
+<pre>extension = xdebug.so</pre>
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
 </div>
 </div>
 </li>
@@ -97,7 +104,11 @@
 </ol>
 </div>
 <div class="paragraph">
+<<<<<<< HEAD
 <p>Xdebug should now be active. To verify this, browse to the URL <a href="http://localhost/xampp/phpinfo.php" class="bare">http://localhost/xampp/phpinfo.php</a>, which displays the output of the <em>phpinfo(</em>) command. Look through the script and verify that the Xdebug extension is now active.</p>
+=======
+<p>Xdebug should now be active. To verify this, browse to the URL <a href="http://localhost/xampp/phpinfo.php" class="bare">http://localhost/xampp/phpinfo.php</a>, which displays the output of the <em>phpinfo()</em> command. Look through the script and verify that the Xdebug extension is now active.</p>
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
 </div>
 <div class="imageblock">
 <div class="content">
@@ -105,7 +116,11 @@
 </div>
 </div>
 <div class="paragraph">
+<<<<<<< HEAD
 <p>Xdebug overloads the default <em>var_dump(</em>) function with its own version that includes (among other things) color coding for different PHP types, so you can see it in action immediately by using the <em>var_dump()</em> function in a PHP script. For example, create a simple PHP script in the <em>htdocs\</em> subdirectory of your XAMPP installation directory with the following content:</p>
+=======
+<p>Xdebug overloads the default <em>var_dump()</em> function with its own version that includes (among other things) color coding for different PHP types, so you can see it in action immediately by using the <em>var_dump()</em> function in a PHP script. For example, create a simple PHP script in the <em>htdocs/</em> subdirectory of your XAMPP installation directory with the following content:</p>
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
 </div>
 <div class="literalblock">
 <div class="content">
@@ -127,6 +142,7 @@ var_dump($_SERVER);</pre>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
+<<<<<<< HEAD
 <p>Edit the <em>php.ini</em> file in the <em>php\</em> subdirectory of your XAMPP installation directory. Within this file, find the [XDebug] section and within it, uncomment and modify the lines below so that they look like this:</p>
 <div class="literalblock">
 <div class="content">
@@ -134,6 +150,16 @@ var_dump($_SERVER);</pre>
 xdebug.profiler_enable = 1
 xdebug.profiler_enable_trigger = 0
 xdebug.profiler_output_dir = "C:/xampp/tmp"
+=======
+<p>Edit the <em>php.ini</em> file in the <em>etc/</em> subdirectory of your XAMPP installation directory. Within this file, add the following section:</p>
+<div class="literalblock">
+<div class="content">
+<pre>[XDebug]
+xdebug.profiler_append = 0
+xdebug.profiler_enable = 1
+xdebug.profiler_enable_trigger = 0
+xdebug.profiler_output_dir = "/tmp"
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
 xdebug.profiler_output_name = "cachegrind.out.%t-%s"</pre>
 </div>
 </div>
@@ -144,6 +170,7 @@ xdebug.profiler_output_name = "cachegrind.out.%t-%s"</pre>
 </ol>
 </div>
 <div class="paragraph">
+<<<<<<< HEAD
 <p>At this point, Xdebug profiling is active. Every PHP script that you run will be profiled and the results will be placed in the <em>C:\xampp\tmp</em> as a so-called cachegrind file. You can view this cachegrind file with a tool like <a href="http://sourceforge.net/projects/wincachegrind/">WinCacheGrind</a>, which you must download and install separately.</p>
 </div>
 <div class="paragraph">
@@ -153,6 +180,9 @@ xdebug.profiler_output_name = "cachegrind.out.%t-%s"</pre>
 <div class="content">
 <img src="./images/activate-use-xdebug/image3.png" alt="image3">
 </div>
+=======
+<p>At this point, XDebug profiling is active. Every PHP script that you run will be profiled and the results will be placed in the <em>/tmp/</em> directory as a so-called cachegrind file. You can view this cachegrind file with a tool like <a href="https://github.com/jokkedk/webgrind">WebGrind</a> or <a href="https://gist.github.com/justfalter/1029580">qcachegrind</a>, which you must download and install separately.</p>
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
 </div>
 <div class="admonitionblock tip">
 <table>

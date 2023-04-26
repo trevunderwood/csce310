@@ -220,7 +220,11 @@ Remember that you can install WordPress quickly using the <a href="https://bitna
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
+<<<<<<< HEAD
 By default, PHP (and therefore phpMyAdmin) is configured to only accept uploads up to 2 MB in size. If your database is larger than this, you need to modify the PHP configuration file to accept a larger upload size. To do this, edit the <em>php.ini</em> file in the <em>php\</em> subdirectory of your XAMPP installation directory and increase the values of the <em>post_max_size</em> and <em>upload_max_filesize</em> variables. Save your changes and restart Apache for the changes to take effect.
+=======
+By default, PHP (and therefore phpMyAdmin) is configured to only accept uploads up to 128 MB in size. If your database is larger than this, you need to modify the PHP configuration file to accept a larger upload size. To do this, edit the <em>php.ini</em> file in the <em>etc\</em> subdirectory of your XAMPP installation directory and increase the values of the <em>post_max_size</em> and <em>upload_max_filesize</em> variables. Save your changes and restart Apache for the changes to take effect.
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
 </td>
 </tr>
 </table>
@@ -239,13 +243,24 @@ By default, PHP (and therefore phpMyAdmin) is configured to only accept uploads 
 <div class="olist arabic">
 <ol class="arabic">
 <li>
+<<<<<<< HEAD
 <p>Launch a new Windows command shell using the "Shell" button in the XAMPP control panel.</p>
+=======
+<p>Ensure that the MySQL/MariaDB server is running.</p>
+</li>
+<li>
+<p>Open a new terminal window.</p>
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
 </li>
 <li>
 <p>Use the command below to export the contents of the selected database. In this example, we&#8217;re backing up the WordPress database, which is named <em>bitnami_wordpress</em>, to a file named <em>bitnami_wordpress.sql</em>. This text file is your backup, so store it safely!</p>
 <div class="literalblock">
 <div class="content">
+<<<<<<< HEAD
 <pre>mysqldump --user=root --password="" bitnami_wordpress &gt; bitnami_wordpress.sql</pre>
+=======
+<pre>/Applications/XAMPP/bin/mysqldump --user=root --password="" bitnami_wordpress &gt; bitnami_wordpress.sql</pre>
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
 </div>
 </div>
 <div class="imageblock">
@@ -262,13 +277,24 @@ By default, PHP (and therefore phpMyAdmin) is configured to only accept uploads 
 <div class="olist arabic">
 <ol class="arabic">
 <li>
+<<<<<<< HEAD
 <p>Launch a new Windows command shell using the "Shell" button in the XAMPP control panel.</p>
+=======
+<p>Ensure that the MySQL/MariaDB server is running.</p>
+</li>
+<li>
+<p>Open a new terminal window.</p>
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
 </li>
 <li>
 <p>Use the <em>mysql</em> client to create a new, empty database to hold your data. In this example, the new database is named <em>myblog</em>.</p>
 <div class="literalblock">
 <div class="content">
+<<<<<<< HEAD
 <pre>mysql --user=root --password="" -e "CREATE DATABASE myblog"</pre>
+=======
+<pre>/Applications/XAMPP/bin/mysql --user=root --password="" -e "CREATE DATABASE myblog"</pre>
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
 </div>
 </div>
 <div class="paragraph">
@@ -279,7 +305,11 @@ By default, PHP (and therefore phpMyAdmin) is configured to only accept uploads 
 <p>Use the <em>mysql</em> client to import the contents of the backup file into the new database.</p>
 <div class="literalblock">
 <div class="content">
+<<<<<<< HEAD
 <pre>mysql --user=root --password="" --database=myblog &lt; bitnami_wordpress.sql</pre>
+=======
+<pre>/Applications/XAMPP/mysql --user=root --password="" --database=myblog &lt; bitnami_wordpress.sql</pre>
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
 </div>
 </div>
 <div class="paragraph">
@@ -302,7 +332,11 @@ By default, PHP (and therefore phpMyAdmin) is configured to only accept uploads 
 </div>
 </div>
 <div class="paragraph">
+<<<<<<< HEAD
 <p>You should now update your application&#8217;s configuration and point it to your newly-created database. For example, with the Bitnami WordPress module, you will need to edit the <em>wp-config.php</em> file in the <em>apps\wordpress\htdocs\</em> subdirectory of your XAMPP installation directory. Within this file, you will need to update the <em>DB_NAME</em> constant to use the new database name.</p>
+=======
+<p>You should now update your application&#8217;s configuration and point it to your newly-created database. For example, with the Bitnami WordPress module, you will need to edit the <em>wp-config.php</em> file in the <em>apps/wordpress/htdocs/</em> subdirectory of your XAMPP installation directory. Within this file, you will need to update the <em>DB_NAME</em> constant to use the new database name.</p>
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
 </div>
 <div class="imageblock">
 <div class="content">

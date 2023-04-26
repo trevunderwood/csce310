@@ -89,7 +89,11 @@
 </td>
 <td class="content">
 Virtual hosts created in this manner will not be accessible from other systems, unless those systems are separately configured to associate the custom domain used by the virtual host with the IP address of the XAMPP server.
+<<<<<<< HEAD
 This guide walks you through the process of setting up a new virtual host with XAMPP, by creating and configuring an example host named <em>wordpress.localhost</em> for a WordPress installation. It assumes that you have an existing WordPress installation at <em>C:\xampp\apps\wordpress\htdocs\</em> and accessible via the URL <a href="http://localhost/wordpress" class="bare">http://localhost/wordpress</a>.
+=======
+This guide walks you through the process of setting up a new virtual host with XAMPP, by creating and configuring an example host named <em>wordpress.localhost</em> for a WordPress installation. It assumes that you have an existing WordPress installation at <em>/opt/lampp/apps/wordpress/htdocs/</em> and accessible via the URL <a href="http://localhost/wordpress" class="bare">http://localhost/wordpress</a>.
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
 </td>
 </tr>
 </table>
@@ -112,6 +116,7 @@ You can install WordPress with just a few clicks using the <a href="https://bitn
 <div class="olist arabic">
 <ol class="arabic">
 <li>
+<<<<<<< HEAD
 <p>Change to your XAMPP installation directory (typically, <em>C:\xampp</em>) and open the <em>httpd-vhosts.conf</em> file in the <em>apache\conf\extra\</em> subdirectory using your favourite text editor.</p>
 </li>
 <li>
@@ -126,6 +131,18 @@ You can install WordPress with just a few clicks using the <a href="https://bitn
        DocumentRoot "C:/xampp/apps/wordpress/htdocs"
        ServerName wordpress.localhost
 &lt;/VirtualHost&gt;</pre>
+=======
+<p>Open a new terminal and ensure you are logged in as an administrator.</p>
+</li>
+<li>
+<p>Change to your XAMPP installation directory (typically, <em>/Applications/XAMPP</em>) and open the <em>httpd.conf</em> file in the <em>etc/</em> subdirectory using a text editor.</p>
+</li>
+<li>
+<p>Within the file, find the following line and uncomment it by removing the hash symbol (#) at the beginning of the line.</p>
+<div class="literalblock">
+<div class="content">
+<pre>Include etc/extra/httpd-vhosts.conf</pre>
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
 </div>
 </div>
 <div class="imageblock">
@@ -133,6 +150,24 @@ You can install WordPress with just a few clicks using the <a href="https://bitn
 <img src="./images/configure-vhosts/image1.png" alt="image1">
 </div>
 </div>
+<<<<<<< HEAD
+=======
+</li>
+<li>
+<p>Next, open the <em>httpd-vhosts.conf</em> file in the <em>etc/extra/</em> subdirectory of your XAMPP installation directory. Replace the contents of this file with the following directives:</p>
+<div class="literalblock">
+<div class="content">
+<pre>&lt;VirtualHost *:80&gt;
+       DocumentRoot "/Applications/XAMPP/xamppfiles/htdocs/"
+       ServerName localhost
+&lt;/VirtualHost&gt;
+&lt;VirtualHost *:80&gt;
+       DocumentRoot "/Applications/XAMPP/xamppfiles/apps/wordpress/htdocs"
+       ServerName wordpress.localhost
+&lt;/VirtualHost&gt;</pre>
+</div>
+</div>
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
 <div class="paragraph">
 <p>This contains two virtual host configuration blocks:</p>
 </div>
@@ -146,6 +181,14 @@ You can install WordPress with just a few clicks using the <a href="https://bitn
 </li>
 </ul>
 </div>
+<<<<<<< HEAD
+=======
+<div class="imageblock">
+<div class="content">
+<img src="./images/configure-vhosts/image2.png" alt="image2">
+</div>
+</div>
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
 <div class="paragraph">
 <p>To add more virtual hosts, simply duplicate the second virtual host block and modify the port number, DocumentRoot and ServerName directives as per your requirements. For example, if you want to use SSL with your custom domain name, you can add a new virtual host block for port 443.</p>
 </div>
@@ -164,6 +207,7 @@ If you plan to have a large number of virtual hosts with very similar configurat
 </li>
 <li>
 <p>Restart Apache using the XAMPP control panel for your changes to take effect.</p>
+<<<<<<< HEAD
 <div class="imageblock">
 <div class="content">
 <img src="./images/configure-vhosts/image2.png" alt="image2">
@@ -172,6 +216,20 @@ If you plan to have a large number of virtual hosts with very similar configurat
 </li>
 <li>
 <p>At this point, your virtual host is configured. However, if you try browsing to the <em>wordpress.localhost</em> domain, your browser will show a failure notice, since this domain does not exist in reality. To resolve this, it is necessary to map the custom domain to the local IP address. To do this, open the file <em>C:\windows\system32\drivers\etc\hosts</em> and add the following line to it:</p>
+=======
+</li>
+</ol>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="./images/configure-vhosts/image3.png" alt="image3">
+</div>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>At this point, your virtual host is configured. However, if you try browsing to the <em>wordpress.localhost</em> domain, your browser will show a failure notice, since this domain does not exist in reality. To resolve this, it is necessary to map the custom domain to the local IP address. To do this, open the <em>/etc/hosts</em> file and add the following line to it:</p>
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
 <div class="literalblock">
 <div class="content">
 <pre>127.0.0.1           wordpress.localhost</pre>
@@ -179,7 +237,11 @@ If you plan to have a large number of virtual hosts with very similar configurat
 </div>
 <div class="imageblock">
 <div class="content">
+<<<<<<< HEAD
 <img src="./images/configure-vhosts/image3.png" alt="image3">
+=======
+<img src="./images/configure-vhosts/image4.png" alt="image4">
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
 </div>
 </div>
 <div class="paragraph">
@@ -188,6 +250,7 @@ If you plan to have a large number of virtual hosts with very similar configurat
 </li>
 </ol>
 </div>
+<<<<<<< HEAD
 <div class="admonitionblock note">
 <table>
 <tr>
@@ -200,12 +263,18 @@ On some versions of Windows, you will not be able to edit the <em>C:\windows\sys
 </tr>
 </table>
 </div>
+=======
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
 <div class="paragraph">
 <p>At this point, you should be able to enter the URL <a href="http://wordpress.localhost" class="bare">http://wordpress.localhost</a> in your browser&#8217;s address bar and see your WordPress installation. Here&#8217;s an example of what you should see:</p>
 </div>
 <div class="imageblock">
 <div class="content">
+<<<<<<< HEAD
 <img src="./images/configure-vhosts/image4.png" alt="image4">
+=======
+<img src="./images/configure-vhosts/image5.png" alt="image5">
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
 </div>
 </div>
     </article>

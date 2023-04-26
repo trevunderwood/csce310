@@ -7,9 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Use title if it's in the page YAML frontmatter -->
+<<<<<<< HEAD
     <title>XAMPP FAQs for Windows</title>
 
     <meta name="description" content="Instructions on how to install XAMPP for Windows distributions." />
+=======
+    <title>XAMPP FAQs for Mac OS X</title>
+
+    <meta name="description" content="Instructions on how to install XAMPP for OSX distributions." />
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
     
 
     <link href="/dashboard/stylesheets/normalize.css" rel="stylesheet" type="text/css" /><link href="/dashboard/stylesheets/all.css" rel="stylesheet" type="text/css" />
@@ -61,13 +67,18 @@
       <div class="hero">
   <div class="row">
     <div class="large-12 columns">
+<<<<<<< HEAD
       <h1>Windows <span>Sıkça Sorulan Sorular</span></h1>
+=======
+      <h1>OS X <span>Sıkça Sorulan Sorular</span></h1>
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
     </div>
   </div>
 </div>
 <div class="row">
     <div class="large-8 columns">
     <dl class="accordion">
+<<<<<<< HEAD
       <dt>XAMPP'ı nasıl yüklerim?</dt>
       <dd>
       <p>Windows için XAMPP üç farklı çeşitte bulunmaktadır:</p>
@@ -146,11 +157,56 @@
       <dt>                                    XAMPP hazır mı?                                </dt>
       <dd>
       <p>XAMPP, normal kullanım için değildir, sadece yazılım geliştirme için kullanılır. Bu nedenle bir yazılımcının mümkün olduğunca ihtiyacı olan ayarlar yapılmıştır. Yazıloım geliştirmek için ideal bir ortam olmasına rağmen yazılım yayınlaması için kullanıldığında istenmeyen sorunlara neden olabilir.</p>
+=======
+    
+      <dt>What is the difference between XAMPP for OS X and XAMPP-VM?</dt>
+      <dd>
+        <p>
+        <ul>
+          <li>XAMPP for OS X is a native installer for OS X. It installs Apache, PHP and other XAMPP components directly on your OS X system, in the /Applications/XAMPP folder.</li>
+          <li>XAMPP-VM is a virtual machine for OS X. It includes Apache, PHP and other XAMPP components and runs them in a Linux-based virtual machine on your OS X system.</li>
+        </ul>
+        </p>
+        <p>For more information, refer to the blog post at <a href="https://www.apachefriends.org/blog/new_xampp_20170628.html">https://www.apachefriends.org/blog/new_xampp_20170628.html</a>.</p>.
+      </dd> 
+    
+      <dt>XAMPP'ı Mac OS X'e nasıl yüklerim?</dt>
+      <dd>
+      <p>XAMPP'ı yüklemek için aşağıdakileri yap:</p>
+      <ul>
+        <li>DMG görüntüsünü aç.</li>
+        <li>Yükleme işlemini başlatmak için resme çift tıkla.</li></ul>
+      <p>Bu kadardı. XAMPP /Applications/XAMPP dizinine kuruldu.</p>
+      </dd>
+      <dt>Does XAMPP include MySQL or MariaDB?</dt>
+      <dd>
+        <p>Since XAMPP 5.5.30 and 5.6.14, XAMPP ships MariaDB instead of MySQL. The commands and tools are the same for both.</p>
+      </dd>
+      <dt>XAMPP'ı nasıl başlatırım?</dt>
+      <dd>
+      <p>XAMPP'ı kolayca başlatmak için XAMPP Control'ü aç ve Apache, MySQL ve ProFTPD'yi başlat. XAMPP Control'ün ismi "manager-osx".</p>      
+      </dd>
+      <dt>XAMPP'ı nasıl durdururum?</dt>
+      <dd>
+      <p>XAMPP'ı durdurmak için XAMPP Control'ü açın ve sunucuları durdurun. XAMPP Control'ün adı "manager-osx".</p>      
+      </dd>
+      <dt>Herşeyin çalıştığını nasıl test edebilirim?</dt>
+      <dd>
+      <p>Web tarayıcınıza şu URL'yi girin:</p>
+      <p><code>http://localhost</code></p>
+
+      <p>You should see the XAMPP start page, as shown below.</p>
+        <img src="/dashboard/images/screenshots/xampp-macosx-start.jpg" />    
+      </dd>
+      <dt>                                    XAMPP hazır mı?                                </dt>
+      <dd><p>XAMPP, normal kullanım için değildir, sadece yazılım geliştirme için kullanılır. Bu nedenle bir yazılımcının mümkün olduğunca ihtiyacı olan ayarlar yapılmıştır. Yazıloım geliştirmek için ideal bir ortam olmasına rağmen yazılım yayınlaması için kullanıldığında istenmeyen sorunlara neden olabilir.</p>
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
       <p>XAMPP içindeki güvenlik eksikliklerinin listesi:</p>
       <ol>
         <li>                                    MySQL yöneticisi (root) şifresi yok.                                </li>
         <li>MySQL ortamı, ağ üzerinden ulaşılabilir.</li>
         <li>ProFTPD uses the password "lampp" for user "daemon".</li>
+<<<<<<< HEAD
         <li>Mercury ve FileZilla'nın varsayılan kullanıcıları tanınmaktadır.</li>
       </ol>
       <p>Tüm noktalar büyük güvenlik risklerine sebebiyet verebilir. Özellikle XAMPP, ağ veya dış kaynaklar tarafından erişime açıksa. Güvenlik duvarı veya (NAT) yönlendirici kullanmak buna yardım edebilir. Yönlendirici veya güvenlik duvarı kullanılması durumunda, normal olarak bilgisayarınız ağ tarafından gelen isteklere kapalı olacaktır. Bu problemleri çözmek size düşmektedir. Bir miktar yardım etmek için "XAMPP Güvenlik Konsolu" bulunmaktadır.</p>
@@ -379,10 +435,86 @@ EnableMMAP off</code></p>
       <dd>
       <p>In the basic configuration of XAMPP, phpMyAdmin is accessible only from the same host that XAMPP is running on, at http://127.0.0.1 or http://localhost.</p>
       <p>MySQL sunucusuna erişmeden önce, phpMyAdmin kullanıcı adı ve şifre isteyecektir. İlk kullanıcı \\ "root " için bir şifre koymak unutmayın.</p>
+=======
+      </ol>
+      <p>Birçok güvenlik açığını kolayca düzeltmek için şu komutu çağırın:</p>
+      <p><code>sudo /Applications/XAMPP/xamppfiles/xampp security</code></p>
+      <p>Bu XAMPP yüklemesini güvenli yapacak küçük bir güvenlik kontrolünü başlatacaktır.</p></dd>
+
+      <dt>XAMPP'ı başlatırken gördüğüm hata mesajları ne anlama geliyor?</dt>
+      <dd>
+        <p>XAMPP'ı başlatırken çeşitli hata mesajları alabilirsiniz:</p>
+        <p><code>LAMPP-Apache is already running.<br />
+            An Apache daemon is already running.</code></p>
+        <p>LAMPP başlangıç scripti XAMPP-Apache'yi başlatamadı çünkü Apache zaten çalışıyor. XAMPP'ı düzgün çalıştırabilmek için önce mevcut Apache'yi durdurmalısınız.</p>
+        <p><code>LAMPP-MySQL is already running.<br />
+            A MySQL daemon is already running.</code></p>
+        <p>Bu durum çoğunlukla yukarıdaki hata ile aynı nedenlerden kaynaklanmakta. LAMPP başlangıç scripti çalışmakta olan bir MySQL tespit etti. LAMPP'ı düzgün çalıştırabilmek için önce mevcut MySQL'li durdurmalısınız.</p>
+      </dd>
+
+      <dt>Apache doesn't seem to start. What can I do?</dt>
+      <dd>
+        <p>Bu hata birkaç nedenden dolayı gerçekleşmiş olabilir. Apache bu hatayı çeşitli durumlarda gösterir. Kesin nedeni bulabilmek için biraz araştırma yapmalıyız:</p>
+        <p><code>tail -2 /Applications/XAMPP/logs/error_log</code></p>
+        <p>Eğer herhangi bir hata mesajı alırsanız <a href="/community.html">Yazın sayfaları</a> adresini yardım için ziyaret edin.</p>
+      </dd>
+
+      <dt>XAMPP yüklememi daha güvenli nasıl yapabilirim?</dt>
+      <dd>
+        <p>Varsayılan yüklemede XAMPP'in ayarlanmış şifresi yoktur ve XAMPP'in bu şekilde başkaları tarafından erişilebilir halde başlatılması tavsiye edilmez.</p>
+        <p>Basit bir güvenli kontrolü yapmak için şu komutu (root olarak) yazın:</p>
+        <p><code>sudo /Applications/XAMPP/xamppfiles/xampp security</code></p>
+        <p>Ekranda şu diyaloğu görmelisiniz:</p>
+        <p><code>
+XAMPP: Quick security check...</br>
+XAMPP: MySQL is accessable via network.</br>
+XAMPP: Normaly that's not recommended. Do you want me to turn it off? [yes] yes</br>
+XAMPP: Turned off.</br>
+XAMPP: Stopping MySQL...</br>
+XAMPP: Starting MySQL...</br>
+XAMPP: The MySQL/phpMyAdmin user pma has no password set!!!</br>
+XAMPP: Do you want to set a password? [yes] yes</br>
+XAMPP: Password: ******</br>
+XAMPP: Password (again): ******</br>
+XAMPP: Setting new MySQL pma password.</br>
+XAMPP: Setting phpMyAdmin's pma password to the new one.</br>
+XAMPP: MySQL has no root passwort set!!!</br>
+XAMPP: Do you want to set a password? [yes] yes</br>
+XAMPP: Write the passworde somewhere down to make sure you won't forget it!!!</br>
+XAMPP: Password: ******</br>
+XAMPP: Password (again): ******</br>
+XAMPP: Setting new MySQL root password.</br>
+XAMPP: Setting phpMyAdmin's root password to the new one.</br>
+XAMPP: The FTP password for user 'nobody' is still set to 'lampp'.</br>
+XAMPP: Do you want to change the password? [yes] yes</br>
+XAMPP: Password: ******</br>
+XAMPP: Password (again): ******</br>
+XAMPP: Reload ProFTPD...</br>
+XAMPP: Done.</br>
+  </code></p>
+        <p>(1) Bir şifre belirlemek, bu şifreyi kullanan  XAMPP demo sayfalarını (http://localhost/xampp/) koruyacaktır. Kullanıcı adı 'lampp' !</p>
+        <p>Bu komutu çağırdıktan sonra XAMPP yüklemeniz daha güvenli olacaktır.</p>
+      </dd>
+
+      <dt>PHP için OCI8/Oracle eklentisini nasıl aktifleştiririm?</dt>
+      <dd>
+        <p>PHP için OCI8/Oracle extension eklentisini aktifleştirmek için lütfen şu komutu çalıştırın:</p>
+        <p><code>sudo /Applications/XAMPP/xamppfiles/lampp oci8</code></p>
+        <p>Takip eden diyalog başlayacaktır:</p>
+        <p><code>Please enter the path to your Oracle or Instant Client installation:</br>
+[/Applications/XAMPP/xamppfiles/lib/instantclient-11.2.0.3.0] </br>
+installing symlinks...</br>
+patching php.ini...</br>
+OCI8 add-on activation likely successful.</br>
+LAMPP: Stopping Apache with SSL...</br>
+LAMPP: Starting Apache with SSL...</code></p>
+        <p>Eklenti şimdi aktif olacaktır.</p>
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
       </dd>
 
       <dt>How do I enable access to phpMyAdmin from the outside?</dt>
       <dd>
+<<<<<<< HEAD
       <p>In the basic configuration of XAMPP, phpMyAdmin is accessible only from the same host that XAMPP is running on, at http://127.0.0.1 or http://localhost.</p>
       <p>IMPORTANT: Enabling external access for phpMyAdmin in production environments is a significant security risk. You are strongly advised to only allow access from localhost. A remote attacker could take advantage of any existing vulnerability for executing code or for modifying your data.</p>
       <p>To enable remote access to phpMyAdmin, follow these steps:</p>
@@ -464,12 +596,37 @@ EnableMMAP off</code></p>
       <dt>How can I use Microsoft Edge to access local addresses under Windows 10?</dt>
       <dd>
       <p>If your local machine has the host name 'myhost', you will not be able to access URLs such as http://myhost in Microsoft Edge. To resolve this, you should instead use the addresses http://127.0.0.1 or http://localhost.</p>
+=======
+        <p>In the basic configuration of XAMPP, phpMyAdmin is accessible only from the same host that XAMPP is running on, at http://127.0.0.1 or http://localhost.</p>
+        <p>IMPORTANT: Enabling external access for phpMyAdmin in production environments is a significant security risk. You are strongly advised to only allow access from localhost. A remote attacker could take advantage of any existing vulnerability for executing code or for modifying your data.</p>
+        <p>To enable remote access to phpMyAdmin, follow these steps:</p>
+        <ul>
+          <li>Edit the xamppfiles/etc/extra/httpd-xampp.conf file in your XAMPP installation directory.</li>
+          <li>Within this file, find the lines below. 
+            <p><code>
+                Alias /phpmyadmin "/Applications/XAMPP/xamppfiles/phpmyadmin"
+                &lt;Directory "/Applications/XAMPP/xamppfiles/phpmyadmin"&gt;
+                  AllowOverride AuthConfig
+                  Require local
+            </code></p>
+          </li>
+          <li>Then replace 'Require local' with 'Require all granted'.</li>
+            <p><code>
+                Alias /phpmyadmin "/Applications/XAMPP/xamppfiles/phpmyadmin"
+                &lt;Directory "/Applications/XAMPP/xamppfiles/phpmyadmin"&gt;
+                  AllowOverride AuthConfig
+                  Require all granted
+            </code></p>
+          <li>Restart the Apache server using the XAMPP control panel.</li>
+        </ul>
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
       </dd>
 
       <dt>Where are the main XAMPP configuration files?</dt>
       <dd>
         <p>The main XAMPP configuration files are located as follows:</p>
         <ul>
+<<<<<<< HEAD
           <li>Apache configuration file: \xampp\apache\conf\httpd.conf, \xampp\apache\conf\extra\httpd-xampp.conf</li>
           <li>PHP configuration file: \xampp\php\php.ini</li>
           <li>MySQL configuration file: \xampp\mysql\bin\my.ini</li>
@@ -481,6 +638,106 @@ EnableMMAP off</code></p>
       </dd>
 
     </dl>
+=======
+          <li>Apache configuration file: /Applications/XAMPP/xamppfiles/etc/httpd.conf, /Applications/XAMPP/xamppfiles/etc/extra/httpd-xampp.conf</li>
+          <li>PHP configuration file: /Applications/XAMPP/xamppfiles/etc/php.ini</li>
+          <li>MySQL configuration file: /Applications/XAMPP/xamppfiles/etc/my.cnf</li>
+          <li>ProFTPD configuration file: /Applications/XAMPP/xamppfiles/etc/proftpd.conf</li>
+        </ul>
+      </dd>
+
+      <dt>How do I send email with XAMPP?</dt>
+      <dd>
+        <p>To send email with XAMPP, use the PEAR Mail and Net_SMTP packages, which allow you to send email using an external SMTP account (such as a Gmail account). Follow these steps:</p>
+        <ul>
+          <li>Install the Mail and Net_SMTP PEAR modules:
+          <code>
+          pear install Net_SMTP Mail
+          </code>
+          Note that if these packages are already installed in your system you see the messages below when executing that command:
+          <code>
+          Ignoring installed package pear/Net_SMTP
+          Ignoring installed package pear/Mail
+          Nothing to install
+          </code>
+          </li>
+          <li>
+          Create the following example script in your "htdocs" directory to send an email:
+          <code>
+          &lt;?php
+          require_once "Mail.php";
+
+          $from = "your-gmail-username@gmail.com";
+          $to = 'recipients@example.com';
+
+          $host = "ssl://smtp.gmail.com";
+          $port = "465";
+          $username = 'your-gmail-username@gmail.com';
+          $password = 'your-gmail-password';
+
+          $subject = "test";
+          $body = "test";
+
+          $headers = array ('From' => $from, 'To' => $to,'Subject' => $subject);
+          $smtp = Mail::factory('smtp',
+             array ('host' => $host,
+               'port' => $port,
+               'auth' => true,
+               'username' => $username,
+               'password' => $password));
+
+          $mail = $smtp->send($to, $headers, $body);
+
+          if (PEAR::isError($mail)) {
+            echo($mail->getMessage());
+          } else {
+            echo("Message successfully sent!\n");
+          }
+          ?>
+          </code>
+          <p>Remember to replace the dummy values shown with your actual Gmail address and account password. If you don't plan to use Gmail's SMTP server, replace the SMTP host details with appropriate values for your organization or ISP's SMTP server.</p>
+          </li>
+          <li>
+          Execute the script by browsing to it using your Web browser. You should see a notification that the message was successfully sent, and the message should be delivered to the recipient email address.
+          </li>
+        </ul>
+      </dd>
+      
+      <dt>XAMPP sistemimi nasıl yedeklerim/geri yüklerim?</dt>
+      <dd>
+        <p><strong>Uyarı:</strong> Yedekleme ve geri yükleme özellikleri hala geliştirmededir ve doğru çalışmayabilir.</p>
+        <p>Şunu çağırarak yedek oluşturabilirsiniz:</p>
+        <p><code>sudo /Applications/XAMPP/xamppfiles/xampp backup</code></p>
+        <p>ya da</p>
+        <p><code>sudo /Applications/XAMPP/xamppfiles/xampp backup secret</code></p>
+        <p>"secret" sizin MySQL root şifrenizdir. Bu komut şu çıktıyı verecektir:</p>
+        <p><code>Backing up databases...</br>
+Backing up configuration, log and htdocs files...</br>
+Calculating checksums...</br>
+Building final backup file...</br>
+Backup finished.</br>
+Take care of /Applications/XAMPP/xamppfiles/backup/xampp-backup-22-01-14.sh</code></p>
+
+        <p>/Applications/XAMPP/xamppfiles/backup/xampp-backup-22-01-14.sh dosyası (yukarıdaki örnek) yedeklenmiş veriyi içerir. Dosyayı güvenli bir yere taşı.</p>
+
+        <p>Yeni makinada orjinal/kaynak makinanızdaki ile aynı XAMPP versiyonunuza ihtiyacınız vardır. </p>
+        <p><code>sudo sh xampp-backup-22-01-14.sh</code></p>
+        <p>Şunun gibi birşey görmelisiniz:</p>
+        <p><code>Checking integrity of files...</br>
+Restoring configuration, log and htdocs files...</br>
+Checking versions...</br>
+Installed: XAMPP 1.4.2</br>
+Backup from: XAMPP 1.4.2</br>
+Restoring MySQL databases...</br>
+Restoring MySQL user databases...</br>
+Backup complete. Have fun!</br>
+You may need to restart XAMPP to complete the restore.</br>
+  </code></p>
+        <p>Hepsi bu kadar. Unutmayın, bu bir beta özelliktir.</p>
+      </dd>
+    </dl>
+
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   </div>
 </div>
 

@@ -84,6 +84,7 @@
 <div class="olist arabic">
 <ol class="arabic">
 <li>
+<<<<<<< HEAD
 <p>Open your Windows command prompt by clicking the “Shell” button in the XAMPP control panel.</p>
 </li>
 <li>
@@ -92,6 +93,16 @@
 <div class="content">
 <pre>cd C:\xampp\htdocs
 sqlite3 mydb.sq3</pre>
+=======
+<p>Open a new terminal.</p>
+</li>
+<li>
+<p>Change to the <em>htdocs/</em> subdirectory of your XAMPP installation directory (typically <em>/Applications/XAMPP/xamppfiles</em>) and create a new SQLite database file named <em>mydb.sq3</em> with the SQLite command-line client:</p>
+<div class="literalblock">
+<div class="content">
+<pre>cd /Applications/XAMPP/xamppfiles/htdocs
+/Applications/XAMPP/bin/sqlite3 mydb.sq3</pre>
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
 </div>
 </div>
 <div class="paragraph">
@@ -102,6 +113,21 @@ sqlite3 mydb.sq3</pre>
 <img src="./images/use-sqlite/image1.png" alt="image1">
 </div>
 </div>
+<<<<<<< HEAD
+=======
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+In case your user privileges don&#8217;t let you write to the <em>htdocs/</em> sub-directory, try logging in as an administrator.
+</td>
+</tr>
+</table>
+</div>
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
 </li>
 <li>
 <p>At the <em>sqlite&gt;</em> prompt, create a new table to hold your data. In this example, the table is named items and it contains 3 columns, for item ID, item name and item cost. You can use standard CREATE TABLE syntax to create the table, and you can <a href="http://www.sqlite.org/datatype3.html">learn more about SQLite&#8217;s built-in datatypes here</a>.</p>
