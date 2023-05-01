@@ -30,7 +30,7 @@
     <body>
         <ul>
             <li><a href="posting.php">Postings</a></li>
-            <li><a href="#">Appointments</a></li>
+            <li><a href="appointments.php">Appointments</a></li>
             <li><a href="#">Profile</a></li>
         </ul>
         <h1>Profile</h1>
