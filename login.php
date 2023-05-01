@@ -24,10 +24,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
   if (mysqli_num_rows($result) == 1) {
     // User exists, log them in
-    echo "Success";
-    // session_start();
-    // $_SESSION["username"] = $username;
-    // header("Location: dashboard.php");
+    // echo "Success";
+    session_start();
+    $_SESSION["username"] = $username;
+    header("Location: user_profile.php");
   } else {
     // User does not exist or password is incorrect
     echo "Invalid username or password";
