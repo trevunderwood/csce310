@@ -27,7 +27,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     echo "Success";
     // session_start();
     // $_SESSION["username"] = $username;
-    // header("Location: dashboard.php");
+    header("Location: user_profile.php");
   } else {
     // User does not exist or password is incorrect
     echo "Invalid username or password";
