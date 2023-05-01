@@ -16,6 +16,16 @@
     if (!$conn) {
         die("Connection failed: " . $conn->connect_error);
     }
+
+    session_start();
+    $username = $_SESSION['username'];
+
+    // get information from user currently logged in
+    $sql = "SELECT * FROM user WHERE USER_NAME='$username'";
+    $response = mysqli_query($conn, $sql);
+    if ($response) {
+        $info = $response->fetch_assoc();
+        // print info from fields in appropriate header
     ?>
     <body>
         <ul>
@@ -26,22 +36,31 @@
         <h1>Profile</h1>
         <h2>First Name</h2>
         <?php 
-        session_start();
-        $username = $_SESSION['username'];
-        $sql = "SELECT USER_FNAME FROM user WHERE USER_NAME='$username'";
- 
-        $response = mysqli_query($conn, $sql);
-
-        if (mysqli_num_rows($response) == 1) {
-            echo "First Name " . mysqli_num_rows($response);
-            mysqli_free_result($response);
-        }
+            echo $info["USER_FNAME"];
         ?>
         <h2>Last Name</h2>
+        <?php 
+            echo $info["USER_LNAME"]; 
+        ?>
         <h2>Username</h2>
+        <?php 
+            echo $info["USER_NAME"]; 
+        ?>
         <h2>Phone Number</h2>
-        <h2>Email</h2>
+        <?php 
+            echo $info["USER_PHONE"]; 
+        ?>
+        <h2>E-mail</h2>
+        <?php 
+            echo $info["USER_EMAIL"]; 
+        }
+        ?> </br>
         <button type="button"><a href="edit_profile.php">Edit Profile</a></button>
     </body>
-    <?php mysqli_close($conn) ?>
+    <?php 
+    // free query result, end session and close connection
+    mysqli_free_result($response);
+    session_abort();
+    mysqli_close($conn);
+    ?>
 </html>
