@@ -19,7 +19,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $password = $_POST["password"];
 
   // Query the database to check if the user exists
-  $sql = "SELECT * FROM user WHERE USER_NAME = '$username'";
+  $sql = "SELECT * FROM USER WHERE USER_NAME = '$username'";
   $result = mysqli_query($conn, $sql);
 
   if (mysqli_num_rows($result) == 1) {

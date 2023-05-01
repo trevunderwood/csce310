@@ -1,41 +1,83 @@
+<<<<<<< HEAD
+/* line 4, /app/source-xampp-windows/stylesheets/all.scss */
+=======
 /* line 4, /app/source-xampp-osx/stylesheets/all.scss */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
 body {
   display: flex;
   flex-direction: column;
   min-height: 100vh; }
 
+<<<<<<< HEAD
+/* line 10, /app/source-xampp-windows/stylesheets/all.scss */
+=======
 /* line 10, /app/source-xampp-osx/stylesheets/all.scss */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
 .wrapper {
   background: white;
   padding-bottom: 2em;
   flex: 1; }
 
+<<<<<<< HEAD
+/* line 16, /app/source-xampp-windows/stylesheets/all.scss */
+=======
 /* line 16, /app/source-xampp-osx/stylesheets/all.scss */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
 ol.no-number {
   list-style: none;
   margin-left: 0; }
 
+<<<<<<< HEAD
+/* line 21, /app/source-xampp-windows/stylesheets/all.scss */
+code {
+  white-space: pre-line; }
+
+/* line 27, /app/source-xampp-windows/stylesheets/all.scss */
+=======
 /* line 21, /app/source-xampp-osx/stylesheets/all.scss */
 code {
   white-space: pre-line; }
 
 /* line 27, /app/source-xampp-osx/stylesheets/all.scss */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
 ol.separate > li, ul.separate > li {
   border-bottom: 1px solid #ddd;
   margin-bottom: 0.5em; }
 
 /* Locale selector */
+<<<<<<< HEAD
+/* line 36, /app/source-xampp-windows/stylesheets/all.scss */
+=======
 /* line 36, /app/source-xampp-osx/stylesheets/all.scss */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
 #locales a img {
   margin-right: 0.5em;
   vertical-align: baseline; }
 
+<<<<<<< HEAD
+/* line 43, /app/source-xampp-windows/stylesheets/all.scss */
+=======
 /* line 43, /app/source-xampp-osx/stylesheets/all.scss */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
 h1 a[name], h2 a[name], h3 a[name], h4 a[name], h5 a[name], h6 a[name] {
   color: inherit;
   cursor: inherit;
   text-decoration: none; }
 
+<<<<<<< HEAD
+/* line 50, /app/source-xampp-windows/stylesheets/all.scss */
+h3 + a img, h4 + a img {
+  margin-bottom: 0.5em; }
+
+/* line 55, /app/source-xampp-windows/stylesheets/all.scss */
+img.margin.right, body[class$="about"] dl dd img.margin {
+  margin: 0 0 1em 1em; }
+/* line 58, /app/source-xampp-windows/stylesheets/all.scss */
+img.margin.left {
+  margin: 0 1em 1em 0; }
+
+/* line 63, /app/source-xampp-windows/stylesheets/all.scss */
+=======
 /* line 50, /app/source-xampp-osx/stylesheets/all.scss */
 h3 + a img, h4 + a img {
   margin-bottom: 0.5em; }
@@ -48,6 +90,7 @@ img.margin.left {
   margin: 0 1em 1em 0; }
 
 /* line 63, /app/source-xampp-osx/stylesheets/all.scss */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
 p code {
   direction: ltr;
   font-size: inherit;
@@ -57,19 +100,31 @@ p code {
   padding: 0.5em 1em !important; }
 
 /* latest news headling */
+<<<<<<< HEAD
+/* line 78, /app/source-xampp-windows/stylesheets/all.scss */
+=======
 /* line 78, /app/source-xampp-osx/stylesheets/all.scss */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
 #breaking div:first-child {
   display: table;
   text-align: center;
   margin-bottom: 0.5em; }
+<<<<<<< HEAD
+  /* line 83, /app/source-xampp-windows/stylesheets/all.scss */
+=======
   /* line 83, /app/source-xampp-osx/stylesheets/all.scss */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   #breaking div:first-child h4 {
     font-size: 2em;
     line-height: 1.2em;
     display: table-cell;
     vertical-align: middle; }
 
+<<<<<<< HEAD
+/* line 94, /app/source-xampp-windows/stylesheets/all.scss */
+=======
 /* line 94, /app/source-xampp-osx/stylesheets/all.scss */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
 a.download, .hero #download > .columns > a, .hero #stack-list #download > li > a, #stack-list .hero #download > li > a, .hero #theme-list li#download > div > a, #theme-list .hero li#download > div > a, a#forum {
   background: #fff;
   border: 1px solid #ccc;
@@ -78,6 +133,15 @@ a.download, .hero #download > .columns > a, .hero #stack-list #download > li > a
   padding: 10px;
   display: block;
   color: #777; }
+<<<<<<< HEAD
+  /* line 105, /app/source-xampp-windows/stylesheets/all.scss */
+  a.download:active, .hero #download > .columns > a:active, .hero #stack-list #download > li > a:active, #stack-list .hero #download > li > a:active, .hero #theme-list li#download > div > a:active, #theme-list .hero li#download > div > a:active, a#forum:active, a.download:visited, .hero #download > .columns > a:visited, .hero #stack-list #download > li > a:visited, #stack-list .hero #download > li > a:visited, .hero #theme-list li#download > div > a:visited, #theme-list .hero li#download > div > a:visited, a#forum:visited {
+    color: #ccc; }
+  /* line 109, /app/source-xampp-windows/stylesheets/all.scss */
+  a.download strong, .hero #download > .columns > a strong, .hero #stack-list #download > li > a strong, #stack-list .hero #download > li > a strong, .hero #theme-list li#download > div > a strong, #theme-list .hero li#download > div > a strong, a#forum strong {
+    color: #555555; }
+  /* line 113, /app/source-xampp-windows/stylesheets/all.scss */
+=======
   /* line 105, /app/source-xampp-osx/stylesheets/all.scss */
   a.download:active, .hero #download > .columns > a:active, .hero #stack-list #download > li > a:active, #stack-list .hero #download > li > a:active, .hero #theme-list li#download > div > a:active, #theme-list .hero li#download > div > a:active, a#forum:active, a.download:visited, .hero #download > .columns > a:visited, .hero #stack-list #download > li > a:visited, #stack-list .hero #download > li > a:visited, .hero #theme-list li#download > div > a:visited, #theme-list .hero li#download > div > a:visited, a#forum:visited {
     color: #ccc; }
@@ -85,6 +149,7 @@ a.download, .hero #download > .columns > a, .hero #stack-list #download > li > a
   a.download strong, .hero #download > .columns > a strong, .hero #stack-list #download > li > a strong, #stack-list .hero #download > li > a strong, .hero #theme-list li#download > div > a strong, #theme-list .hero li#download > div > a strong, a#forum strong {
     color: #555555; }
   /* line 113, /app/source-xampp-osx/stylesheets/all.scss */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   a.download img, .hero #download > .columns > a img, .hero #stack-list #download > li > a img, #stack-list .hero #download > li > a img, .hero #theme-list li#download > div > a img, #theme-list .hero li#download > div > a img, a#forum img {
     margin-right: 10px;
     vertical-align: text-top;
@@ -92,28 +157,54 @@ a.download, .hero #download > .columns > a, .hero #stack-list #download > li > a
     height: 20px; }
 
 /* hero unit */
+<<<<<<< HEAD
+/* line 121, /app/source-xampp-windows/stylesheets/all.scss */
+=======
 /* line 121, /app/source-xampp-osx/stylesheets/all.scss */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
 .hero {
   background: #efeee5;
   padding: 1em 0;
   margin-bottom: 2em;
   /* download bar */ }
+<<<<<<< HEAD
+  /* line 126, /app/source-xampp-windows/stylesheets/all.scss */
+=======
   /* line 126, /app/source-xampp-osx/stylesheets/all.scss */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .hero h1 {
     font-weight: bold;
     font-size: 3em;
     line-height: 1em;
     padding: 0.3em 0; }
+<<<<<<< HEAD
+    /* line 133, /app/source-xampp-windows/stylesheets/all.scss */
+=======
     /* line 133, /app/source-xampp-osx/stylesheets/all.scss */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
     .hero h1 span {
       font-weight: normal;
       font-size: 0.5em;
       display: block; }
+<<<<<<< HEAD
+    /* line 138, /app/source-xampp-windows/stylesheets/all.scss */
+=======
     /* line 138, /app/source-xampp-osx/stylesheets/all.scss */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
     .hero h1 img {
       height: 1em;
       margin-left: 0.3em;
       vertical-align: bottom; }
+<<<<<<< HEAD
+  /* line 149, /app/source-xampp-windows/stylesheets/all.scss */
+  .hero h2 {
+    font-size: 1.6em;
+    font-weight: bold; }
+  /* line 153, /app/source-xampp-windows/stylesheets/all.scss */
+  .hero h3 {
+    font-size: 1.4em; }
+  /* line 157, /app/source-xampp-windows/stylesheets/all.scss */
+=======
   /* line 149, /app/source-xampp-osx/stylesheets/all.scss */
   .hero h2 {
     font-size: 1.6em;
@@ -122,16 +213,31 @@ a.download, .hero #download > .columns > a, .hero #stack-list #download > li > a
   .hero h3 {
     font-size: 1.4em; }
   /* line 157, /app/source-xampp-osx/stylesheets/all.scss */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .hero #download {
     background: #fff;
     border: 1px solid #ccc;
     padding: 5px;
     margin-top: 1em; }
+<<<<<<< HEAD
+    /* line 164, /app/source-xampp-windows/stylesheets/all.scss */
+=======
     /* line 164, /app/source-xampp-osx/stylesheets/all.scss */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
     .hero #download > .columns:first-child, .hero #stack-list #download > li:first-child, #stack-list .hero #download > li:first-child, .hero #theme-list li#download > div:first-child, #theme-list .hero li#download > div:first-child {
       display: none;
       /* overriden by @media query */
       padding-left: 0; }
+<<<<<<< HEAD
+    /* line 169, /app/source-xampp-windows/stylesheets/all.scss */
+    .hero #download > .columns > a, .hero #stack-list #download > li > a, #stack-list .hero #download > li > a, .hero #theme-list li#download > div > a, #theme-list .hero li#download > div > a {
+      text-align: center;
+      background: #eee; }
+      /* line 173, /app/source-xampp-windows/stylesheets/all.scss */
+      .hero #download > .columns > a:active, .hero #stack-list #download > li > a:active, #stack-list .hero #download > li > a:active, .hero #theme-list li#download > div > a:active, #theme-list .hero li#download > div > a:active, .hero #download > .columns > a:visited, .hero #stack-list #download > li > a:visited, #stack-list .hero #download > li > a:visited, .hero #theme-list li#download > div > a:visited, #theme-list .hero li#download > div > a:visited {
+        color: inherit; }
+      /* line 177, /app/source-xampp-windows/stylesheets/all.scss */
+=======
     /* line 169, /app/source-xampp-osx/stylesheets/all.scss */
     .hero #download > .columns > a, .hero #stack-list #download > li > a, #stack-list .hero #download > li > a, .hero #theme-list li#download > div > a, #theme-list .hero li#download > div > a {
       text-align: center;
@@ -140,18 +246,27 @@ a.download, .hero #download > .columns > a, .hero #stack-list #download > li > a
       .hero #download > .columns > a:active, .hero #stack-list #download > li > a:active, #stack-list .hero #download > li > a:active, .hero #theme-list li#download > div > a:active, #theme-list .hero li#download > div > a:active, .hero #download > .columns > a:visited, .hero #stack-list #download > li > a:visited, #stack-list .hero #download > li > a:visited, .hero #theme-list li#download > div > a:visited, #theme-list .hero li#download > div > a:visited {
         color: inherit; }
       /* line 177, /app/source-xampp-osx/stylesheets/all.scss */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
       .hero #download > .columns > a span, .hero #stack-list #download > li > a span, #stack-list .hero #download > li > a span, .hero #theme-list li#download > div > a span, #theme-list .hero li#download > div > a span {
         display: block;
         margin-top: 0.5em;
         color: #777; }
+<<<<<<< HEAD
+    /* line 185, /app/source-xampp-windows/stylesheets/all.scss */
+=======
     /* line 185, /app/source-xampp-osx/stylesheets/all.scss */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
     .hero #download #arrow {
       height: 80px;
       padding: 10px 20px 0 0;
       position: relative;
       color: #fff;
       background: #5e8949; }
+<<<<<<< HEAD
+      /* line 197, /app/source-xampp-windows/stylesheets/all.scss */
+=======
       /* line 197, /app/source-xampp-osx/stylesheets/all.scss */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
       .hero #download #arrow:after {
         top: 50%;
         border: solid transparent;
@@ -166,12 +281,30 @@ a.download, .hero #download > .columns > a, .hero #stack-list #download > li > a
         border-width: 40px;
         margin-top: -40px;
         background: #fff; }
+<<<<<<< HEAD
+      /* line 219, /app/source-xampp-windows/stylesheets/all.scss */
+=======
       /* line 219, /app/source-xampp-osx/stylesheets/all.scss */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
       .hero #download #arrow h2 {
         color: inherit;
         margin-bottom: 0;
         font-weight: normal;
         font-size: 1.4em; }
+<<<<<<< HEAD
+      /* line 226, /app/source-xampp-windows/stylesheets/all.scss */
+      .hero #download #arrow a {
+        font-size: 0.8em;
+        color: rgba(255, 255, 255, 0.8); }
+        /* line 230, /app/source-xampp-windows/stylesheets/all.scss */
+        .hero #download #arrow a:hover {
+          text-decoration: underline; }
+
+/* line 238, /app/source-xampp-windows/stylesheets/all.scss */
+body.index .hero {
+  padding: 2em 0; }
+  /* line 241, /app/source-xampp-windows/stylesheets/all.scss */
+=======
       /* line 226, /app/source-xampp-osx/stylesheets/all.scss */
       .hero #download #arrow a {
         font-size: 0.8em;
@@ -184,18 +317,27 @@ a.download, .hero #download > .columns > a, .hero #stack-list #download > li > a
 body.index .hero {
   padding: 2em 0; }
   /* line 241, /app/source-xampp-osx/stylesheets/all.scss */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   body.index .hero h1 {
     text-align: center;
     border-top: 2px solid #ccc;
     border-bottom: 2px solid #ccc;
     margin-bottom: 1em; }
 
+<<<<<<< HEAD
+/* line 250, /app/source-xampp-windows/stylesheets/all.scss */
+=======
 /* line 250, /app/source-xampp-osx/stylesheets/all.scss */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
 .panel h1, p code h1, ul#downloads > li h1, .panel h2, p code h2, ul#downloads > li h2, .panel h3, p code h3, ul#downloads > li h3, .panel h4, p code h4, ul#downloads > li h4, .panel p, p code p, ul#downloads > li p {
   margin: 0; }
 
 /* about, documentation & discussions */
+<<<<<<< HEAD
+/* line 257, /app/source-xampp-windows/stylesheets/all.scss */
+=======
 /* line 257, /app/source-xampp-osx/stylesheets/all.scss */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
 #about h3, #documentation h3, #discussions h3 {
   font-size: 1.2em;
   font-weight: bold;
@@ -203,19 +345,53 @@ body.index .hero {
   border-bottom: 2px solid #eee;
   padding-bottom: 0.2em; }
 
+<<<<<<< HEAD
+/* line 268, /app/source-xampp-windows/stylesheets/all.scss */
+=======
 /* line 268, /app/source-xampp-osx/stylesheets/all.scss */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
 #documentation dt, #documentation h5, #discussions dt, #discussions h5 {
   font-weight: bold;
   color: inherit;
   font-size: 1em; }
+<<<<<<< HEAD
+/* line 274, /app/source-xampp-windows/stylesheets/all.scss */
+#documentation p, #discussions p {
+  margin-bottom: 0; }
+/* line 278, /app/source-xampp-windows/stylesheets/all.scss */
+=======
 /* line 274, /app/source-xampp-osx/stylesheets/all.scss */
 #documentation p, #discussions p {
   margin-bottom: 0; }
 /* line 278, /app/source-xampp-osx/stylesheets/all.scss */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
 #documentation li, #documentation dd, #discussions li, #discussions dd {
   margin-bottom: 1em; }
 
 /* sub page layout */
+<<<<<<< HEAD
+/* line 284, /app/source-xampp-windows/stylesheets/all.scss */
+aside {
+  padding: 0.5em 1em;
+  background: #eee; }
+  /* line 289, /app/source-xampp-windows/stylesheets/all.scss */
+  aside h3:not(:first-child), aside h4:not(:first-child) {
+    margin: 0.5em 0; }
+  /* line 293, /app/source-xampp-windows/stylesheets/all.scss */
+  aside > img {
+    margin: 0.5em 0; }
+  /* line 296, /app/source-xampp-windows/stylesheets/all.scss */
+  aside .social {
+    margin-bottom: 1em; }
+  /* line 299, /app/source-xampp-windows/stylesheets/all.scss */
+  aside ol.sections {
+    list-style: none;
+    margin-left: 0; }
+    /* line 302, /app/source-xampp-windows/stylesheets/all.scss */
+    aside ol.sections li {
+      margin-bottom: 0.25em; }
+      /* line 304, /app/source-xampp-windows/stylesheets/all.scss */
+=======
 /* line 284, /app/source-xampp-osx/stylesheets/all.scss */
 aside {
   padding: 0.5em 1em;
@@ -237,16 +413,31 @@ aside {
     aside ol.sections li {
       margin-bottom: 0.25em; }
       /* line 304, /app/source-xampp-osx/stylesheets/all.scss */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
       aside ol.sections li:last-child {
         margin-bottom: 0; }
 
 /* XAMPP stamps table */
+<<<<<<< HEAD
+/* line 314, /app/source-xampp-windows/stylesheets/all.scss */
+=======
 /* line 314, /app/source-xampp-osx/stylesheets/all.scss */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
 table#stamps td:first-child {
   border-right: 1px solid #ddd;
   text-align: center; }
 
 /* social icons */
+<<<<<<< HEAD
+/* line 323, /app/source-xampp-windows/stylesheets/all.scss */
+.social {
+  margin-bottom: 0; }
+  /* line 327, /app/source-xampp-windows/stylesheets/all.scss */
+  .social li {
+    display: inline-block;
+    margin-right: 5px; }
+    /* line 331, /app/source-xampp-windows/stylesheets/all.scss */
+=======
 /* line 323, /app/source-xampp-osx/stylesheets/all.scss */
 .social {
   margin-bottom: 0; }
@@ -255,12 +446,28 @@ table#stamps td:first-child {
     display: inline-block;
     margin-right: 5px; }
     /* line 331, /app/source-xampp-osx/stylesheets/all.scss */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
     .social li a {
       display: block;
       width: 25px;
       height: 25px;
       text-indent: -9999px;
       background-image: url("/dashboard/images/social-icons.png"); }
+<<<<<<< HEAD
+    /* line 338, /app/source-xampp-windows/stylesheets/all.scss */
+    .social li.twitter a {
+      background-position: 0 0; }
+    /* line 341, /app/source-xampp-windows/stylesheets/all.scss */
+    .social li.facebook a {
+      background-position: -25px 0; }
+    /* line 344, /app/source-xampp-windows/stylesheets/all.scss */
+    .social li.google a {
+      background-position: -50px 0; }
+  /* line 349, /app/source-xampp-windows/stylesheets/all.scss */
+  .social.large {
+    margin-bottom: 1em; }
+    /* line 353, /app/source-xampp-windows/stylesheets/all.scss */
+=======
     /* line 338, /app/source-xampp-osx/stylesheets/all.scss */
     .social li.twitter a {
       background-position: 0 0; }
@@ -274,10 +481,20 @@ table#stamps td:first-child {
   .social.large {
     margin-bottom: 1em; }
     /* line 353, /app/source-xampp-osx/stylesheets/all.scss */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
     .social.large li a {
       width: 70px;
       height: 70px;
       background-image: url("/dashboard/images/social-icons-large.png"); }
+<<<<<<< HEAD
+    /* line 358, /app/source-xampp-windows/stylesheets/all.scss */
+    .social.large li.twitter a {
+      background-position: 0 0; }
+    /* line 361, /app/source-xampp-windows/stylesheets/all.scss */
+    .social.large li.facebook a {
+      background-position: -70px 0; }
+    /* line 364, /app/source-xampp-windows/stylesheets/all.scss */
+=======
     /* line 358, /app/source-xampp-osx/stylesheets/all.scss */
     .social.large li.twitter a {
       background-position: 0 0; }
@@ -285,21 +502,45 @@ table#stamps td:first-child {
     .social.large li.facebook a {
       background-position: -70px 0; }
     /* line 364, /app/source-xampp-osx/stylesheets/all.scss */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
     .social.large li.google a {
       background-position: -140px 0; }
 
 /* tweet it form */
+<<<<<<< HEAD
+/* line 373, /app/source-xampp-windows/stylesheets/all.scss */
+=======
 /* line 373, /app/source-xampp-osx/stylesheets/all.scss */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
 form#tweet input, form#tweet textarea {
   margin-bottom: 0; }
 
 /* downloads list */
+<<<<<<< HEAD
+/* line 386, /app/source-xampp-windows/stylesheets/all.scss */
+=======
 /* line 386, /app/source-xampp-osx/stylesheets/all.scss */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
 ul#downloads > li h3 img {
   vertical-align: text-top;
   width: 40px;
   height: 40px;
   margin-right: 10px; }
+<<<<<<< HEAD
+/* line 391, /app/source-xampp-windows/stylesheets/all.scss */
+ul#downloads > li h3 span {
+  color: #777; }
+/* line 396, /app/source-xampp-windows/stylesheets/all.scss */
+ul#downloads > li table {
+  margin-top: 1.5em; }
+  /* line 399, /app/source-xampp-windows/stylesheets/all.scss */
+  ul#downloads > li table th {
+    text-align: left; }
+  /* line 405, /app/source-xampp-windows/stylesheets/all.scss */
+  ul#downloads > li table td ul.inline-list li:last-child {
+    margin-right: 0; }
+  /* line 411, /app/source-xampp-windows/stylesheets/all.scss */
+=======
 /* line 391, /app/source-xampp-osx/stylesheets/all.scss */
 ul#downloads > li h3 span {
   color: #777; }
@@ -313,10 +554,26 @@ ul#downloads > li table {
   ul#downloads > li table td ul.inline-list li:last-child {
     margin-right: 0; }
   /* line 411, /app/source-xampp-osx/stylesheets/all.scss */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   ul#downloads > li table .button {
     margin: 0 0 5px 5px;
     padding: 7px;
     font-size: 0.9em; }
+<<<<<<< HEAD
+    /* line 416, /app/source-xampp-windows/stylesheets/all.scss */
+    ul#downloads > li table .button:last-child {
+      margin-bottom: 0; }
+/* line 423, /app/source-xampp-windows/stylesheets/all.scss */
+ul#downloads > li ul.inline-list, ul#downloads > li ul.inline-list li {
+  margin-left: 0; }
+/* line 426, /app/source-xampp-windows/stylesheets/all.scss */
+ul#downloads > li ul.inline-list li {
+  margin-right: 1em; }
+/* line 431, /app/source-xampp-windows/stylesheets/all.scss */
+ul#downloads > li .notes {
+  max-width: 550px !important; }
+  /* line 435, /app/source-xampp-windows/stylesheets/all.scss */
+=======
     /* line 416, /app/source-xampp-osx/stylesheets/all.scss */
     ul#downloads > li table .button:last-child {
       margin-bottom: 0; }
@@ -330,29 +587,60 @@ ul#downloads > li ul.inline-list li {
 ul#downloads > li .notes {
   max-width: 550px !important; }
   /* line 435, /app/source-xampp-osx/stylesheets/all.scss */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   ul#downloads > li .notes p {
     font-size: 0.8em;
     color: #777;
     margin-bottom: 0; }
+<<<<<<< HEAD
+/* line 443, /app/source-xampp-windows/stylesheets/all.scss */
+=======
 /* line 443, /app/source-xampp-osx/stylesheets/all.scss */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
 ul#downloads > li#download-windows p:last-child {
   color: #777;
   margin-top: 1em;
   font-size: 0.8em; }
 
+<<<<<<< HEAD
+/* line 453, /app/source-xampp-windows/stylesheets/all.scss */
+=======
 /* line 453, /app/source-xampp-osx/stylesheets/all.scss */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
 ul#downloads > li table ul[id$="-download"], #download > div ul[id$="-download"] {
   padding: 0 !important;
   max-width: 50px !important;
   text-align: center; }
 
 /* team images */
+<<<<<<< HEAD
+/* line 464, /app/source-xampp-windows/stylesheets/all.scss */
+=======
 /* line 464, /app/source-xampp-osx/stylesheets/all.scss */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
 body[class$="about"] dl dd img {
   border: 1px solid #eee;
   padding: 3px;
   margin: 0 0 0.5em 0.5em; }
 
+<<<<<<< HEAD
+/* line 472, /app/source-xampp-windows/stylesheets/all.scss */
+#mailing-list {
+  margin-bottom: 0.5em; }
+  /* line 475, /app/source-xampp-windows/stylesheets/all.scss */
+  #mailing-list input, #mailing-list a {
+    margin-bottom: 0; }
+
+/* line 480, /app/source-xampp-windows/stylesheets/all.scss */
+#intro {
+  margin-bottom: 0; }
+
+/* line 484, /app/source-xampp-windows/stylesheets/all.scss */
+#stack-list {
+  list-style: none;
+  margin-left: 0; }
+  /* line 489, /app/source-xampp-windows/stylesheets/all.scss */
+=======
 /* line 472, /app/source-xampp-osx/stylesheets/all.scss */
 #mailing-list {
   margin-bottom: 0.5em; }
@@ -369,23 +657,60 @@ body[class$="about"] dl dd img {
   list-style: none;
   margin-left: 0; }
   /* line 489, /app/source-xampp-osx/stylesheets/all.scss */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   #stack-list li {
     display: inline-block;
     margin: 0 0 0.5em 0;
     text-align: center; }
+<<<<<<< HEAD
+    /* line 495, /app/source-xampp-windows/stylesheets/all.scss */
+=======
     /* line 495, /app/source-xampp-osx/stylesheets/all.scss */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
     #stack-list li a {
       color: #2a5d84;
       display: block;
       min-height: 200px; }
+<<<<<<< HEAD
+      /* line 500, /app/source-xampp-windows/stylesheets/all.scss */
+      #stack-list li a span {
+        display: block; }
+        /* line 503, /app/source-xampp-windows/stylesheets/all.scss */
+=======
       /* line 500, /app/source-xampp-osx/stylesheets/all.scss */
       #stack-list li a span {
         display: block; }
         /* line 503, /app/source-xampp-osx/stylesheets/all.scss */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
         #stack-list li a span.type {
           font-size: 0.9em;
           color: #777; }
 
+<<<<<<< HEAD
+/* line 512, /app/source-xampp-windows/stylesheets/all.scss */
+#theme-list {
+  list-style: none;
+  margin-left: 0; }
+  /* line 516, /app/source-xampp-windows/stylesheets/all.scss */
+  #theme-list li {
+    margin-bottom: 1.5em !important; }
+    /* line 520, /app/source-xampp-windows/stylesheets/all.scss */
+    #theme-list li h4 a {
+      color: inherit; }
+
+/* line 535, /app/source-xampp-windows/stylesheets/all.scss */
+body.add-ons #theme-list {
+  margin-bottom: 2em; }
+/* line 538, /app/source-xampp-windows/stylesheets/all.scss */
+body.add-ons aside ul {
+  margin-bottom: 0; }
+
+/* line 544, /app/source-xampp-windows/stylesheets/all.scss */
+.button.icon img {
+  margin-right: 1em; }
+
+/* line 549, /app/source-xampp-windows/stylesheets/all.scss */
+=======
 /* line 512, /app/source-xampp-osx/stylesheets/all.scss */
 #theme-list {
   list-style: none;
@@ -409,59 +734,122 @@ body.add-ons aside ul {
   margin-right: 1em; }
 
 /* line 549, /app/source-xampp-osx/stylesheets/all.scss */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
 a#forum {
   display: inline-block;
   font-size: 1.4em;
   color: #fb7a24; }
+<<<<<<< HEAD
+  /* line 555, /app/source-xampp-windows/stylesheets/all.scss */
+=======
   /* line 555, /app/source-xampp-osx/stylesheets/all.scss */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   a#forum img {
     width: 30px;
     height: 30px;
     margin-right: 0.5em; }
+<<<<<<< HEAD
+  /* line 560, /app/source-xampp-windows/stylesheets/all.scss */
+=======
   /* line 560, /app/source-xampp-osx/stylesheets/all.scss */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   a#forum span {
     display: block;
     font-size: 0.7em;
     color: #777;
     text-align: right; }
 
+<<<<<<< HEAD
+/* line 570, /app/source-xampp-windows/stylesheets/all.scss */
+=======
 /* line 570, /app/source-xampp-osx/stylesheets/all.scss */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
 ol#articles li span {
   font-size: 0.8em;
   color: #777;
   display: block; }
 
+<<<<<<< HEAD
+/* line 579, /app/source-xampp-windows/stylesheets/all.scss */
+=======
 /* line 579, /app/source-xampp-osx/stylesheets/all.scss */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
 .accordion dt {
   border-bottom: 1px solid #ddd;
   padding: 0.5em 0;
   margin-bottom: 0;
   font-size: 1.1em; }
+<<<<<<< HEAD
+/* line 585, /app/source-xampp-windows/stylesheets/all.scss */
+=======
 /* line 585, /app/source-xampp-osx/stylesheets/all.scss */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
 .accordion dd {
   margin-top: 1em; }
 
 /* Retina Overrides */
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
+<<<<<<< HEAD
+  /* line 595, /app/source-xampp-windows/stylesheets/all.scss */
+=======
   /* line 595, /app/source-xampp-osx/stylesheets/all.scss */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .social li a {
     background-image: url("/dashboard/images/social-icons@2x.png");
     background-size: auto 25px; }
 
+<<<<<<< HEAD
+  /* line 599, /app/source-xampp-windows/stylesheets/all.scss */
+  .social.large li a {
+    background-image: url("/dashboard/images/social-icons-large@2x.png");
+    background-size: auto 70px; } }
+/* line 1, /app/source-xampp-windows/stylesheets/_footer.scss */
+=======
   /* line 599, /app/source-xampp-osx/stylesheets/all.scss */
   .social.large li a {
     background-image: url("/dashboard/images/social-icons-large@2x.png");
     background-size: auto 70px; } }
 /* line 1, /app/source-xampp-osx/stylesheets/_footer.scss */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
 .footer {
   background-color: #333333;
   color: #888888;
   padding: 2em 0; }
+<<<<<<< HEAD
+  /* line 7, /app/source-xampp-windows/stylesheets/_footer.scss */
+=======
   /* line 7, /app/source-xampp-osx/stylesheets/_footer.scss */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .footer p,
   .footer a {
     font-size: 0.8em;
     color: inherit; }
+<<<<<<< HEAD
+  /* line 12, /app/source-xampp-windows/stylesheets/_footer.scss */
+  .footer p {
+    margin-bottom: 0; }
+  /* line 19, /app/source-xampp-windows/stylesheets/_footer.scss */
+  .footer a:hover, .footer a:active, .footer a:visited {
+    color: inherit; }
+  /* line 24, /app/source-xampp-windows/stylesheets/_footer.scss */
+  .footer a:hover, .footer a:active {
+    text-decoration: underline; }
+  /* line 32, /app/source-xampp-windows/stylesheets/_footer.scss */
+  .footer .footer_lists-container.row > *:not(:last-child), .footer .footer_lists-container#stack-list > *:not(:last-child), .footer #theme-list li.footer_lists-container > *:not(:last-child), #theme-list .footer li.footer_lists-container > *:not(:last-child), .footer ul.footer_lists-container#docs-list > *:not(:last-child) {
+    margin-bottom: 0.5em; }
+    @media only screen and (min-width: 64.063em) {
+      /* line 32, /app/source-xampp-windows/stylesheets/_footer.scss */
+      .footer .footer_lists-container.row > *:not(:last-child), .footer .footer_lists-container#stack-list > *:not(:last-child), .footer #theme-list li.footer_lists-container > *:not(:last-child), #theme-list .footer li.footer_lists-container > *:not(:last-child), .footer ul.footer_lists-container#docs-list > *:not(:last-child) {
+        margin-bottom: 0;
+        margin-right: 0.5em; } }
+  /* line 42, /app/source-xampp-windows/stylesheets/_footer.scss */
+  .footer .footer_social {
+    text-align: center; }
+    /* line 45, /app/source-xampp-windows/stylesheets/_footer.scss */
+    .footer .footer_social > *:not(:last-child) {
+      margin-bottom: 0.5em; }
+  /* line 50, /app/source-xampp-windows/stylesheets/_footer.scss */
+=======
   /* line 12, /app/source-xampp-osx/stylesheets/_footer.scss */
   .footer p {
     margin-bottom: 0; }
@@ -486,11 +874,16 @@ ol#articles li span {
     .footer .footer_social > *:not(:last-child) {
       margin-bottom: 0.5em; }
   /* line 50, /app/source-xampp-osx/stylesheets/_footer.scss */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .footer .footer_links {
     list-style: none;
     margin: 0; }
     @media only screen and (min-width: 40.063em) {
+<<<<<<< HEAD
+      /* line 50, /app/source-xampp-windows/stylesheets/_footer.scss */
+=======
       /* line 50, /app/source-xampp-osx/stylesheets/_footer.scss */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
       .footer .footer_links {
         display: flex;
         align-items: baseline;
@@ -498,6 +891,28 @@ ol#articles li span {
         flex-wrap: wrap;
         column-gap: 1em; } }
     @media only screen and (min-width: 64.063em) {
+<<<<<<< HEAD
+      /* line 50, /app/source-xampp-windows/stylesheets/_footer.scss */
+      .footer .footer_links {
+        column-gap: 1.5em; } }
+
+/* line 20, /app/source-xampp-windows/stylesheets/_header.scss */
+.top-bar-section .dropdown {
+  border-bottom: 2px solid #eeeeee; }
+  /* line 23, /app/source-xampp-windows/stylesheets/_header.scss */
+  .top-bar-section .dropdown li {
+    border-bottom: 1px solid #eeeeee; }
+    /* line 26, /app/source-xampp-windows/stylesheets/_header.scss */
+    .top-bar-section .dropdown li:last-child {
+      border-bottom: 0; }
+    /* line 29, /app/source-xampp-windows/stylesheets/_header.scss */
+    .top-bar-section .dropdown li a:not(.button):hover {
+      background: #2a5d84; }
+/* line 35, /app/source-xampp-windows/stylesheets/_header.scss */
+.top-bar-section li.has-form {
+  padding: 8px 15px 0; }
+/* line 39, /app/source-xampp-windows/stylesheets/_header.scss */
+=======
       /* line 50, /app/source-xampp-osx/stylesheets/_footer.scss */
       .footer .footer_links {
         column-gap: 1.5em; } }
@@ -518,6 +933,7 @@ ol#articles li span {
 .top-bar-section li.has-form {
   padding: 8px 15px 0; }
 /* line 39, /app/source-xampp-osx/stylesheets/_header.scss */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
 .top-bar-section .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -528,6 +944,19 @@ ol#articles li span {
   position: absolute;
   width: 1px; }
 @media (max-width: 1023px) {
+<<<<<<< HEAD
+  /* line 51, /app/source-xampp-windows/stylesheets/_header.scss */
+  .top-bar-section > ul > li.item > a:not(.button) {
+    padding: 12px 20px; }
+  /* line 55, /app/source-xampp-windows/stylesheets/_header.scss */
+  .top-bar-section li.has-form {
+    background: #1f3c52; } }
+@media screen and (min-width: 1024px) {
+  /* line 61, /app/source-xampp-windows/stylesheets/_header.scss */
+  .top-bar-section ul.dropdown > li a {
+    background: #fff; }
+  /* line 65, /app/source-xampp-windows/stylesheets/_header.scss */
+=======
   /* line 51, /app/source-xampp-osx/stylesheets/_header.scss */
   .top-bar-section > ul > li.item > a:not(.button) {
     padding: 12px 20px; }
@@ -539,11 +968,16 @@ ol#articles li span {
   .top-bar-section ul.dropdown > li a {
     background: #fff; }
   /* line 65, /app/source-xampp-osx/stylesheets/_header.scss */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .top-bar-section ul.dropdown > li a:not(.button):hover {
     background: #f2f2f2;
     color: #5e8949; } }
 
+<<<<<<< HEAD
+/* line 73, /app/source-xampp-windows/stylesheets/_header.scss */
+=======
 /* line 73, /app/source-xampp-osx/stylesheets/_header.scss */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
 .top-bar.expanded .top-bar-section > ul > li a:not(.button):hover {
   background: #2a5d84; }
 
@@ -7295,12 +7729,20 @@ th.hide-for-touch {
 .touch th.show-for-touch {
   display: table-cell !important; }
 
+<<<<<<< HEAD
+/* line 616, /app/source-xampp-windows/stylesheets/all.scss */
+=======
 /* line 616, /app/source-xampp-osx/stylesheets/all.scss */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
 .top-bar-section > ul > li > a:not(.button) {
   padding: 0 15px;
   /* reduce padding to allow more nav items */ }
 
+<<<<<<< HEAD
+/* line 620, /app/source-xampp-windows/stylesheets/all.scss */
+=======
 /* line 620, /app/source-xampp-osx/stylesheets/all.scss */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
 .asciidoctor {
   font-size: 1em;
   /*! normalize.css v2.1.2 | MIT License | git.io/normalize */
@@ -7362,6 +7804,25 @@ th.hide-for-touch {
   /* Microformats */
   /* Tables */
   /* use foundation sizes */ }
+<<<<<<< HEAD
+  /* line 5, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor article, .asciidoctor aside, .asciidoctor details, .asciidoctor figcaption, .asciidoctor figure, .asciidoctor footer, .asciidoctor header, .asciidoctor hgroup, .asciidoctor main, .asciidoctor nav, .asciidoctor section, .asciidoctor summary {
+    display: block; }
+  /* line 8, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor audio, .asciidoctor canvas, .asciidoctor video {
+    display: inline-block; }
+  /* line 11, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor audio:not([controls]) {
+    display: none;
+    height: 0; }
+  /* line 14, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor [hidden], .asciidoctor template {
+    display: none; }
+  /* line 16, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor script {
+    display: none !important; }
+  /* line 20, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 5, /app/source-xampp-osx/stylesheets/asciidoctor.css */
   .asciidoctor article, .asciidoctor aside, .asciidoctor details, .asciidoctor figcaption, .asciidoctor figure, .asciidoctor footer, .asciidoctor header, .asciidoctor hgroup, .asciidoctor main, .asciidoctor nav, .asciidoctor section, .asciidoctor summary {
     display: block; }
@@ -7379,6 +7840,7 @@ th.hide-for-touch {
   .asciidoctor script {
     display: none !important; }
   /* line 20, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor html {
     font-family: sans-serif;
     /* 1 */
@@ -7386,6 +7848,34 @@ th.hide-for-touch {
     /* 2 */
     -webkit-text-size-adjust: 100%;
     /* 2 */ }
+<<<<<<< HEAD
+  /* line 23, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor body {
+    margin: 0; }
+  /* line 27, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor a {
+    background: transparent; }
+  /* line 30, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor a:focus {
+    outline: thin dotted; }
+  /* line 33, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor a:active, .asciidoctor a:hover {
+    outline: 0; }
+  /* line 37, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor h1 {
+    font-size: 2em;
+    margin: 0.67em 0; }
+  /* line 40, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor abbr[title] {
+    border-bottom: 1px dotted; }
+  /* line 43, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor b, .asciidoctor strong {
+    font-weight: bold; }
+  /* line 46, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor dfn {
+    font-style: italic; }
+  /* line 49, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 23, /app/source-xampp-osx/stylesheets/asciidoctor.css */
   .asciidoctor body {
     margin: 0; }
@@ -7412,10 +7902,31 @@ th.hide-for-touch {
   .asciidoctor dfn {
     font-style: italic; }
   /* line 49, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor hr {
     -moz-box-sizing: content-box;
     box-sizing: content-box;
     height: 0; }
+<<<<<<< HEAD
+  /* line 52, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor mark {
+    background: #ff0;
+    color: #000; }
+  /* line 55, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor code, .asciidoctor kbd, .asciidoctor pre, .asciidoctor samp {
+    font-family: monospace, serif;
+    font-size: 1em; }
+  /* line 58, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor pre {
+    white-space: pre-wrap; }
+  /* line 61, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor q {
+    quotes: "\201C" "\201D" "\2018" "\2019"; }
+  /* line 64, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor small {
+    font-size: 80%; }
+  /* line 67, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 52, /app/source-xampp-osx/stylesheets/asciidoctor.css */
   .asciidoctor mark {
     background: #ff0;
@@ -7434,11 +7945,30 @@ th.hide-for-touch {
   .asciidoctor small {
     font-size: 80%; }
   /* line 67, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor sub, .asciidoctor sup {
     font-size: 75%;
     line-height: 0;
     position: relative;
     vertical-align: baseline; }
+<<<<<<< HEAD
+  /* line 69, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor sup {
+    top: -0.5em; }
+  /* line 71, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor sub {
+    bottom: -0.25em; }
+  /* line 75, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor img {
+    border: 0; }
+  /* line 78, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor svg:not(:root) {
+    overflow: hidden; }
+  /* line 82, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor figure {
+    margin: 0; }
+  /* line 86, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 69, /app/source-xampp-osx/stylesheets/asciidoctor.css */
   .asciidoctor sup {
     top: -0.5em; }
@@ -7455,17 +7985,26 @@ th.hide-for-touch {
   .asciidoctor figure {
     margin: 0; }
   /* line 86, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor fieldset {
     border: 1px solid #c0c0c0;
     margin: 0 2px;
     padding: 0.35em 0.625em 0.75em; }
+<<<<<<< HEAD
+  /* line 89, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 89, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor legend {
     border: 0;
     /* 1 */
     padding: 0;
     /* 2 */ }
+<<<<<<< HEAD
+  /* line 92, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 92, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor button, .asciidoctor input, .asciidoctor select, .asciidoctor textarea {
     font-family: inherit;
     /* 1 */
@@ -7473,6 +8012,15 @@ th.hide-for-touch {
     /* 2 */
     margin: 0;
     /* 3 */ }
+<<<<<<< HEAD
+  /* line 95, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor button, .asciidoctor input {
+    line-height: normal; }
+  /* line 98, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor button, .asciidoctor select {
+    text-transform: none; }
+  /* line 101, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 95, /app/source-xampp-osx/stylesheets/asciidoctor.css */
   .asciidoctor button, .asciidoctor input {
     line-height: normal; }
@@ -7480,21 +8028,33 @@ th.hide-for-touch {
   .asciidoctor button, .asciidoctor select {
     text-transform: none; }
   /* line 101, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor button, .asciidoctor html input[type="button"], .asciidoctor input[type="reset"], .asciidoctor input[type="submit"] {
     -webkit-appearance: button;
     /* 2 */
     cursor: pointer;
     /* 3 */ }
+<<<<<<< HEAD
+  /* line 104, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor button[disabled], .asciidoctor html input[disabled] {
+    cursor: default; }
+  /* line 107, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 104, /app/source-xampp-osx/stylesheets/asciidoctor.css */
   .asciidoctor button[disabled], .asciidoctor html input[disabled] {
     cursor: default; }
   /* line 107, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor input[type="checkbox"], .asciidoctor input[type="radio"] {
     box-sizing: border-box;
     /* 1 */
     padding: 0;
     /* 2 */ }
+<<<<<<< HEAD
+  /* line 110, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 110, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor input[type="search"] {
     -webkit-appearance: textfield;
     /* 1 */
@@ -7502,6 +8062,16 @@ th.hide-for-touch {
     -webkit-box-sizing: content-box;
     /* 2 */
     box-sizing: content-box; }
+<<<<<<< HEAD
+  /* line 113, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor input[type="search"]::-webkit-search-cancel-button, .asciidoctor input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none; }
+  /* line 116, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor button::-moz-focus-inner, .asciidoctor input::-moz-focus-inner {
+    border: 0;
+    padding: 0; }
+  /* line 119, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 113, /app/source-xampp-osx/stylesheets/asciidoctor.css */
   .asciidoctor input[type="search"]::-webkit-search-cancel-button, .asciidoctor input[type="search"]::-webkit-search-decoration {
     -webkit-appearance: none; }
@@ -7510,11 +8080,31 @@ th.hide-for-touch {
     border: 0;
     padding: 0; }
   /* line 119, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor textarea {
     overflow: auto;
     /* 1 */
     vertical-align: top;
     /* 2 */ }
+<<<<<<< HEAD
+  /* line 123, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor table {
+    border-collapse: collapse;
+    border-spacing: 0; }
+  /* line 125, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor meta.foundation-mq-small {
+    font-family: "only screen and (min-width: 768px)";
+    width: 768px; }
+  /* line 127, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor meta.foundation-mq-medium {
+    font-family: "only screen and (min-width:1280px)";
+    width: 1280px; }
+  /* line 129, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor meta.foundation-mq-large {
+    font-family: "only screen and (min-width:1440px)";
+    width: 1440px; }
+  /* line 131, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 123, /app/source-xampp-osx/stylesheets/asciidoctor.css */
   .asciidoctor table {
     border-collapse: collapse;
@@ -7532,14 +8122,22 @@ th.hide-for-touch {
     font-family: "only screen and (min-width:1440px)";
     width: 1440px; }
   /* line 131, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor *, .asciidoctor *:before, .asciidoctor *:after {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box; }
+<<<<<<< HEAD
+  /* line 133, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor html, .asciidoctor body {
+    font-size: 100%; }
+  /* line 135, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 133, /app/source-xampp-osx/stylesheets/asciidoctor.css */
   .asciidoctor html, .asciidoctor body {
     font-size: 100%; }
   /* line 135, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor body {
     background: white;
     color: rgba(0, 0, 0, 0.8);
@@ -7551,6 +8149,64 @@ th.hide-for-touch {
     line-height: 1;
     position: relative;
     cursor: auto; }
+<<<<<<< HEAD
+  /* line 137, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor a:hover {
+    cursor: pointer; }
+  /* line 139, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor img, .asciidoctor object, .asciidoctor embed {
+    max-width: 100%;
+    height: auto; }
+  /* line 141, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor object, .asciidoctor embed {
+    height: 100%; }
+  /* line 143, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor img {
+    -ms-interpolation-mode: bicubic; }
+  /* line 145, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor #map_canvas img, .asciidoctor #map_canvas embed, .asciidoctor #map_canvas object, .asciidoctor .map_canvas img, .asciidoctor .map_canvas embed, .asciidoctor .map_canvas object {
+    max-width: none !important; }
+  /* line 147, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .left {
+    float: left !important; }
+  /* line 149, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .right, .asciidoctor body[class$="about"] dl dd img, body[class$="about"] dl dd .asciidoctor img {
+    float: right !important; }
+  /* line 151, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .text-left {
+    text-align: left !important; }
+  /* line 153, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .text-right {
+    text-align: right !important; }
+  /* line 155, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .text-center {
+    text-align: center !important; }
+  /* line 157, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .text-justify {
+    text-align: justify !important; }
+  /* line 159, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .hide {
+    display: none; }
+  /* line 161, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .antialiased, .asciidoctor body {
+    -webkit-font-smoothing: antialiased; }
+  /* line 163, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor img {
+    display: inline-block;
+    vertical-align: middle; }
+  /* line 165, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor textarea {
+    height: auto;
+    min-height: 50px; }
+  /* line 167, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor select {
+    width: 100%; }
+  /* line 169, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor p.lead, .asciidoctor .paragraph.lead > p, .asciidoctor #preamble > .sectionbody > .paragraph:first-of-type p {
+    font-size: 1.21875em;
+    line-height: 1.6; }
+  /* line 171, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 137, /app/source-xampp-osx/stylesheets/asciidoctor.css */
   .asciidoctor a:hover {
     cursor: pointer; }
@@ -7607,22 +8263,40 @@ th.hide-for-touch {
     font-size: 1.21875em;
     line-height: 1.6; }
   /* line 171, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor .subheader, .asciidoctor .admonitionblock td.content > .title, .asciidoctor .admonitionblock ul#downloads > li td.notes > .title, ul#downloads > li .asciidoctor .admonitionblock td.notes > .title, .asciidoctor .audioblock > .title, .asciidoctor .exampleblock > .title, .asciidoctor .imageblock > .title, .asciidoctor .listingblock > .title, .asciidoctor .literalblock > .title, .asciidoctor .stemblock > .title, .asciidoctor .openblock > .title, .asciidoctor .paragraph > .title, .asciidoctor .quoteblock > .title, .asciidoctor table.tableblock > .title, .asciidoctor .verseblock > .title, .asciidoctor .videoblock > .title, .asciidoctor .dlist > .title, .asciidoctor .olist > .title, .asciidoctor .ulist > .title, .asciidoctor .qlist > .title, .asciidoctor .hdlist > .title {
     line-height: 1.45;
     color: #7a2518;
     font-weight: normal;
     margin-top: 0;
     margin-bottom: 0.25em; }
+<<<<<<< HEAD
+  /* line 174, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 174, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor div, .asciidoctor dl, .asciidoctor dt, .asciidoctor dd, .asciidoctor ul, .asciidoctor ol, .asciidoctor li, .asciidoctor h1, .asciidoctor h2, .asciidoctor h3, .asciidoctor #toctitle, .asciidoctor .sidebarblock > .content > .title, .asciidoctor ul#downloads > li .sidebarblock > .notes > .title, ul#downloads > li .asciidoctor .sidebarblock > .notes > .title, .asciidoctor ul#downloads > li table .sidebarblock > ul[id$="-download"] > .title, ul#downloads > li table .asciidoctor .sidebarblock > ul[id$="-download"] > .title, .asciidoctor #download > div .sidebarblock > ul[id$="-download"] > .title, #download > div .asciidoctor .sidebarblock > ul[id$="-download"] > .title, .asciidoctor h4, .asciidoctor h5, .asciidoctor h6, .asciidoctor pre, .asciidoctor form, .asciidoctor p, .asciidoctor blockquote, .asciidoctor th, .asciidoctor td {
     margin: 0;
     padding: 0;
     direction: ltr; }
+<<<<<<< HEAD
+  /* line 177, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 177, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor a {
     color: #2156a5;
     text-decoration: underline;
     line-height: inherit; }
+<<<<<<< HEAD
+  /* line 178, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor a:hover, .asciidoctor a:focus {
+    color: #1d4b8f; }
+  /* line 179, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor a img {
+    border: none; }
+  /* line 182, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 178, /app/source-xampp-osx/stylesheets/asciidoctor.css */
   .asciidoctor a:hover, .asciidoctor a:focus {
     color: #1d4b8f; }
@@ -7630,6 +8304,7 @@ th.hide-for-touch {
   .asciidoctor a img {
     border: none; }
   /* line 182, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor p {
     font-family: inherit;
     font-weight: normal;
@@ -7637,12 +8312,20 @@ th.hide-for-touch {
     line-height: 1.6;
     margin-bottom: 1.25em;
     text-rendering: optimizeLegibility; }
+<<<<<<< HEAD
+  /* line 183, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 183, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor p aside {
     font-size: 0.875em;
     line-height: 1.35;
     font-style: italic; }
+<<<<<<< HEAD
+  /* line 186, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 186, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor h1, .asciidoctor h2, .asciidoctor h3, .asciidoctor #toctitle, .asciidoctor .sidebarblock > .content > .title, .asciidoctor ul#downloads > li .sidebarblock > .notes > .title, ul#downloads > li .asciidoctor .sidebarblock > .notes > .title, .asciidoctor ul#downloads > li table .sidebarblock > ul[id$="-download"] > .title, ul#downloads > li table .asciidoctor .sidebarblock > ul[id$="-download"] > .title, .asciidoctor #download > div .sidebarblock > ul[id$="-download"] > .title, #download > div .asciidoctor .sidebarblock > ul[id$="-download"] > .title, .asciidoctor h4, .asciidoctor h5, .asciidoctor h6 {
     font-family: "Open Sans", "DejaVu Sans", sans-serif;
     font-weight: 300;
@@ -7652,11 +8335,36 @@ th.hide-for-touch {
     margin-top: 1em;
     margin-bottom: 0.5em;
     line-height: 1.0125em; }
+<<<<<<< HEAD
+  /* line 187, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 187, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor h1 small, .asciidoctor h2 small, .asciidoctor h3 small, .asciidoctor #toctitle small, .asciidoctor .sidebarblock > .content > .title small, .asciidoctor ul#downloads > li .sidebarblock > .notes > .title small, ul#downloads > li .asciidoctor .sidebarblock > .notes > .title small, .asciidoctor ul#downloads > li table .sidebarblock > ul[id$="-download"] > .title small, ul#downloads > li table .asciidoctor .sidebarblock > ul[id$="-download"] > .title small, .asciidoctor #download > div .sidebarblock > ul[id$="-download"] > .title small, #download > div .asciidoctor .sidebarblock > ul[id$="-download"] > .title small, .asciidoctor h4 small, .asciidoctor h5 small, .asciidoctor h6 small {
     font-size: 60%;
     color: #e99b8f;
     line-height: 0; }
+<<<<<<< HEAD
+  /* line 189, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor h1 {
+    font-size: 2.125em; }
+  /* line 191, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor h2 {
+    font-size: 1.6875em; }
+  /* line 193, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor h3, .asciidoctor #toctitle, .asciidoctor .sidebarblock > .content > .title, .asciidoctor ul#downloads > li .sidebarblock > .notes > .title, ul#downloads > li .asciidoctor .sidebarblock > .notes > .title, .asciidoctor ul#downloads > li table .sidebarblock > ul[id$="-download"] > .title, ul#downloads > li table .asciidoctor .sidebarblock > ul[id$="-download"] > .title, .asciidoctor #download > div .sidebarblock > ul[id$="-download"] > .title, #download > div .asciidoctor .sidebarblock > ul[id$="-download"] > .title {
+    font-size: 1.375em; }
+  /* line 195, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor h4 {
+    font-size: 1.125em; }
+  /* line 197, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor h5 {
+    font-size: 1.125em; }
+  /* line 199, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor h6 {
+    font-size: 1em; }
+  /* line 201, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 189, /app/source-xampp-osx/stylesheets/asciidoctor.css */
   .asciidoctor h1 {
     font-size: 2.125em; }
@@ -7676,12 +8384,28 @@ th.hide-for-touch {
   .asciidoctor h6 {
     font-size: 1em; }
   /* line 201, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor hr {
     border: solid #ddddd8;
     border-width: 1px 0 0;
     clear: both;
     margin: 1.25em 0 1.1875em;
     height: 0; }
+<<<<<<< HEAD
+  /* line 204, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor em, .asciidoctor i {
+    font-style: italic;
+    line-height: inherit; }
+  /* line 206, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor strong, .asciidoctor b {
+    font-weight: bold;
+    line-height: inherit; }
+  /* line 208, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor small {
+    font-size: 60%;
+    line-height: inherit; }
+  /* line 210, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 204, /app/source-xampp-osx/stylesheets/asciidoctor.css */
   .asciidoctor em, .asciidoctor i {
     font-style: italic;
@@ -7695,17 +8419,31 @@ th.hide-for-touch {
     font-size: 60%;
     line-height: inherit; }
   /* line 210, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor code {
     font-family: "Droid Sans Mono", "DejaVu Sans Mono", "Monospace", monospace;
     font-weight: normal;
     color: rgba(0, 0, 0, 0.9); }
+<<<<<<< HEAD
+  /* line 213, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 213, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor ul, .asciidoctor ol, .asciidoctor dl {
     font-size: 1em;
     line-height: 1.6;
     margin-bottom: 1.25em;
     list-style-position: outside;
     font-family: inherit; }
+<<<<<<< HEAD
+  /* line 215, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor ul, .asciidoctor ol {
+    margin-left: 1.5em; }
+  /* line 216, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor ul.no-bullet, .asciidoctor ul.social, .asciidoctor ul#downloads, .asciidoctor ul#docs-list, .asciidoctor ol.no-bullet, .asciidoctor ol.social {
+    margin-left: 1.5em; }
+  /* line 219, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 215, /app/source-xampp-osx/stylesheets/asciidoctor.css */
   .asciidoctor ul, .asciidoctor ol {
     margin-left: 1.5em; }
@@ -7713,11 +8451,41 @@ th.hide-for-touch {
   .asciidoctor ul.no-bullet, .asciidoctor ul.social, .asciidoctor ul#downloads, .asciidoctor ul#docs-list, .asciidoctor ol.no-bullet, .asciidoctor ol.social {
     margin-left: 1.5em; }
   /* line 219, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor ul li ul, .asciidoctor ul li ol {
     margin-left: 1.25em;
     margin-bottom: 0;
     font-size: 1em;
     /* Override nested font-size change */ }
+<<<<<<< HEAD
+  /* line 220, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor ul.square li ul, .asciidoctor ul.circle li ul, .asciidoctor ul.disc li ul {
+    list-style: inherit; }
+  /* line 221, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor ul.square {
+    list-style-type: square; }
+  /* line 222, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor ul.circle {
+    list-style-type: circle; }
+  /* line 223, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor ul.disc {
+    list-style-type: disc; }
+  /* line 224, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor ul.no-bullet, .asciidoctor ul.social, .asciidoctor ul#downloads, .asciidoctor ul#docs-list {
+    list-style: none; }
+  /* line 227, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor ol li ul, .asciidoctor ol li ol {
+    margin-left: 1.25em;
+    margin-bottom: 0; }
+  /* line 230, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor dl dt {
+    margin-bottom: 0.3125em;
+    font-weight: bold; }
+  /* line 231, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor dl dd {
+    margin-bottom: 1.25em; }
+  /* line 234, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 220, /app/source-xampp-osx/stylesheets/asciidoctor.css */
   .asciidoctor ul.square li ul, .asciidoctor ul.circle li ul, .asciidoctor ul.disc li ul {
     list-style: inherit; }
@@ -7745,25 +8513,50 @@ th.hide-for-touch {
   .asciidoctor dl dd {
     margin-bottom: 1.25em; }
   /* line 234, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor abbr, .asciidoctor acronym {
     text-transform: uppercase;
     font-size: 90%;
     color: rgba(0, 0, 0, 0.8);
     border-bottom: 1px dotted #dddddd;
     cursor: help; }
+<<<<<<< HEAD
+  /* line 236, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor abbr {
+    text-transform: none; }
+  /* line 239, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 236, /app/source-xampp-osx/stylesheets/asciidoctor.css */
   .asciidoctor abbr {
     text-transform: none; }
   /* line 239, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor blockquote {
     margin: 0 0 1.25em;
     padding: 0.5625em 1.25em 0 1.1875em;
     border-left: 1px solid #dddddd; }
+<<<<<<< HEAD
+  /* line 240, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 240, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor blockquote cite {
     display: block;
     font-size: 0.9375em;
     color: rgba(0, 0, 0, 0.6); }
+<<<<<<< HEAD
+  /* line 241, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor blockquote cite:before {
+    content: "\2014 \0020"; }
+  /* line 242, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor blockquote cite a, .asciidoctor blockquote cite a:visited {
+    color: rgba(0, 0, 0, 0.6); }
+  /* line 244, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor blockquote, .asciidoctor blockquote p {
+    line-height: 1.6;
+    color: rgba(0, 0, 0, 0.85); }
+  /* line 247, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 241, /app/source-xampp-osx/stylesheets/asciidoctor.css */
   .asciidoctor blockquote cite:before {
     content: "\2014 \0020"; }
@@ -7775,11 +8568,26 @@ th.hide-for-touch {
     line-height: 1.6;
     color: rgba(0, 0, 0, 0.85); }
   /* line 247, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor .vcard {
     display: inline-block;
     margin: 0 0 1.25em 0;
     border: 1px solid #dddddd;
     padding: 0.625em 0.75em; }
+<<<<<<< HEAD
+  /* line 248, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .vcard li {
+    margin: 0;
+    display: block; }
+  /* line 249, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .vcard .fn {
+    font-weight: bold;
+    font-size: 0.9375em; }
+  /* line 251, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .vevent .summary {
+    font-weight: bold; }
+  /* line 252, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 248, /app/source-xampp-osx/stylesheets/asciidoctor.css */
   .asciidoctor .vcard li {
     margin: 0;
@@ -7792,6 +8600,7 @@ th.hide-for-touch {
   .asciidoctor .vevent .summary {
     font-weight: bold; }
   /* line 252, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor .vevent abbr {
     cursor: auto;
     text-decoration: none;
@@ -7799,6 +8608,24 @@ th.hide-for-touch {
     border: none;
     padding: 0 0.0625em; }
   @media only screen and (min-width: 768px) {
+<<<<<<< HEAD
+    /* line 254, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+    .asciidoctor h1, .asciidoctor h2, .asciidoctor h3, .asciidoctor #toctitle, .asciidoctor .sidebarblock > .content > .title, .asciidoctor ul#downloads > li .sidebarblock > .notes > .title, ul#downloads > li .asciidoctor .sidebarblock > .notes > .title, .asciidoctor ul#downloads > li table .sidebarblock > ul[id$="-download"] > .title, ul#downloads > li table .asciidoctor .sidebarblock > ul[id$="-download"] > .title, .asciidoctor #download > div .sidebarblock > ul[id$="-download"] > .title, #download > div .asciidoctor .sidebarblock > ul[id$="-download"] > .title, .asciidoctor h4, .asciidoctor h5, .asciidoctor h6 {
+      line-height: 1.2; }
+    /* line 255, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+    .asciidoctor h1 {
+      font-size: 2.75em; }
+    /* line 256, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+    .asciidoctor h2 {
+      font-size: 2.3125em; }
+    /* line 257, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+    .asciidoctor h3, .asciidoctor #toctitle, .asciidoctor .sidebarblock > .content > .title, .asciidoctor ul#downloads > li .sidebarblock > .notes > .title, ul#downloads > li .asciidoctor .sidebarblock > .notes > .title, .asciidoctor ul#downloads > li table .sidebarblock > ul[id$="-download"] > .title, ul#downloads > li table .asciidoctor .sidebarblock > ul[id$="-download"] > .title, .asciidoctor #download > div .sidebarblock > ul[id$="-download"] > .title, #download > div .asciidoctor .sidebarblock > ul[id$="-download"] > .title {
+      font-size: 1.6875em; }
+    /* line 258, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+    .asciidoctor h4 {
+      font-size: 1.4375em; } }
+  /* line 260, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
     /* line 254, /app/source-xampp-osx/stylesheets/asciidoctor.css */
     .asciidoctor h1, .asciidoctor h2, .asciidoctor h3, .asciidoctor #toctitle, .asciidoctor .sidebarblock > .content > .title, .asciidoctor ul#downloads > li .sidebarblock > .notes > .title, ul#downloads > li .asciidoctor .sidebarblock > .notes > .title, .asciidoctor ul#downloads > li table .sidebarblock > ul[id$="-download"] > .title, ul#downloads > li table .asciidoctor .sidebarblock > ul[id$="-download"] > .title, .asciidoctor #download > div .sidebarblock > ul[id$="-download"] > .title, #download > div .asciidoctor .sidebarblock > ul[id$="-download"] > .title, .asciidoctor h4, .asciidoctor h5, .asciidoctor h6 {
       line-height: 1.2; }
@@ -7815,25 +8642,62 @@ th.hide-for-touch {
     .asciidoctor h4 {
       font-size: 1.4375em; } }
   /* line 260, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor table {
     background: white;
     margin-bottom: 1.25em;
     border: solid 1px #dedede; }
+<<<<<<< HEAD
+  /* line 261, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor table thead, .asciidoctor table tfoot {
+    background: #f7f8f7;
+    font-weight: bold; }
+  /* line 262, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 261, /app/source-xampp-osx/stylesheets/asciidoctor.css */
   .asciidoctor table thead, .asciidoctor table tfoot {
     background: #f7f8f7;
     font-weight: bold; }
   /* line 262, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor table thead tr th, .asciidoctor table thead tr td, .asciidoctor table tfoot tr th, .asciidoctor table tfoot tr td {
     padding: 0.5em 0.625em 0.625em;
     font-size: inherit;
     color: rgba(0, 0, 0, 0.8);
     text-align: left; }
+<<<<<<< HEAD
+  /* line 263, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 263, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor table tr th, .asciidoctor table tr td {
     padding: 0.5625em 0.625em;
     font-size: inherit;
     color: rgba(0, 0, 0, 0.8); }
+<<<<<<< HEAD
+  /* line 264, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor table tr.even, .asciidoctor table tr.alt, .asciidoctor table tr:nth-of-type(even) {
+    background: #f8f8f7; }
+  /* line 265, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor table thead tr th, .asciidoctor table tfoot tr th, .asciidoctor table tbody tr td, .asciidoctor table tr td, .asciidoctor table tfoot tr td {
+    display: table-cell;
+    line-height: 1.6; }
+  /* line 267, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor h1, .asciidoctor h2, .asciidoctor h3, .asciidoctor #toctitle, .asciidoctor .sidebarblock > .content > .title, .asciidoctor ul#downloads > li .sidebarblock > .notes > .title, ul#downloads > li .asciidoctor .sidebarblock > .notes > .title, .asciidoctor ul#downloads > li table .sidebarblock > ul[id$="-download"] > .title, ul#downloads > li table .asciidoctor .sidebarblock > ul[id$="-download"] > .title, .asciidoctor #download > div .sidebarblock > ul[id$="-download"] > .title, #download > div .asciidoctor .sidebarblock > ul[id$="-download"] > .title, .asciidoctor h4, .asciidoctor h5, .asciidoctor h6 {
+    line-height: 1.2;
+    word-spacing: -0.05em; }
+  /* line 268, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor h1 strong, .asciidoctor h2 strong, .asciidoctor h3 strong, .asciidoctor #toctitle strong, .asciidoctor .sidebarblock > .content > .title strong, .asciidoctor ul#downloads > li .sidebarblock > .notes > .title strong, ul#downloads > li .asciidoctor .sidebarblock > .notes > .title strong, .asciidoctor ul#downloads > li table .sidebarblock > ul[id$="-download"] > .title strong, ul#downloads > li table .asciidoctor .sidebarblock > ul[id$="-download"] > .title strong, .asciidoctor #download > div .sidebarblock > ul[id$="-download"] > .title strong, #download > div .asciidoctor .sidebarblock > ul[id$="-download"] > .title strong, .asciidoctor h4 strong, .asciidoctor h5 strong, .asciidoctor h6 strong {
+    font-weight: 400; }
+  /* line 270, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .clearfix:before, .asciidoctor #breaking div:before, #breaking .asciidoctor div:before, .asciidoctor body[class$="about"] dl dd:before, body[class$="about"] dl .asciidoctor dd:before, .asciidoctor .clearfix:after, .asciidoctor #breaking div:after, #breaking .asciidoctor div:after, .asciidoctor body[class$="about"] dl dd:after, body[class$="about"] dl .asciidoctor dd:after, .asciidoctor .float-group:before, .asciidoctor .float-group:after {
+    content: " ";
+    display: table; }
+  /* line 271, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .clearfix:after, .asciidoctor #breaking div:after, #breaking .asciidoctor div:after, .asciidoctor body[class$="about"] dl dd:after, body[class$="about"] dl .asciidoctor dd:after, .asciidoctor .float-group:after {
+    clear: both; }
+  /* line 273, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 264, /app/source-xampp-osx/stylesheets/asciidoctor.css */
   .asciidoctor table tr.even, .asciidoctor table tr.alt, .asciidoctor table tr:nth-of-type(even) {
     background: #f8f8f7; }
@@ -7856,6 +8720,7 @@ th.hide-for-touch {
   .asciidoctor .clearfix:after, .asciidoctor #breaking div:after, #breaking .asciidoctor div:after, .asciidoctor body[class$="about"] dl dd:after, body[class$="about"] dl .asciidoctor dd:after, .asciidoctor .float-group:after {
     clear: both; }
   /* line 273, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor *:not(pre) > code {
     font-size: 0.9375em;
     font-style: normal !important;
@@ -7867,17 +8732,28 @@ th.hide-for-touch {
     border-radius: 4px;
     line-height: 1.45;
     text-rendering: optimizeSpeed; }
+<<<<<<< HEAD
+  /* line 275, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 275, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor pre, .asciidoctor pre > code {
     line-height: 1.45;
     color: rgba(0, 0, 0, 0.9);
     font-family: "Droid Sans Mono", "DejaVu Sans Mono", "Monospace", monospace;
     font-weight: normal;
     text-rendering: optimizeSpeed; }
+<<<<<<< HEAD
+  /* line 277, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .keyseq {
+    color: rgba(51, 51, 51, 0.8); }
+  /* line 279, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 277, /app/source-xampp-osx/stylesheets/asciidoctor.css */
   .asciidoctor .keyseq {
     color: rgba(51, 51, 51, 0.8); }
   /* line 279, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor kbd {
     display: inline-block;
     color: rgba(0, 0, 0, 0.8);
@@ -7893,6 +8769,18 @@ th.hide-for-touch {
     padding: 0.2em 0.6em 0.2em 0.5em;
     vertical-align: middle;
     white-space: nowrap; }
+<<<<<<< HEAD
+  /* line 281, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .keyseq kbd:first-child {
+    margin-left: 0; }
+  /* line 283, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .keyseq kbd:last-child {
+    margin-right: 0; }
+  /* line 285, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .menuseq, .asciidoctor .menu {
+    color: rgba(0, 0, 0, 0.8); }
+  /* line 287, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 281, /app/source-xampp-osx/stylesheets/asciidoctor.css */
   .asciidoctor .keyseq kbd:first-child {
     margin-left: 0; }
@@ -7903,10 +8791,25 @@ th.hide-for-touch {
   .asciidoctor .menuseq, .asciidoctor .menu {
     color: rgba(0, 0, 0, 0.8); }
   /* line 287, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor b.button:before, .asciidoctor b.button:after {
     position: relative;
     top: -1px;
     font-weight: normal; }
+<<<<<<< HEAD
+  /* line 289, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor b.button:before {
+    content: "[";
+    padding: 0 3px 0 2px; }
+  /* line 291, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor b.button:after {
+    content: "]";
+    padding: 0 2px 0 3px; }
+  /* line 293, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor p a > code:hover {
+    color: rgba(0, 0, 0, 0.9); }
+  /* line 295, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 289, /app/source-xampp-osx/stylesheets/asciidoctor.css */
   .asciidoctor b.button:before {
     content: "[";
@@ -7919,6 +8822,7 @@ th.hide-for-touch {
   .asciidoctor p a > code:hover {
     color: rgba(0, 0, 0, 0.9); }
   /* line 295, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor #header, .asciidoctor #content, .asciidoctor #footnotes, .asciidoctor #footer {
     width: 100%;
     margin-left: auto;
@@ -7930,6 +8834,22 @@ th.hide-for-touch {
     position: relative;
     padding-left: 0.9375em;
     padding-right: 0.9375em; }
+<<<<<<< HEAD
+  /* line 296, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor #header:before, .asciidoctor #header:after, .asciidoctor #content:before, .asciidoctor #content:after, .asciidoctor #footnotes:before, .asciidoctor #footnotes:after, .asciidoctor #footer:before, .asciidoctor #footer:after {
+    content: " ";
+    display: table; }
+  /* line 297, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor #header:after, .asciidoctor #content:after, .asciidoctor #footnotes:after, .asciidoctor #footer:after {
+    clear: both; }
+  /* line 299, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor #content {
+    margin-top: 1.25em; }
+  /* line 301, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor #content:before {
+    content: none; }
+  /* line 303, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 296, /app/source-xampp-osx/stylesheets/asciidoctor.css */
   .asciidoctor #header:before, .asciidoctor #header:after, .asciidoctor #content:before, .asciidoctor #content:after, .asciidoctor #footnotes:before, .asciidoctor #footnotes:after, .asciidoctor #footer:before, .asciidoctor #footer:after {
     content: " ";
@@ -7944,10 +8864,22 @@ th.hide-for-touch {
   .asciidoctor #content:before {
     content: none; }
   /* line 303, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor #header > h1:first-child {
     color: rgba(0, 0, 0, 0.85);
     margin-top: 2.25rem;
     margin-bottom: 0; }
+<<<<<<< HEAD
+  /* line 304, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor #header > h1:first-child + #toc {
+    margin-top: 8px;
+    border-top: 1px solid #ddddd8; }
+  /* line 305, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor #header > h1:only-child, .asciidoctor body.toc2 #header > h1:nth-last-child(2) {
+    border-bottom: 1px solid #ddddd8;
+    padding-bottom: 8px; }
+  /* line 306, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 304, /app/source-xampp-osx/stylesheets/asciidoctor.css */
   .asciidoctor #header > h1:first-child + #toc {
     margin-top: 8px;
@@ -7957,6 +8889,7 @@ th.hide-for-touch {
     border-bottom: 1px solid #ddddd8;
     padding-bottom: 8px; }
   /* line 306, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor #header .details {
     border-bottom: 1px solid #ddddd8;
     line-height: 1.45;
@@ -7970,6 +8903,34 @@ th.hide-for-touch {
     -ms-flex-flow: row wrap;
     -webkit-flex-flow: row wrap;
     flex-flow: row wrap; }
+<<<<<<< HEAD
+  /* line 307, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor #header .details span:first-child {
+    margin-left: -0.125em; }
+  /* line 308, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor #header .details span.email a {
+    color: rgba(0, 0, 0, 0.85); }
+  /* line 309, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor #header .details br {
+    display: none; }
+  /* line 310, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor #header .details br + span:before {
+    content: "\00a0\2013\00a0"; }
+  /* line 311, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor #header .details br + span.author:before {
+    content: "\00a0\22c5\00a0";
+    color: rgba(0, 0, 0, 0.85); }
+  /* line 312, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor #header .details br + span#revremark:before {
+    content: "\00a0|\00a0"; }
+  /* line 313, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor #header #revnumber {
+    text-transform: capitalize; }
+  /* line 314, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor #header #revnumber:after {
+    content: "\00a0"; }
+  /* line 316, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 307, /app/source-xampp-osx/stylesheets/asciidoctor.css */
   .asciidoctor #header .details span:first-child {
     margin-left: -0.125em; }
@@ -7996,6 +8957,7 @@ th.hide-for-touch {
   .asciidoctor #header #revnumber:after {
     content: "\00a0"; }
   /* line 316, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor #content > h1:first-child:not([class]) {
     color: rgba(0, 0, 0, 0.85);
     border-bottom: 1px solid #ddddd8;
@@ -8003,6 +8965,32 @@ th.hide-for-touch {
     margin-top: 0;
     padding-top: 1rem;
     margin-bottom: 1.25rem; }
+<<<<<<< HEAD
+  /* line 318, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor #toc {
+    border-bottom: 1px solid #efefed;
+    padding-bottom: 0.5em; }
+  /* line 319, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor #toc > ul {
+    margin-left: 0.125em; }
+  /* line 320, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor #toc ul.sectlevel0 > li > a {
+    font-style: italic; }
+  /* line 321, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor #toc ul.sectlevel0 ul.sectlevel1 {
+    margin: 0.5em 0; }
+  /* line 322, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor #toc ul {
+    font-family: "Open Sans", "DejaVu Sans", sans-serif;
+    list-style-type: none; }
+  /* line 323, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor #toc a {
+    text-decoration: none; }
+  /* line 324, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor #toc a:active {
+    text-decoration: underline; }
+  /* line 326, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 318, /app/source-xampp-osx/stylesheets/asciidoctor.css */
   .asciidoctor #toc {
     border-bottom: 1px solid #efefed;
@@ -8027,10 +9015,21 @@ th.hide-for-touch {
   .asciidoctor #toc a:active {
     text-decoration: underline; }
   /* line 326, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor #toctitle {
     color: #7a2518;
     font-size: 1.2em; }
   @media only screen and (min-width: 768px) {
+<<<<<<< HEAD
+    /* line 328, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+    .asciidoctor #toctitle {
+      font-size: 1.375em; }
+    /* line 329, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+    .asciidoctor body.toc2 {
+      padding-left: 15em;
+      padding-right: 0; }
+    /* line 330, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
     /* line 328, /app/source-xampp-osx/stylesheets/asciidoctor.css */
     .asciidoctor #toctitle {
       font-size: 1.375em; }
@@ -8039,6 +9038,7 @@ th.hide-for-touch {
       padding-left: 15em;
       padding-right: 0; }
     /* line 330, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
     .asciidoctor #toc.toc2 {
       margin-top: 0 !important;
       background-color: #f8f8f7;
@@ -8053,6 +9053,21 @@ th.hide-for-touch {
       padding: 1.25em 1em;
       height: 100%;
       overflow: auto; }
+<<<<<<< HEAD
+    /* line 331, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+    .asciidoctor #toc.toc2 #toctitle {
+      margin-top: 0;
+      font-size: 1.2em; }
+    /* line 332, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+    .asciidoctor #toc.toc2 > ul {
+      font-size: 0.9em;
+      margin-bottom: 0; }
+    /* line 333, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+    .asciidoctor #toc.toc2 ul ul {
+      margin-left: 0;
+      padding-left: 1em; }
+    /* line 334, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
     /* line 331, /app/source-xampp-osx/stylesheets/asciidoctor.css */
     .asciidoctor #toc.toc2 #toctitle {
       margin-top: 0;
@@ -8066,21 +9081,53 @@ th.hide-for-touch {
       margin-left: 0;
       padding-left: 1em; }
     /* line 334, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
     .asciidoctor #toc.toc2 ul.sectlevel0 ul.sectlevel1 {
       padding-left: 0;
       margin-top: 0.5em;
       margin-bottom: 0.5em; }
+<<<<<<< HEAD
+    /* line 335, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+    .asciidoctor body.toc2.toc-right {
+      padding-left: 0;
+      padding-right: 15em; }
+    /* line 336, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
     /* line 335, /app/source-xampp-osx/stylesheets/asciidoctor.css */
     .asciidoctor body.toc2.toc-right {
       padding-left: 0;
       padding-right: 15em; }
     /* line 336, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
     .asciidoctor body.toc2.toc-right #toc.toc2 {
       border-right-width: 0;
       border-left: 1px solid #efefed;
       left: auto;
       right: 0; } }
   @media only screen and (min-width: 1280px) {
+<<<<<<< HEAD
+    /* line 337, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+    .asciidoctor body.toc2 {
+      padding-left: 20em;
+      padding-right: 0; }
+    /* line 338, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+    .asciidoctor #toc.toc2 {
+      width: 20em; }
+    /* line 339, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+    .asciidoctor #toc.toc2 #toctitle {
+      font-size: 1.375em; }
+    /* line 340, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+    .asciidoctor #toc.toc2 > ul {
+      font-size: 0.95em; }
+    /* line 341, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+    .asciidoctor #toc.toc2 ul ul {
+      padding-left: 1.25em; }
+    /* line 342, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+    .asciidoctor body.toc2.toc-right {
+      padding-left: 0;
+      padding-right: 20em; } }
+  /* line 343, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
     /* line 337, /app/source-xampp-osx/stylesheets/asciidoctor.css */
     .asciidoctor body.toc2 {
       padding-left: 20em;
@@ -8102,6 +9149,7 @@ th.hide-for-touch {
       padding-left: 0;
       padding-right: 20em; } }
   /* line 343, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor #content #toc {
     border-style: solid;
     border-width: 1px;
@@ -8111,6 +9159,15 @@ th.hide-for-touch {
     background: #f8f8f7;
     -webkit-border-radius: 4px;
     border-radius: 4px; }
+<<<<<<< HEAD
+  /* line 344, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor #content #toc > :first-child {
+    margin-top: 0; }
+  /* line 345, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor #content #toc > :last-child {
+    margin-bottom: 0; }
+  /* line 347, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 344, /app/source-xampp-osx/stylesheets/asciidoctor.css */
   .asciidoctor #content #toc > :first-child {
     margin-top: 0; }
@@ -8118,10 +9175,28 @@ th.hide-for-touch {
   .asciidoctor #content #toc > :last-child {
     margin-bottom: 0; }
   /* line 347, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor #footer {
     max-width: 100%;
     background-color: rgba(0, 0, 0, 0.8);
     padding: 1.25em; }
+<<<<<<< HEAD
+  /* line 349, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor #footer-text {
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.44; }
+  /* line 351, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .sect1 {
+    padding-bottom: 0.625em; }
+  @media only screen and (min-width: 768px) {
+    /* line 353, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+    .asciidoctor .sect1 {
+      padding-bottom: 1.25em; } }
+  /* line 354, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .sect1 + .sect1 {
+    border-top: 1px solid #efefed; }
+  /* line 356, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 349, /app/source-xampp-osx/stylesheets/asciidoctor.css */
   .asciidoctor #footer-text {
     color: rgba(255, 255, 255, 0.8);
@@ -8137,6 +9212,7 @@ th.hide-for-touch {
   .asciidoctor .sect1 + .sect1 {
     border-top: 1px solid #efefed; }
   /* line 356, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor #content h1 > a.anchor, .asciidoctor h2 > a.anchor, .asciidoctor h3 > a.anchor, .asciidoctor #toctitle > a.anchor, .asciidoctor .sidebarblock > .content > .title > a.anchor, .asciidoctor ul#downloads > li .sidebarblock > .notes > .title > a.anchor, ul#downloads > li .asciidoctor .sidebarblock > .notes > .title > a.anchor, .asciidoctor ul#downloads > li table .sidebarblock > ul[id$="-download"] > .title > a.anchor, ul#downloads > li table .asciidoctor .sidebarblock > ul[id$="-download"] > .title > a.anchor, .asciidoctor #download > div .sidebarblock > ul[id$="-download"] > .title > a.anchor, #download > div .asciidoctor .sidebarblock > ul[id$="-download"] > .title > a.anchor, .asciidoctor h4 > a.anchor, .asciidoctor h5 > a.anchor, .asciidoctor h6 > a.anchor {
     position: absolute;
     z-index: 1001;
@@ -8147,12 +9223,32 @@ th.hide-for-touch {
     visibility: hidden;
     text-align: center;
     font-weight: normal; }
+<<<<<<< HEAD
+  /* line 357, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 357, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor #content h1 > a.anchor:before, .asciidoctor h2 > a.anchor:before, .asciidoctor h3 > a.anchor:before, .asciidoctor #toctitle > a.anchor:before, .asciidoctor .sidebarblock > .content > .title > a.anchor:before, .asciidoctor ul#downloads > li .sidebarblock > .notes > .title > a.anchor:before, ul#downloads > li .asciidoctor .sidebarblock > .notes > .title > a.anchor:before, .asciidoctor ul#downloads > li table .sidebarblock > ul[id$="-download"] > .title > a.anchor:before, ul#downloads > li table .asciidoctor .sidebarblock > ul[id$="-download"] > .title > a.anchor:before, .asciidoctor #download > div .sidebarblock > ul[id$="-download"] > .title > a.anchor:before, #download > div .asciidoctor .sidebarblock > ul[id$="-download"] > .title > a.anchor:before, .asciidoctor h4 > a.anchor:before, .asciidoctor h5 > a.anchor:before, .asciidoctor h6 > a.anchor:before {
     content: "\00A7";
     font-size: 0.85em;
     display: block;
     padding-top: 0.1em; }
+<<<<<<< HEAD
+  /* line 358, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor #content h1:hover > a.anchor, .asciidoctor #content h1 > a.anchor:hover, .asciidoctor h2:hover > a.anchor, .asciidoctor h2 > a.anchor:hover, .asciidoctor h3:hover > a.anchor, .asciidoctor #toctitle:hover > a.anchor, .asciidoctor .sidebarblock > .content > .title:hover > a.anchor, .asciidoctor ul#downloads > li .sidebarblock > .notes > .title:hover > a.anchor, ul#downloads > li .asciidoctor .sidebarblock > .notes > .title:hover > a.anchor, .asciidoctor ul#downloads > li table .sidebarblock > ul[id$="-download"] > .title:hover > a.anchor, ul#downloads > li table .asciidoctor .sidebarblock > ul[id$="-download"] > .title:hover > a.anchor, .asciidoctor #download > div .sidebarblock > ul[id$="-download"] > .title:hover > a.anchor, #download > div .asciidoctor .sidebarblock > ul[id$="-download"] > .title:hover > a.anchor, .asciidoctor h3 > a.anchor:hover, .asciidoctor #toctitle > a.anchor:hover, .asciidoctor .sidebarblock > .content > .title > a.anchor:hover, .asciidoctor ul#downloads > li .sidebarblock > .notes > .title > a.anchor:hover, ul#downloads > li .asciidoctor .sidebarblock > .notes > .title > a.anchor:hover, .asciidoctor ul#downloads > li table .sidebarblock > ul[id$="-download"] > .title > a.anchor:hover, ul#downloads > li table .asciidoctor .sidebarblock > ul[id$="-download"] > .title > a.anchor:hover, .asciidoctor #download > div .sidebarblock > ul[id$="-download"] > .title > a.anchor:hover, #download > div .asciidoctor .sidebarblock > ul[id$="-download"] > .title > a.anchor:hover, .asciidoctor h4:hover > a.anchor, .asciidoctor h4 > a.anchor:hover, .asciidoctor h5:hover > a.anchor, .asciidoctor h5 > a.anchor:hover, .asciidoctor h6:hover > a.anchor, .asciidoctor h6 > a.anchor:hover {
+    visibility: visible; }
+  /* line 359, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor #content h1 > a.link, .asciidoctor h2 > a.link, .asciidoctor h3 > a.link, .asciidoctor #toctitle > a.link, .asciidoctor .sidebarblock > .content > .title > a.link, .asciidoctor ul#downloads > li .sidebarblock > .notes > .title > a.link, ul#downloads > li .asciidoctor .sidebarblock > .notes > .title > a.link, .asciidoctor ul#downloads > li table .sidebarblock > ul[id$="-download"] > .title > a.link, ul#downloads > li table .asciidoctor .sidebarblock > ul[id$="-download"] > .title > a.link, .asciidoctor #download > div .sidebarblock > ul[id$="-download"] > .title > a.link, #download > div .asciidoctor .sidebarblock > ul[id$="-download"] > .title > a.link, .asciidoctor h4 > a.link, .asciidoctor h5 > a.link, .asciidoctor h6 > a.link {
+    color: #ba3925;
+    text-decoration: none; }
+  /* line 360, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor #content h1 > a.link:hover, .asciidoctor h2 > a.link:hover, .asciidoctor h3 > a.link:hover, .asciidoctor #toctitle > a.link:hover, .asciidoctor .sidebarblock > .content > .title > a.link:hover, .asciidoctor ul#downloads > li .sidebarblock > .notes > .title > a.link:hover, ul#downloads > li .asciidoctor .sidebarblock > .notes > .title > a.link:hover, .asciidoctor ul#downloads > li table .sidebarblock > ul[id$="-download"] > .title > a.link:hover, ul#downloads > li table .asciidoctor .sidebarblock > ul[id$="-download"] > .title > a.link:hover, .asciidoctor #download > div .sidebarblock > ul[id$="-download"] > .title > a.link:hover, #download > div .asciidoctor .sidebarblock > ul[id$="-download"] > .title > a.link:hover, .asciidoctor h4 > a.link:hover, .asciidoctor h5 > a.link:hover, .asciidoctor h6 > a.link:hover {
+    color: #a53221; }
+  /* line 362, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .audioblock, .asciidoctor .imageblock, .asciidoctor .literalblock, .asciidoctor .listingblock, .asciidoctor .stemblock, .asciidoctor .videoblock {
+    margin-bottom: 1.25em; }
+  /* line 364, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 358, /app/source-xampp-osx/stylesheets/asciidoctor.css */
   .asciidoctor #content h1:hover > a.anchor, .asciidoctor #content h1 > a.anchor:hover, .asciidoctor h2:hover > a.anchor, .asciidoctor h2 > a.anchor:hover, .asciidoctor h3:hover > a.anchor, .asciidoctor #toctitle:hover > a.anchor, .asciidoctor .sidebarblock > .content > .title:hover > a.anchor, .asciidoctor ul#downloads > li .sidebarblock > .notes > .title:hover > a.anchor, ul#downloads > li .asciidoctor .sidebarblock > .notes > .title:hover > a.anchor, .asciidoctor ul#downloads > li table .sidebarblock > ul[id$="-download"] > .title:hover > a.anchor, ul#downloads > li table .asciidoctor .sidebarblock > ul[id$="-download"] > .title:hover > a.anchor, .asciidoctor #download > div .sidebarblock > ul[id$="-download"] > .title:hover > a.anchor, #download > div .asciidoctor .sidebarblock > ul[id$="-download"] > .title:hover > a.anchor, .asciidoctor h3 > a.anchor:hover, .asciidoctor #toctitle > a.anchor:hover, .asciidoctor .sidebarblock > .content > .title > a.anchor:hover, .asciidoctor ul#downloads > li .sidebarblock > .notes > .title > a.anchor:hover, ul#downloads > li .asciidoctor .sidebarblock > .notes > .title > a.anchor:hover, .asciidoctor ul#downloads > li table .sidebarblock > ul[id$="-download"] > .title > a.anchor:hover, ul#downloads > li table .asciidoctor .sidebarblock > ul[id$="-download"] > .title > a.anchor:hover, .asciidoctor #download > div .sidebarblock > ul[id$="-download"] > .title > a.anchor:hover, #download > div .asciidoctor .sidebarblock > ul[id$="-download"] > .title > a.anchor:hover, .asciidoctor h4:hover > a.anchor, .asciidoctor h4 > a.anchor:hover, .asciidoctor h5:hover > a.anchor, .asciidoctor h5 > a.anchor:hover, .asciidoctor h6:hover > a.anchor, .asciidoctor h6 > a.anchor:hover {
     visibility: visible; }
@@ -8167,17 +9263,31 @@ th.hide-for-touch {
   .asciidoctor .audioblock, .asciidoctor .imageblock, .asciidoctor .literalblock, .asciidoctor .listingblock, .asciidoctor .stemblock, .asciidoctor .videoblock {
     margin-bottom: 1.25em; }
   /* line 364, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor .admonitionblock td.content > .title, .asciidoctor .admonitionblock ul#downloads > li td.notes > .title, ul#downloads > li .asciidoctor .admonitionblock td.notes > .title, .asciidoctor .audioblock > .title, .asciidoctor .exampleblock > .title, .asciidoctor .imageblock > .title, .asciidoctor .listingblock > .title, .asciidoctor .literalblock > .title, .asciidoctor .stemblock > .title, .asciidoctor .openblock > .title, .asciidoctor .paragraph > .title, .asciidoctor .quoteblock > .title, .asciidoctor table.tableblock > .title, .asciidoctor .verseblock > .title, .asciidoctor .videoblock > .title, .asciidoctor .dlist > .title, .asciidoctor .olist > .title, .asciidoctor .ulist > .title, .asciidoctor .qlist > .title, .asciidoctor .hdlist > .title {
     text-rendering: optimizeLegibility;
     text-align: left;
     font-family: "Noto Serif", "DejaVu Serif", serif;
     font-size: 1rem;
     font-style: italic; }
+<<<<<<< HEAD
+  /* line 366, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 366, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor table.tableblock > caption.title {
     white-space: nowrap;
     overflow: visible;
     max-width: 0; }
+<<<<<<< HEAD
+  /* line 368, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .paragraph.lead > p, .asciidoctor #preamble > .sectionbody > .paragraph:first-of-type p {
+    color: rgba(0, 0, 0, 0.85); }
+  /* line 370, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor table.tableblock #preamble > .sectionbody > .paragraph:first-of-type p {
+    font-size: inherit; }
+  /* line 372, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 368, /app/source-xampp-osx/stylesheets/asciidoctor.css */
   .asciidoctor .paragraph.lead > p, .asciidoctor #preamble > .sectionbody > .paragraph:first-of-type p {
     color: rgba(0, 0, 0, 0.85); }
@@ -8185,11 +9295,22 @@ th.hide-for-touch {
   .asciidoctor table.tableblock #preamble > .sectionbody > .paragraph:first-of-type p {
     font-size: inherit; }
   /* line 372, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor .admonitionblock > table {
     border-collapse: separate;
     border: 0;
     background: none;
     width: 100%; }
+<<<<<<< HEAD
+  /* line 373, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .admonitionblock > table td.icon {
+    text-align: center;
+    width: 80px; }
+  /* line 374, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .admonitionblock > table td.icon img {
+    max-width: none; }
+  /* line 375, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 373, /app/source-xampp-osx/stylesheets/asciidoctor.css */
   .asciidoctor .admonitionblock > table td.icon {
     text-align: center;
@@ -8198,20 +9319,32 @@ th.hide-for-touch {
   .asciidoctor .admonitionblock > table td.icon img {
     max-width: none; }
   /* line 375, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor .admonitionblock > table td.icon .title {
     font-weight: bold;
     font-family: "Open Sans", "DejaVu Sans", sans-serif;
     text-transform: uppercase; }
+<<<<<<< HEAD
+  /* line 376, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 376, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor .admonitionblock > table td.content, .asciidoctor .admonitionblock > table ul#downloads > li td.notes, ul#downloads > li .asciidoctor .admonitionblock > table td.notes {
     padding-left: 1.125em;
     padding-right: 1.25em;
     border-left: 1px solid #ddddd8;
     color: rgba(0, 0, 0, 0.6); }
+<<<<<<< HEAD
+  /* line 377, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .admonitionblock > table td.content > :last-child > :last-child, .asciidoctor .admonitionblock > table ul#downloads > li td.notes > :last-child > :last-child, ul#downloads > li .asciidoctor .admonitionblock > table td.notes > :last-child > :last-child {
+    margin-bottom: 0; }
+  /* line 379, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 377, /app/source-xampp-osx/stylesheets/asciidoctor.css */
   .asciidoctor .admonitionblock > table td.content > :last-child > :last-child, .asciidoctor .admonitionblock > table ul#downloads > li td.notes > :last-child > :last-child, ul#downloads > li .asciidoctor .admonitionblock > table td.notes > :last-child > :last-child {
     margin-bottom: 0; }
   /* line 379, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor .exampleblock > .content, .asciidoctor ul#downloads > li .exampleblock > .notes, ul#downloads > li .asciidoctor .exampleblock > .notes, .asciidoctor ul#downloads > li table .exampleblock > ul[id$="-download"], ul#downloads > li table .asciidoctor .exampleblock > ul[id$="-download"], .asciidoctor #download > div .exampleblock > ul[id$="-download"], #download > div .asciidoctor .exampleblock > ul[id$="-download"] {
     border-style: solid;
     border-width: 1px;
@@ -8221,6 +9354,15 @@ th.hide-for-touch {
     background: white;
     -webkit-border-radius: 4px;
     border-radius: 4px; }
+<<<<<<< HEAD
+  /* line 380, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .exampleblock > .content > :first-child, .asciidoctor ul#downloads > li .exampleblock > .notes > :first-child, ul#downloads > li .asciidoctor .exampleblock > .notes > :first-child, .asciidoctor ul#downloads > li table .exampleblock > ul[id$="-download"] > :first-child, ul#downloads > li table .asciidoctor .exampleblock > ul[id$="-download"] > :first-child, .asciidoctor #download > div .exampleblock > ul[id$="-download"] > :first-child, #download > div .asciidoctor .exampleblock > ul[id$="-download"] > :first-child {
+    margin-top: 0; }
+  /* line 381, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .exampleblock > .content > :last-child, .asciidoctor ul#downloads > li .exampleblock > .notes > :last-child, ul#downloads > li .asciidoctor .exampleblock > .notes > :last-child, .asciidoctor ul#downloads > li table .exampleblock > ul[id$="-download"] > :last-child, ul#downloads > li table .asciidoctor .exampleblock > ul[id$="-download"] > :last-child, .asciidoctor #download > div .exampleblock > ul[id$="-download"] > :last-child, #download > div .asciidoctor .exampleblock > ul[id$="-download"] > :last-child {
+    margin-bottom: 0; }
+  /* line 383, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 380, /app/source-xampp-osx/stylesheets/asciidoctor.css */
   .asciidoctor .exampleblock > .content > :first-child, .asciidoctor ul#downloads > li .exampleblock > .notes > :first-child, ul#downloads > li .asciidoctor .exampleblock > .notes > :first-child, .asciidoctor ul#downloads > li table .exampleblock > ul[id$="-download"] > :first-child, ul#downloads > li table .asciidoctor .exampleblock > ul[id$="-download"] > :first-child, .asciidoctor #download > div .exampleblock > ul[id$="-download"] > :first-child, #download > div .asciidoctor .exampleblock > ul[id$="-download"] > :first-child {
     margin-top: 0; }
@@ -8228,6 +9370,7 @@ th.hide-for-touch {
   .asciidoctor .exampleblock > .content > :last-child, .asciidoctor ul#downloads > li .exampleblock > .notes > :last-child, ul#downloads > li .asciidoctor .exampleblock > .notes > :last-child, .asciidoctor ul#downloads > li table .exampleblock > ul[id$="-download"] > :last-child, ul#downloads > li table .asciidoctor .exampleblock > ul[id$="-download"] > :last-child, .asciidoctor #download > div .exampleblock > ul[id$="-download"] > :last-child, #download > div .asciidoctor .exampleblock > ul[id$="-download"] > :last-child {
     margin-bottom: 0; }
   /* line 383, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor .sidebarblock {
     border-style: solid;
     border-width: 1px;
@@ -8237,6 +9380,15 @@ th.hide-for-touch {
     background: #f8f8f7;
     -webkit-border-radius: 4px;
     border-radius: 4px; }
+<<<<<<< HEAD
+  /* line 384, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .sidebarblock > :first-child {
+    margin-top: 0; }
+  /* line 385, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .sidebarblock > :last-child {
+    margin-bottom: 0; }
+  /* line 386, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 384, /app/source-xampp-osx/stylesheets/asciidoctor.css */
   .asciidoctor .sidebarblock > :first-child {
     margin-top: 0; }
@@ -8244,10 +9396,23 @@ th.hide-for-touch {
   .asciidoctor .sidebarblock > :last-child {
     margin-bottom: 0; }
   /* line 386, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor .sidebarblock > .content > .title, .asciidoctor ul#downloads > li .sidebarblock > .notes > .title, ul#downloads > li .asciidoctor .sidebarblock > .notes > .title, .asciidoctor ul#downloads > li table .sidebarblock > ul[id$="-download"] > .title, ul#downloads > li table .asciidoctor .sidebarblock > ul[id$="-download"] > .title, .asciidoctor #download > div .sidebarblock > ul[id$="-download"] > .title, #download > div .asciidoctor .sidebarblock > ul[id$="-download"] > .title {
     color: #7a2518;
     margin-top: 0;
     text-align: center; }
+<<<<<<< HEAD
+  /* line 388, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .exampleblock > .content > :last-child > :last-child, .asciidoctor ul#downloads > li .exampleblock > .notes > :last-child > :last-child, ul#downloads > li .asciidoctor .exampleblock > .notes > :last-child > :last-child, .asciidoctor ul#downloads > li table .exampleblock > ul[id$="-download"] > :last-child > :last-child, ul#downloads > li table .asciidoctor .exampleblock > ul[id$="-download"] > :last-child > :last-child, .asciidoctor #download > div .exampleblock > ul[id$="-download"] > :last-child > :last-child, #download > div .asciidoctor .exampleblock > ul[id$="-download"] > :last-child > :last-child, .asciidoctor .exampleblock > .content .olist > ol > li:last-child > :last-child, .asciidoctor ul#downloads > li .exampleblock > .notes .olist > ol > li:last-child > :last-child, ul#downloads > li .asciidoctor .exampleblock > .notes .olist > ol > li:last-child > :last-child, .asciidoctor ul#downloads > li table .exampleblock > ul[id$="-download"] .olist > ol > li:last-child > :last-child, ul#downloads > li table .asciidoctor .exampleblock > ul[id$="-download"] .olist > ol > li:last-child > :last-child, .asciidoctor #download > div .exampleblock > ul[id$="-download"] .olist > ol > li:last-child > :last-child, #download > div .asciidoctor .exampleblock > ul[id$="-download"] .olist > ol > li:last-child > :last-child, .asciidoctor .exampleblock > .content .ulist > ul > li:last-child > :last-child, .asciidoctor ul#downloads > li .exampleblock > .notes .ulist > ul > li:last-child > :last-child, ul#downloads > li .asciidoctor .exampleblock > .notes .ulist > ul > li:last-child > :last-child, .asciidoctor ul#downloads > li table .exampleblock > ul[id$="-download"] .ulist > ul > li:last-child > :last-child, ul#downloads > li table .asciidoctor .exampleblock > ul[id$="-download"] .ulist > ul > li:last-child > :last-child, .asciidoctor #download > div .exampleblock > ul[id$="-download"] .ulist > ul > li:last-child > :last-child, #download > div .asciidoctor .exampleblock > ul[id$="-download"] .ulist > ul > li:last-child > :last-child, .asciidoctor .exampleblock > .content .qlist > ol > li:last-child > :last-child, .asciidoctor ul#downloads > li .exampleblock > .notes .qlist > ol > li:last-child > :last-child, ul#downloads > li .asciidoctor .exampleblock > .notes .qlist > ol > li:last-child > :last-child, .asciidoctor ul#downloads > li table .exampleblock > ul[id$="-download"] .qlist > ol > li:last-child > :last-child, ul#downloads > li table .asciidoctor .exampleblock > ul[id$="-download"] .qlist > ol > li:last-child > :last-child, .asciidoctor #download > div .exampleblock > ul[id$="-download"] .qlist > ol > li:last-child > :last-child, #download > div .asciidoctor .exampleblock > ul[id$="-download"] .qlist > ol > li:last-child > :last-child, .asciidoctor .sidebarblock > .content > :last-child > :last-child, .asciidoctor ul#downloads > li .sidebarblock > .notes > :last-child > :last-child, ul#downloads > li .asciidoctor .sidebarblock > .notes > :last-child > :last-child, .asciidoctor ul#downloads > li table .sidebarblock > ul[id$="-download"] > :last-child > :last-child, ul#downloads > li table .asciidoctor .sidebarblock > ul[id$="-download"] > :last-child > :last-child, .asciidoctor #download > div .sidebarblock > ul[id$="-download"] > :last-child > :last-child, #download > div .asciidoctor .sidebarblock > ul[id$="-download"] > :last-child > :last-child, .asciidoctor .sidebarblock > .content .olist > ol > li:last-child > :last-child, .asciidoctor ul#downloads > li .sidebarblock > .notes .olist > ol > li:last-child > :last-child, ul#downloads > li .asciidoctor .sidebarblock > .notes .olist > ol > li:last-child > :last-child, .asciidoctor ul#downloads > li table .sidebarblock > ul[id$="-download"] .olist > ol > li:last-child > :last-child, ul#downloads > li table .asciidoctor .sidebarblock > ul[id$="-download"] .olist > ol > li:last-child > :last-child, .asciidoctor #download > div .sidebarblock > ul[id$="-download"] .olist > ol > li:last-child > :last-child, #download > div .asciidoctor .sidebarblock > ul[id$="-download"] .olist > ol > li:last-child > :last-child, .asciidoctor .sidebarblock > .content .ulist > ul > li:last-child > :last-child, .asciidoctor ul#downloads > li .sidebarblock > .notes .ulist > ul > li:last-child > :last-child, ul#downloads > li .asciidoctor .sidebarblock > .notes .ulist > ul > li:last-child > :last-child, .asciidoctor ul#downloads > li table .sidebarblock > ul[id$="-download"] .ulist > ul > li:last-child > :last-child, ul#downloads > li table .asciidoctor .sidebarblock > ul[id$="-download"] .ulist > ul > li:last-child > :last-child, .asciidoctor #download > div .sidebarblock > ul[id$="-download"] .ulist > ul > li:last-child > :last-child, #download > div .asciidoctor .sidebarblock > ul[id$="-download"] .ulist > ul > li:last-child > :last-child, .asciidoctor .sidebarblock > .content .qlist > ol > li:last-child > :last-child, .asciidoctor ul#downloads > li .sidebarblock > .notes .qlist > ol > li:last-child > :last-child, ul#downloads > li .asciidoctor .sidebarblock > .notes .qlist > ol > li:last-child > :last-child, .asciidoctor ul#downloads > li table .sidebarblock > ul[id$="-download"] .qlist > ol > li:last-child > :last-child, ul#downloads > li table .asciidoctor .sidebarblock > ul[id$="-download"] .qlist > ol > li:last-child > :last-child, .asciidoctor #download > div .sidebarblock > ul[id$="-download"] .qlist > ol > li:last-child > :last-child, #download > div .asciidoctor .sidebarblock > ul[id$="-download"] .qlist > ol > li:last-child > :last-child {
+    margin-bottom: 0; }
+  /* line 390, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .literalblock pre, .asciidoctor .listingblock pre:not(.highlight), .asciidoctor .listingblock pre[class="highlight"], .asciidoctor .listingblock pre[class^="highlight "], .asciidoctor .listingblock pre.CodeRay, .asciidoctor .listingblock pre.prettyprint {
+    background: #f7f7f8; }
+  /* line 391, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .sidebarblock .literalblock pre, .asciidoctor .sidebarblock .listingblock pre:not(.highlight), .asciidoctor .sidebarblock .listingblock pre[class="highlight"], .asciidoctor .sidebarblock .listingblock pre[class^="highlight "], .asciidoctor .sidebarblock .listingblock pre.CodeRay, .asciidoctor .sidebarblock .listingblock pre.prettyprint {
+    background: #f2f1f1; }
+  /* line 393, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 388, /app/source-xampp-osx/stylesheets/asciidoctor.css */
   .asciidoctor .exampleblock > .content > :last-child > :last-child, .asciidoctor ul#downloads > li .exampleblock > .notes > :last-child > :last-child, ul#downloads > li .asciidoctor .exampleblock > .notes > :last-child > :last-child, .asciidoctor ul#downloads > li table .exampleblock > ul[id$="-download"] > :last-child > :last-child, ul#downloads > li table .asciidoctor .exampleblock > ul[id$="-download"] > :last-child > :last-child, .asciidoctor #download > div .exampleblock > ul[id$="-download"] > :last-child > :last-child, #download > div .asciidoctor .exampleblock > ul[id$="-download"] > :last-child > :last-child, .asciidoctor .exampleblock > .content .olist > ol > li:last-child > :last-child, .asciidoctor ul#downloads > li .exampleblock > .notes .olist > ol > li:last-child > :last-child, ul#downloads > li .asciidoctor .exampleblock > .notes .olist > ol > li:last-child > :last-child, .asciidoctor ul#downloads > li table .exampleblock > ul[id$="-download"] .olist > ol > li:last-child > :last-child, ul#downloads > li table .asciidoctor .exampleblock > ul[id$="-download"] .olist > ol > li:last-child > :last-child, .asciidoctor #download > div .exampleblock > ul[id$="-download"] .olist > ol > li:last-child > :last-child, #download > div .asciidoctor .exampleblock > ul[id$="-download"] .olist > ol > li:last-child > :last-child, .asciidoctor .exampleblock > .content .ulist > ul > li:last-child > :last-child, .asciidoctor ul#downloads > li .exampleblock > .notes .ulist > ul > li:last-child > :last-child, ul#downloads > li .asciidoctor .exampleblock > .notes .ulist > ul > li:last-child > :last-child, .asciidoctor ul#downloads > li table .exampleblock > ul[id$="-download"] .ulist > ul > li:last-child > :last-child, ul#downloads > li table .asciidoctor .exampleblock > ul[id$="-download"] .ulist > ul > li:last-child > :last-child, .asciidoctor #download > div .exampleblock > ul[id$="-download"] .ulist > ul > li:last-child > :last-child, #download > div .asciidoctor .exampleblock > ul[id$="-download"] .ulist > ul > li:last-child > :last-child, .asciidoctor .exampleblock > .content .qlist > ol > li:last-child > :last-child, .asciidoctor ul#downloads > li .exampleblock > .notes .qlist > ol > li:last-child > :last-child, ul#downloads > li .asciidoctor .exampleblock > .notes .qlist > ol > li:last-child > :last-child, .asciidoctor ul#downloads > li table .exampleblock > ul[id$="-download"] .qlist > ol > li:last-child > :last-child, ul#downloads > li table .asciidoctor .exampleblock > ul[id$="-download"] .qlist > ol > li:last-child > :last-child, .asciidoctor #download > div .exampleblock > ul[id$="-download"] .qlist > ol > li:last-child > :last-child, #download > div .asciidoctor .exampleblock > ul[id$="-download"] .qlist > ol > li:last-child > :last-child, .asciidoctor .sidebarblock > .content > :last-child > :last-child, .asciidoctor ul#downloads > li .sidebarblock > .notes > :last-child > :last-child, ul#downloads > li .asciidoctor .sidebarblock > .notes > :last-child > :last-child, .asciidoctor ul#downloads > li table .sidebarblock > ul[id$="-download"] > :last-child > :last-child, ul#downloads > li table .asciidoctor .sidebarblock > ul[id$="-download"] > :last-child > :last-child, .asciidoctor #download > div .sidebarblock > ul[id$="-download"] > :last-child > :last-child, #download > div .asciidoctor .sidebarblock > ul[id$="-download"] > :last-child > :last-child, .asciidoctor .sidebarblock > .content .olist > ol > li:last-child > :last-child, .asciidoctor ul#downloads > li .sidebarblock > .notes .olist > ol > li:last-child > :last-child, ul#downloads > li .asciidoctor .sidebarblock > .notes .olist > ol > li:last-child > :last-child, .asciidoctor ul#downloads > li table .sidebarblock > ul[id$="-download"] .olist > ol > li:last-child > :last-child, ul#downloads > li table .asciidoctor .sidebarblock > ul[id$="-download"] .olist > ol > li:last-child > :last-child, .asciidoctor #download > div .sidebarblock > ul[id$="-download"] .olist > ol > li:last-child > :last-child, #download > div .asciidoctor .sidebarblock > ul[id$="-download"] .olist > ol > li:last-child > :last-child, .asciidoctor .sidebarblock > .content .ulist > ul > li:last-child > :last-child, .asciidoctor ul#downloads > li .sidebarblock > .notes .ulist > ul > li:last-child > :last-child, ul#downloads > li .asciidoctor .sidebarblock > .notes .ulist > ul > li:last-child > :last-child, .asciidoctor ul#downloads > li table .sidebarblock > ul[id$="-download"] .ulist > ul > li:last-child > :last-child, ul#downloads > li table .asciidoctor .sidebarblock > ul[id$="-download"] .ulist > ul > li:last-child > :last-child, .asciidoctor #download > div .sidebarblock > ul[id$="-download"] .ulist > ul > li:last-child > :last-child, #download > div .asciidoctor .sidebarblock > ul[id$="-download"] .ulist > ul > li:last-child > :last-child, .asciidoctor .sidebarblock > .content .qlist > ol > li:last-child > :last-child, .asciidoctor ul#downloads > li .sidebarblock > .notes .qlist > ol > li:last-child > :last-child, ul#downloads > li .asciidoctor .sidebarblock > .notes .qlist > ol > li:last-child > :last-child, .asciidoctor ul#downloads > li table .sidebarblock > ul[id$="-download"] .qlist > ol > li:last-child > :last-child, ul#downloads > li table .asciidoctor .sidebarblock > ul[id$="-download"] .qlist > ol > li:last-child > :last-child, .asciidoctor #download > div .sidebarblock > ul[id$="-download"] .qlist > ol > li:last-child > :last-child, #download > div .asciidoctor .sidebarblock > ul[id$="-download"] .qlist > ol > li:last-child > :last-child {
     margin-bottom: 0; }
@@ -8258,18 +9423,40 @@ th.hide-for-touch {
   .asciidoctor .sidebarblock .literalblock pre, .asciidoctor .sidebarblock .listingblock pre:not(.highlight), .asciidoctor .sidebarblock .listingblock pre[class="highlight"], .asciidoctor .sidebarblock .listingblock pre[class^="highlight "], .asciidoctor .sidebarblock .listingblock pre.CodeRay, .asciidoctor .sidebarblock .listingblock pre.prettyprint {
     background: #f2f1f1; }
   /* line 393, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor .literalblock pre, .asciidoctor .literalblock pre[class], .asciidoctor .listingblock pre, .asciidoctor .listingblock pre[class] {
     -webkit-border-radius: 4px;
     border-radius: 4px;
     word-wrap: break-word;
     padding: 1em;
     font-size: 0.8125em; }
+<<<<<<< HEAD
+  /* line 394, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 394, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor .literalblock pre.nowrap, .asciidoctor .literalblock pre[class].nowrap, .asciidoctor .listingblock pre.nowrap, .asciidoctor .listingblock pre[class].nowrap {
     overflow-x: auto;
     white-space: pre;
     word-wrap: normal; }
   @media only screen and (min-width: 768px) {
+<<<<<<< HEAD
+    /* line 395, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+    .asciidoctor .literalblock pre, .asciidoctor .literalblock pre[class], .asciidoctor .listingblock pre, .asciidoctor .listingblock pre[class] {
+      font-size: 0.90625em; } }
+  @media only screen and (min-width: 1280px) {
+    /* line 396, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+    .asciidoctor .literalblock pre, .asciidoctor .literalblock pre[class], .asciidoctor .listingblock pre, .asciidoctor .listingblock pre[class] {
+      font-size: 1em; } }
+  /* line 398, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .literalblock.output pre {
+    color: #f7f7f8;
+    background-color: rgba(0, 0, 0, 0.9); }
+  /* line 400, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .listingblock pre.highlightjs {
+    padding: 0; }
+  /* line 401, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
     /* line 395, /app/source-xampp-osx/stylesheets/asciidoctor.css */
     .asciidoctor .literalblock pre, .asciidoctor .literalblock pre[class], .asciidoctor .listingblock pre, .asciidoctor .listingblock pre[class] {
       font-size: 0.90625em; } }
@@ -8285,10 +9472,20 @@ th.hide-for-touch {
   .asciidoctor .listingblock pre.highlightjs {
     padding: 0; }
   /* line 401, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor .listingblock pre.highlightjs > code {
     padding: 1em;
     -webkit-border-radius: 4px;
     border-radius: 4px; }
+<<<<<<< HEAD
+  /* line 403, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .listingblock pre.prettyprint {
+    border-width: 0; }
+  /* line 405, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .listingblock > .content, .asciidoctor ul#downloads > li .listingblock > .notes, ul#downloads > li .asciidoctor .listingblock > .notes, .asciidoctor ul#downloads > li table .listingblock > ul[id$="-download"], ul#downloads > li table .asciidoctor .listingblock > ul[id$="-download"], .asciidoctor #download > div .listingblock > ul[id$="-download"], #download > div .asciidoctor .listingblock > ul[id$="-download"] {
+    position: relative; }
+  /* line 407, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 403, /app/source-xampp-osx/stylesheets/asciidoctor.css */
   .asciidoctor .listingblock pre.prettyprint {
     border-width: 0; }
@@ -8296,6 +9493,7 @@ th.hide-for-touch {
   .asciidoctor .listingblock > .content, .asciidoctor ul#downloads > li .listingblock > .notes, ul#downloads > li .asciidoctor .listingblock > .notes, .asciidoctor ul#downloads > li table .listingblock > ul[id$="-download"], ul#downloads > li table .asciidoctor .listingblock > ul[id$="-download"], .asciidoctor #download > div .listingblock > ul[id$="-download"], #download > div .asciidoctor .listingblock > ul[id$="-download"] {
     position: relative; }
   /* line 407, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor .listingblock code[data-lang]:before {
     display: none;
     content: attr(data-lang);
@@ -8306,38 +9504,83 @@ th.hide-for-touch {
     line-height: 1;
     text-transform: uppercase;
     color: #999; }
+<<<<<<< HEAD
+  /* line 409, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .listingblock:hover code[data-lang]:before {
+    display: block; }
+  /* line 411, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 409, /app/source-xampp-osx/stylesheets/asciidoctor.css */
   .asciidoctor .listingblock:hover code[data-lang]:before {
     display: block; }
   /* line 411, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor .listingblock.terminal pre .command:before {
     content: attr(data-prompt);
     padding-right: 0.5em;
     color: #999; }
+<<<<<<< HEAD
+  /* line 413, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .listingblock.terminal pre .command:not([data-prompt]):before {
+    content: "$"; }
+  /* line 415, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 413, /app/source-xampp-osx/stylesheets/asciidoctor.css */
   .asciidoctor .listingblock.terminal pre .command:not([data-prompt]):before {
     content: "$"; }
   /* line 415, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor table.pyhltable {
     border-collapse: separate;
     border: 0;
     margin-bottom: 0;
     background: none; }
+<<<<<<< HEAD
+  /* line 417, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 417, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor table.pyhltable td {
     vertical-align: top;
     padding-top: 0;
     padding-bottom: 0; }
+<<<<<<< HEAD
+  /* line 419, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor table.pyhltable td.code {
+    padding-left: .75em;
+    padding-right: 0; }
+  /* line 421, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 419, /app/source-xampp-osx/stylesheets/asciidoctor.css */
   .asciidoctor table.pyhltable td.code {
     padding-left: .75em;
     padding-right: 0; }
   /* line 421, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor pre.pygments .lineno, .asciidoctor table.pyhltable td:not(.code) {
     color: #999;
     padding-left: 0;
     padding-right: .5em;
     border-right: 1px solid #ddddd8; }
+<<<<<<< HEAD
+  /* line 423, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor pre.pygments .lineno {
+    display: inline-block;
+    margin-right: .25em; }
+  /* line 425, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor table.pyhltable .linenodiv {
+    background: none !important;
+    padding-right: 0 !important; }
+  /* line 427, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .quoteblock {
+    margin: 0 1em 1.25em 1.5em;
+    display: table; }
+  /* line 428, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .quoteblock > .title {
+    margin-left: -1.5em;
+    margin-bottom: 0.75em; }
+  /* line 429, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 423, /app/source-xampp-osx/stylesheets/asciidoctor.css */
   .asciidoctor pre.pygments .lineno {
     display: inline-block;
@@ -8355,6 +9598,7 @@ th.hide-for-touch {
     margin-left: -1.5em;
     margin-bottom: 0.75em; }
   /* line 429, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor .quoteblock blockquote, .asciidoctor .quoteblock blockquote p {
     color: rgba(0, 0, 0, 0.85);
     font-size: 1.15rem;
@@ -8363,12 +9607,20 @@ th.hide-for-touch {
     letter-spacing: 0;
     font-style: italic;
     text-align: justify; }
+<<<<<<< HEAD
+  /* line 430, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 430, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor .quoteblock blockquote {
     margin: 0;
     padding: 0;
     border: 0; }
+<<<<<<< HEAD
+  /* line 431, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 431, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor .quoteblock blockquote:before {
     content: "\201c";
     float: left;
@@ -8378,20 +9630,43 @@ th.hide-for-touch {
     margin-left: -0.6em;
     color: #7a2518;
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); }
+<<<<<<< HEAD
+  /* line 432, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .quoteblock blockquote > .paragraph:last-child p {
+    margin-bottom: 0; }
+  /* line 433, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 432, /app/source-xampp-osx/stylesheets/asciidoctor.css */
   .asciidoctor .quoteblock blockquote > .paragraph:last-child p {
     margin-bottom: 0; }
   /* line 433, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor .quoteblock .attribution {
     margin-top: 0.5em;
     margin-right: 0.5ex;
     text-align: right; }
+<<<<<<< HEAD
+  /* line 434, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 434, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor .quoteblock .quoteblock {
     margin-left: 0;
     margin-right: 0;
     padding: 0.5em 0;
     border-left: 3px solid rgba(0, 0, 0, 0.6); }
+<<<<<<< HEAD
+  /* line 435, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .quoteblock .quoteblock blockquote {
+    padding: 0 0 0 0.75em; }
+  /* line 436, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .quoteblock .quoteblock blockquote:before {
+    display: none; }
+  /* line 438, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .verseblock {
+    margin: 0 1em 1.25em 1em; }
+  /* line 439, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 435, /app/source-xampp-osx/stylesheets/asciidoctor.css */
   .asciidoctor .quoteblock .quoteblock blockquote {
     padding: 0 0 0 0.75em; }
@@ -8402,12 +9677,23 @@ th.hide-for-touch {
   .asciidoctor .verseblock {
     margin: 0 1em 1.25em 1em; }
   /* line 439, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor .verseblock pre {
     font-family: "Open Sans", "DejaVu Sans", sans;
     font-size: 1.15rem;
     color: rgba(0, 0, 0, 0.85);
     font-weight: 300;
     text-rendering: optimizeLegibility; }
+<<<<<<< HEAD
+  /* line 440, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .verseblock pre strong {
+    font-weight: 400; }
+  /* line 441, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .verseblock .attribution {
+    margin-top: 1.25rem;
+    margin-left: 0.5ex; }
+  /* line 443, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 440, /app/source-xampp-osx/stylesheets/asciidoctor.css */
   .asciidoctor .verseblock pre strong {
     font-weight: 400; }
@@ -8416,18 +9702,104 @@ th.hide-for-touch {
     margin-top: 1.25rem;
     margin-left: 0.5ex; }
   /* line 443, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor .quoteblock .attribution, .asciidoctor .verseblock .attribution {
     font-size: 0.9375em;
     line-height: 1.45;
     font-style: italic; }
+<<<<<<< HEAD
+  /* line 444, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .quoteblock .attribution br, .asciidoctor .verseblock .attribution br {
+    display: none; }
+  /* line 445, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 444, /app/source-xampp-osx/stylesheets/asciidoctor.css */
   .asciidoctor .quoteblock .attribution br, .asciidoctor .verseblock .attribution br {
     display: none; }
   /* line 445, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor .quoteblock .attribution cite, .asciidoctor .verseblock .attribution cite {
     display: block;
     letter-spacing: -0.05em;
     color: rgba(0, 0, 0, 0.6); }
+<<<<<<< HEAD
+  /* line 447, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .quoteblock.abstract {
+    margin: 0 0 1.25em 0;
+    display: block; }
+  /* line 448, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .quoteblock.abstract blockquote, .asciidoctor .quoteblock.abstract blockquote p {
+    text-align: left;
+    word-spacing: 0; }
+  /* line 449, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .quoteblock.abstract blockquote:before, .asciidoctor .quoteblock.abstract blockquote p:first-of-type:before {
+    display: none; }
+  /* line 451, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor table.tableblock {
+    max-width: 100%;
+    border-collapse: separate; }
+  /* line 452, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor table.tableblock td > .paragraph:last-child p > p:last-child, .asciidoctor table.tableblock th > p:last-child, .asciidoctor table.tableblock td > p:last-child {
+    margin-bottom: 0; }
+  /* line 454, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor table.spread {
+    width: 100%; }
+  /* line 456, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor table.tableblock, .asciidoctor th.tableblock, .asciidoctor td.tableblock {
+    border: 0 solid #dedede; }
+  /* line 458, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor table.grid-all th.tableblock, .asciidoctor table.grid-all td.tableblock {
+    border-width: 0 1px 1px 0; }
+  /* line 460, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor table.grid-all tfoot > tr > th.tableblock, .asciidoctor table.grid-all tfoot > tr > td.tableblock {
+    border-width: 1px 1px 0 0; }
+  /* line 462, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor table.grid-cols th.tableblock, .asciidoctor table.grid-cols td.tableblock {
+    border-width: 0 1px 0 0; }
+  /* line 464, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor table.grid-all * > tr > .tableblock:last-child, .asciidoctor table.grid-cols * > tr > .tableblock:last-child {
+    border-right-width: 0; }
+  /* line 466, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor table.grid-rows th.tableblock, .asciidoctor table.grid-rows td.tableblock {
+    border-width: 0 0 1px 0; }
+  /* line 468, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor table.grid-all tbody > tr:last-child > th.tableblock, .asciidoctor table.grid-all tbody > tr:last-child > td.tableblock, .asciidoctor table.grid-all thead:last-child > tr > th.tableblock, .asciidoctor table.grid-rows tbody > tr:last-child > th.tableblock, .asciidoctor table.grid-rows tbody > tr:last-child > td.tableblock, .asciidoctor table.grid-rows thead:last-child > tr > th.tableblock {
+    border-bottom-width: 0; }
+  /* line 470, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor table.grid-rows tfoot > tr > th.tableblock, .asciidoctor table.grid-rows tfoot > tr > td.tableblock {
+    border-width: 1px 0 0 0; }
+  /* line 472, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor table.frame-all {
+    border-width: 1px; }
+  /* line 474, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor table.frame-sides {
+    border-width: 0 1px; }
+  /* line 476, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor table.frame-topbot {
+    border-width: 1px 0; }
+  /* line 478, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor th.halign-left, .asciidoctor td.halign-left {
+    text-align: left; }
+  /* line 480, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor th.halign-right, .asciidoctor td.halign-right {
+    text-align: right; }
+  /* line 482, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor th.halign-center, .asciidoctor td.halign-center {
+    text-align: center; }
+  /* line 484, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor th.valign-top, .asciidoctor td.valign-top {
+    vertical-align: top; }
+  /* line 486, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor th.valign-bottom, .asciidoctor td.valign-bottom {
+    vertical-align: bottom; }
+  /* line 488, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor th.valign-middle, .asciidoctor td.valign-middle {
+    vertical-align: middle; }
+  /* line 490, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor table thead th, .asciidoctor table tfoot th {
+    font-weight: bold; }
+  /* line 492, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 447, /app/source-xampp-osx/stylesheets/asciidoctor.css */
   .asciidoctor .quoteblock.abstract {
     margin: 0 0 1.25em 0;
@@ -8504,10 +9876,56 @@ th.hide-for-touch {
   .asciidoctor table thead th, .asciidoctor table tfoot th {
     font-weight: bold; }
   /* line 492, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor tbody tr th {
     display: table-cell;
     line-height: 1.6;
     background: #f7f8f7; }
+<<<<<<< HEAD
+  /* line 494, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor tbody tr th, .asciidoctor tbody tr th p, .asciidoctor tfoot tr th, .asciidoctor tfoot tr th p {
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: bold; }
+  /* line 496, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor p.tableblock > code:only-child {
+    background: none;
+    padding: 0; }
+  /* line 498, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor p.tableblock {
+    font-size: 1em; }
+  /* line 500, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor td > div.verse {
+    white-space: pre; }
+  /* line 502, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor ol {
+    margin-left: 1.75em; }
+  /* line 504, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor ul li ol {
+    margin-left: 1.5em; }
+  /* line 506, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor dl dd {
+    margin-left: 1.125em; }
+  /* line 508, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor dl dd:last-child, .asciidoctor dl dd:last-child > :last-child {
+    margin-bottom: 0; }
+  /* line 510, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor ol > li p, .asciidoctor ul > li p, .asciidoctor ul dd, .asciidoctor ol dd, .asciidoctor .olist .olist, .asciidoctor .ulist .ulist, .asciidoctor .ulist .olist, .asciidoctor .olist .ulist {
+    margin-bottom: 0.625em; }
+  /* line 512, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor ul.unstyled, .asciidoctor ol.unnumbered, .asciidoctor ul.checklist, .asciidoctor ul.none {
+    list-style-type: none; }
+  /* line 514, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor ul.unstyled, .asciidoctor ol.unnumbered, .asciidoctor ul.checklist {
+    margin-left: 0.625em; }
+  /* line 516, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor ul.checklist li > p:first-child > .fa-check-square-o:first-child, .asciidoctor ul.checklist li > p:first-child > input[type="checkbox"]:first-child {
+    margin-right: 0.25em; }
+  /* line 518, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor ul.checklist li > p:first-child > input[type="checkbox"]:first-child {
+    position: relative;
+    top: 1px; }
+  /* line 520, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 494, /app/source-xampp-osx/stylesheets/asciidoctor.css */
   .asciidoctor tbody tr th, .asciidoctor tbody tr th p, .asciidoctor tfoot tr th, .asciidoctor tfoot tr th p {
     color: rgba(0, 0, 0, 0.8);
@@ -8551,6 +9969,7 @@ th.hide-for-touch {
     position: relative;
     top: 1px; }
   /* line 520, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor ul.inline {
     margin: 0 auto 0.625em auto;
     margin-left: -1.375em;
@@ -8558,12 +9977,71 @@ th.hide-for-touch {
     padding: 0;
     list-style: none;
     overflow: hidden; }
+<<<<<<< HEAD
+  /* line 521, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 521, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor ul.inline > li {
     list-style: none;
     float: left;
     margin-left: 1.375em;
     display: block; }
+<<<<<<< HEAD
+  /* line 522, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor ul.inline > li > * {
+    display: block; }
+  /* line 524, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .unstyled dl dt {
+    font-weight: normal;
+    font-style: normal; }
+  /* line 526, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor ol.arabic {
+    list-style-type: decimal; }
+  /* line 528, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor ol.decimal {
+    list-style-type: decimal-leading-zero; }
+  /* line 530, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor ol.loweralpha {
+    list-style-type: lower-alpha; }
+  /* line 532, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor ol.upperalpha {
+    list-style-type: upper-alpha; }
+  /* line 534, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor ol.lowerroman {
+    list-style-type: lower-roman; }
+  /* line 536, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor ol.upperroman {
+    list-style-type: upper-roman; }
+  /* line 538, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor ol.lowergreek {
+    list-style-type: lower-greek; }
+  /* line 540, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .hdlist > table, .asciidoctor .colist > table {
+    border: 0;
+    background: none; }
+  /* line 541, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .hdlist > table > tbody > tr, .asciidoctor .colist > table > tbody > tr {
+    background: none; }
+  /* line 543, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor td.hdlist1 {
+    padding-right: .75em;
+    font-weight: bold; }
+  /* line 545, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor td.hdlist1, .asciidoctor td.hdlist2 {
+    vertical-align: top; }
+  /* line 547, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .literalblock + .colist, .asciidoctor .listingblock + .colist {
+    margin-top: -0.5em; }
+  /* line 549, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .colist > table tr > td:first-of-type {
+    padding: 0 0.75em;
+    line-height: 1; }
+  /* line 550, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .colist > table tr > td:last-of-type {
+    padding: 0.25em 0; }
+  /* line 552, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 522, /app/source-xampp-osx/stylesheets/asciidoctor.css */
   .asciidoctor ul.inline > li > * {
     display: block; }
@@ -8617,12 +10095,31 @@ th.hide-for-touch {
   .asciidoctor .colist > table tr > td:last-of-type {
     padding: 0.25em 0; }
   /* line 552, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor .thumb, .asciidoctor .th {
     line-height: 0;
     display: inline-block;
     border: solid 4px white;
     -webkit-box-shadow: 0 0 0 1px #dddddd;
     box-shadow: 0 0 0 1px #dddddd; }
+<<<<<<< HEAD
+  /* line 554, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .imageblock.left, .asciidoctor .imageblock[style*="float: left"] {
+    margin: 0.25em 0.625em 1.25em 0; }
+  /* line 555, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .imageblock.right, .asciidoctor body[class$="about"] dl dd img.imageblock, body[class$="about"] dl dd .asciidoctor img.imageblock, .asciidoctor .imageblock[style*="float: right"] {
+    margin: 0.25em 0 1.25em 0.625em; }
+  /* line 556, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .imageblock > .title {
+    margin-bottom: 0; }
+  /* line 557, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .imageblock.thumb, .asciidoctor .imageblock.th {
+    border-width: 6px; }
+  /* line 558, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .imageblock.thumb > .title, .asciidoctor .imageblock.th > .title {
+    padding: 0 0.125em; }
+  /* line 560, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 554, /app/source-xampp-osx/stylesheets/asciidoctor.css */
   .asciidoctor .imageblock.left, .asciidoctor .imageblock[style*="float: left"] {
     margin: 0.25em 0.625em 1.25em 0; }
@@ -8639,11 +10136,34 @@ th.hide-for-touch {
   .asciidoctor .imageblock.thumb > .title, .asciidoctor .imageblock.th > .title {
     padding: 0 0.125em; }
   /* line 560, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor .image.left, .asciidoctor .image.right, .asciidoctor body[class$="about"] dl dd img.image, body[class$="about"] dl dd .asciidoctor img.image {
     margin-top: 0.25em;
     margin-bottom: 0.25em;
     display: inline-block;
     line-height: 0; }
+<<<<<<< HEAD
+  /* line 561, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .image.left {
+    margin-right: 0.625em; }
+  /* line 562, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .image.right, .asciidoctor body[class$="about"] dl dd img.image, body[class$="about"] dl dd .asciidoctor img.image {
+    margin-left: 0.625em; }
+  /* line 564, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor a.image {
+    text-decoration: none; }
+  /* line 566, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor span.footnote, .asciidoctor span.footnoteref {
+    vertical-align: super;
+    font-size: 0.875em; }
+  /* line 567, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor span.footnote a, .asciidoctor span.footnoteref a {
+    text-decoration: none; }
+  /* line 568, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor span.footnote a:active, .asciidoctor span.footnoteref a:active {
+    text-decoration: underline; }
+  /* line 570, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 561, /app/source-xampp-osx/stylesheets/asciidoctor.css */
   .asciidoctor .image.left {
     margin-right: 0.625em; }
@@ -8664,17 +10184,26 @@ th.hide-for-touch {
   .asciidoctor span.footnote a:active, .asciidoctor span.footnoteref a:active {
     text-decoration: underline; }
   /* line 570, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor #footnotes {
     padding-top: 0.75em;
     padding-bottom: 0.75em;
     margin-bottom: 0.625em; }
+<<<<<<< HEAD
+  /* line 571, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 571, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor #footnotes hr {
     width: 20%;
     min-width: 6.25em;
     margin: -.25em 0 .75em 0;
     border-width: 1px 0 0 0; }
+<<<<<<< HEAD
+  /* line 572, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 572, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor #footnotes .footnote {
     padding: 0 0.375em;
     line-height: 1.3;
@@ -8682,6 +10211,16 @@ th.hide-for-touch {
     margin-left: 1.2em;
     text-indent: -1.2em;
     margin-bottom: .2em; }
+<<<<<<< HEAD
+  /* line 573, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor #footnotes .footnote a:first-of-type {
+    font-weight: bold;
+    text-decoration: none; }
+  /* line 574, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor #footnotes .footnote:last-of-type {
+    margin-bottom: 0; }
+  /* line 576, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 573, /app/source-xampp-osx/stylesheets/asciidoctor.css */
   .asciidoctor #footnotes .footnote a:first-of-type {
     font-weight: bold;
@@ -8690,16 +10229,144 @@ th.hide-for-touch {
   .asciidoctor #footnotes .footnote:last-of-type {
     margin-bottom: 0; }
   /* line 576, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor #content #footnotes {
     margin-top: -0.625em;
     margin-bottom: 0;
     padding: 0.75em 0; }
+<<<<<<< HEAD
+  /* line 578, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 578, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor .gist .file-data > table {
     border: 0;
     background: #fff;
     width: 100%;
     margin-bottom: 0; }
+<<<<<<< HEAD
+  /* line 579, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .gist .file-data > table td.line-data {
+    width: 99%; }
+  /* line 581, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor div.unbreakable {
+    page-break-inside: avoid; }
+  /* line 583, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .big {
+    font-size: larger; }
+  /* line 585, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .small {
+    font-size: smaller; }
+  /* line 587, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .underline {
+    text-decoration: underline; }
+  /* line 589, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .overline {
+    text-decoration: overline; }
+  /* line 591, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .line-through {
+    text-decoration: line-through; }
+  /* line 593, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .aqua {
+    color: #00bfbf; }
+  /* line 595, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .aqua-background {
+    background-color: #00fafa; }
+  /* line 597, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .black {
+    color: black; }
+  /* line 599, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .black-background {
+    background-color: black; }
+  /* line 601, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .blue {
+    color: #0000bf; }
+  /* line 603, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .blue-background {
+    background-color: #0000fa; }
+  /* line 605, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .fuchsia {
+    color: #bf00bf; }
+  /* line 607, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .fuchsia-background {
+    background-color: #fa00fa; }
+  /* line 609, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .gray {
+    color: #606060; }
+  /* line 611, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .gray-background {
+    background-color: #7d7d7d; }
+  /* line 613, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .green {
+    color: #006000; }
+  /* line 615, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .green-background {
+    background-color: #007d00; }
+  /* line 617, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .lime {
+    color: #00bf00; }
+  /* line 619, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .lime-background {
+    background-color: #00fa00; }
+  /* line 621, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .maroon {
+    color: #600000; }
+  /* line 623, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .maroon-background {
+    background-color: #7d0000; }
+  /* line 625, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .navy {
+    color: #000060; }
+  /* line 627, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .navy-background {
+    background-color: #00007d; }
+  /* line 629, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .olive {
+    color: #606000; }
+  /* line 631, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .olive-background {
+    background-color: #7d7d00; }
+  /* line 633, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .purple {
+    color: #600060; }
+  /* line 635, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .purple-background {
+    background-color: #7d007d; }
+  /* line 637, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .red {
+    color: #bf0000; }
+  /* line 639, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .red-background {
+    background-color: #fa0000; }
+  /* line 641, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .silver {
+    color: #909090; }
+  /* line 643, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .silver-background {
+    background-color: #bcbcbc; }
+  /* line 645, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .teal {
+    color: #006060; }
+  /* line 647, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .teal-background {
+    background-color: #007d7d; }
+  /* line 649, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .white {
+    color: #bfbfbf; }
+  /* line 651, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .white-background {
+    background-color: #fafafa; }
+  /* line 653, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .yellow {
+    color: #bfbf00; }
+  /* line 655, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .yellow-background {
+    background-color: #fafa00; }
+  /* line 657, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor span.icon > .fa {
+    cursor: default; }
+  /* line 659, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 579, /app/source-xampp-osx/stylesheets/asciidoctor.css */
   .asciidoctor .gist .file-data > table td.line-data {
     width: 99%; }
@@ -8821,19 +10488,43 @@ th.hide-for-touch {
   .asciidoctor span.icon > .fa {
     cursor: default; }
   /* line 659, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor .admonitionblock td.icon [class^="fa icon-"] {
     font-size: 2.5em;
     /*text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);*/
     cursor: default; }
+<<<<<<< HEAD
+  /* line 660, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .admonitionblock td.icon .icon-note:before {
+    content: "\f05a";
+    color: #19407c; }
+  /* line 661, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 660, /app/source-xampp-osx/stylesheets/asciidoctor.css */
   .asciidoctor .admonitionblock td.icon .icon-note:before {
     content: "\f05a";
     color: #19407c; }
   /* line 661, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor .admonitionblock td.icon .icon-tip:before {
     content: "\f0eb";
     text-shadow: 1px 1px 2px rgba(155, 155, 0, 0.8);
     color: #111; }
+<<<<<<< HEAD
+  /* line 662, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .admonitionblock td.icon .icon-warning:before {
+    content: "\f071";
+    color: #bf6900; }
+  /* line 663, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .admonitionblock td.icon .icon-caution:before {
+    content: "\f06d";
+    color: #bf3400; }
+  /* line 664, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .admonitionblock td.icon .icon-important:before {
+    content: "\f06a";
+    color: #bf0000; }
+  /* line 666, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 662, /app/source-xampp-osx/stylesheets/asciidoctor.css */
   .asciidoctor .admonitionblock td.icon .icon-warning:before {
     content: "\f071";
@@ -8847,6 +10538,7 @@ th.hide-for-touch {
     content: "\f06a";
     color: #bf0000; }
   /* line 666, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor .conum[data-value] {
     display: inline-block;
     color: #fff !important;
@@ -8861,6 +10553,49 @@ th.hide-for-touch {
     font-family: "Open Sans", "DejaVu Sans", sans-serif;
     font-style: normal;
     font-weight: bold; }
+<<<<<<< HEAD
+  /* line 667, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .conum[data-value] * {
+    color: #fff !important; }
+  /* line 668, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .conum[data-value] + b {
+    display: none; }
+  /* line 669, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .conum[data-value]:after {
+    content: attr(data-value); }
+  /* line 670, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor pre .conum[data-value] {
+    position: relative;
+    top: -0.125em; }
+  /* line 672, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor b.conum * {
+    color: inherit !important; }
+  /* line 674, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .conum:not([data-value]):empty {
+    display: none; }
+  /* line 676, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor h1, .asciidoctor h2 {
+    letter-spacing: -0.01em; }
+  /* line 678, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor dt, .asciidoctor th.tableblock, .asciidoctor td.content, .asciidoctor ul#downloads > li td.notes, ul#downloads > li .asciidoctor td.notes {
+    text-rendering: optimizeLegibility; }
+  /* line 680, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor p, .asciidoctor td.content, .asciidoctor ul#downloads > li td.notes, ul#downloads > li .asciidoctor td.notes {
+    letter-spacing: -0.01em; }
+  /* line 681, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor p strong, .asciidoctor td.content strong, .asciidoctor ul#downloads > li td.notes strong, ul#downloads > li .asciidoctor td.notes strong {
+    letter-spacing: -0.005em; }
+  /* line 683, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor p, .asciidoctor blockquote, .asciidoctor dt, .asciidoctor td.content, .asciidoctor ul#downloads > li td.notes, ul#downloads > li .asciidoctor td.notes {
+    font-size: 1.0625rem; }
+  /* line 685, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor p {
+    margin-bottom: 1.25rem; }
+  /* line 687, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .sidebarblock p, .asciidoctor .sidebarblock dt, .asciidoctor .sidebarblock td.content, .asciidoctor .sidebarblock ul#downloads > li td.notes, ul#downloads > li .asciidoctor .sidebarblock td.notes, .asciidoctor p.tableblock {
+    font-size: 1em; }
+  /* line 689, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
   /* line 667, /app/source-xampp-osx/stylesheets/asciidoctor.css */
   .asciidoctor .conum[data-value] * {
     color: #fff !important; }
@@ -8902,25 +10637,48 @@ th.hide-for-touch {
   .asciidoctor .sidebarblock p, .asciidoctor .sidebarblock dt, .asciidoctor .sidebarblock td.content, .asciidoctor .sidebarblock ul#downloads > li td.notes, ul#downloads > li .asciidoctor .sidebarblock td.notes, .asciidoctor p.tableblock {
     font-size: 1em; }
   /* line 689, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor .exampleblock > .content, .asciidoctor ul#downloads > li .exampleblock > .notes, ul#downloads > li .asciidoctor .exampleblock > .notes, .asciidoctor ul#downloads > li table .exampleblock > ul[id$="-download"], ul#downloads > li table .asciidoctor .exampleblock > ul[id$="-download"], .asciidoctor #download > div .exampleblock > ul[id$="-download"], #download > div .asciidoctor .exampleblock > ul[id$="-download"] {
     background-color: #fffef7;
     border-color: #e0e0dc;
     -webkit-box-shadow: 0 1px 4px #e0e0dc;
     box-shadow: 0 1px 4px #e0e0dc; }
+<<<<<<< HEAD
+  /* line 691, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+  .asciidoctor .print-only {
+    display: none !important; }
+  @media print {
+    /* line 620, /app/source-xampp-windows/stylesheets/all.scss */
+=======
   /* line 691, /app/source-xampp-osx/stylesheets/asciidoctor.css */
   .asciidoctor .print-only {
     display: none !important; }
   @media print {
     /* line 620, /app/source-xampp-osx/stylesheets/all.scss */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
     .asciidoctor {
       @page {
         margin: 1.25cm 0.75cm; }
  }
+<<<<<<< HEAD
+      /* line 694, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
       /* line 694, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
       .asciidoctor * {
         -webkit-box-shadow: none !important;
         box-shadow: none !important;
         text-shadow: none !important; }
+<<<<<<< HEAD
+      /* line 695, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+      .asciidoctor a {
+        color: inherit !important;
+        text-decoration: underline !important; }
+      /* line 696, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+      .asciidoctor a.bare, .asciidoctor a[href^="#"], .asciidoctor a[href^="mailto:"] {
+        text-decoration: none !important; }
+      /* line 697, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
       /* line 695, /app/source-xampp-osx/stylesheets/asciidoctor.css */
       .asciidoctor a {
         color: inherit !important;
@@ -8929,11 +10687,27 @@ th.hide-for-touch {
       .asciidoctor a.bare, .asciidoctor a[href^="#"], .asciidoctor a[href^="mailto:"] {
         text-decoration: none !important; }
       /* line 697, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
       .asciidoctor a[href^="http:"]:not(.bare):after, .asciidoctor a[href^="https:"]:not(.bare):after, .asciidoctor a[href^="mailto:"]:not(.bare):after {
         content: "(" attr(href) ")";
         display: inline-block;
         font-size: 0.875em;
         padding-left: 0.25em; }
+<<<<<<< HEAD
+      /* line 698, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+      .asciidoctor abbr[title]:after {
+        content: " (" attr(title) ")"; }
+      /* line 699, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+      .asciidoctor pre, .asciidoctor blockquote, .asciidoctor tr, .asciidoctor img {
+        page-break-inside: avoid; }
+      /* line 700, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+      .asciidoctor thead {
+        display: table-header-group; }
+      /* line 701, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+      .asciidoctor img {
+        max-width: 100% !important; }
+      /* line 702, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
       /* line 698, /app/source-xampp-osx/stylesheets/asciidoctor.css */
       .asciidoctor abbr[title]:after {
         content: " (" attr(title) ")"; }
@@ -8947,10 +10721,40 @@ th.hide-for-touch {
       .asciidoctor img {
         max-width: 100% !important; }
       /* line 702, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
       .asciidoctor p, .asciidoctor blockquote, .asciidoctor dt, .asciidoctor td.content, .asciidoctor ul#downloads > li td.notes, ul#downloads > li .asciidoctor td.notes {
         font-size: 1em;
         orphans: 3;
         widows: 3; }
+<<<<<<< HEAD
+      /* line 703, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+      .asciidoctor h2, .asciidoctor h3, .asciidoctor #toctitle, .asciidoctor .sidebarblock > .content > .title, .asciidoctor ul#downloads > li .sidebarblock > .notes > .title, ul#downloads > li .asciidoctor .sidebarblock > .notes > .title, .asciidoctor ul#downloads > li table .sidebarblock > ul[id$="-download"] > .title, ul#downloads > li table .asciidoctor .sidebarblock > ul[id$="-download"] > .title, .asciidoctor #download > div .sidebarblock > ul[id$="-download"] > .title, #download > div .asciidoctor .sidebarblock > ul[id$="-download"] > .title, .asciidoctor #toctitle, .asciidoctor .sidebarblock > .content > .title, .asciidoctor ul#downloads > li .sidebarblock > .notes > .title, ul#downloads > li .asciidoctor .sidebarblock > .notes > .title, .asciidoctor ul#downloads > li table .sidebarblock > ul[id$="-download"] > .title, ul#downloads > li table .asciidoctor .sidebarblock > ul[id$="-download"] > .title, .asciidoctor #download > div .sidebarblock > ul[id$="-download"] > .title, #download > div .asciidoctor .sidebarblock > ul[id$="-download"] > .title {
+        page-break-after: avoid; }
+      /* line 704, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+      .asciidoctor #toc, .asciidoctor .sidebarblock, .asciidoctor .exampleblock > .content, .asciidoctor ul#downloads > li .exampleblock > .notes, ul#downloads > li .asciidoctor .exampleblock > .notes, .asciidoctor ul#downloads > li table .exampleblock > ul[id$="-download"], ul#downloads > li table .asciidoctor .exampleblock > ul[id$="-download"], .asciidoctor #download > div .exampleblock > ul[id$="-download"], #download > div .asciidoctor .exampleblock > ul[id$="-download"] {
+        background: none !important; }
+      /* line 705, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+      .asciidoctor #toc {
+        border-bottom: 1px solid #ddddd8 !important;
+        padding-bottom: 0 !important; }
+      /* line 706, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+      .asciidoctor .sect1 {
+        padding-bottom: 0 !important; }
+      /* line 707, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+      .asciidoctor .sect1 + .sect1 {
+        border: 0 !important; }
+      /* line 708, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+      .asciidoctor #header > h1:first-child {
+        margin-top: 1.25rem; }
+      /* line 709, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+      .asciidoctor body.book #header {
+        text-align: center; }
+      /* line 710, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+      .asciidoctor body.book #header > h1:first-child {
+        border: 0 !important;
+        margin: 2.5em 0 1em 0; }
+      /* line 711, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
       /* line 703, /app/source-xampp-osx/stylesheets/asciidoctor.css */
       .asciidoctor h2, .asciidoctor h3, .asciidoctor #toctitle, .asciidoctor .sidebarblock > .content > .title, .asciidoctor ul#downloads > li .sidebarblock > .notes > .title, ul#downloads > li .asciidoctor .sidebarblock > .notes > .title, .asciidoctor ul#downloads > li table .sidebarblock > ul[id$="-download"] > .title, ul#downloads > li table .asciidoctor .sidebarblock > ul[id$="-download"] > .title, .asciidoctor #download > div .sidebarblock > ul[id$="-download"] > .title, #download > div .asciidoctor .sidebarblock > ul[id$="-download"] > .title, .asciidoctor #toctitle, .asciidoctor .sidebarblock > .content > .title, .asciidoctor ul#downloads > li .sidebarblock > .notes > .title, ul#downloads > li .asciidoctor .sidebarblock > .notes > .title, .asciidoctor ul#downloads > li table .sidebarblock > ul[id$="-download"] > .title, ul#downloads > li table .asciidoctor .sidebarblock > ul[id$="-download"] > .title, .asciidoctor #download > div .sidebarblock > ul[id$="-download"] > .title, #download > div .asciidoctor .sidebarblock > ul[id$="-download"] > .title {
         page-break-after: avoid; }
@@ -8978,10 +10782,23 @@ th.hide-for-touch {
         border: 0 !important;
         margin: 2.5em 0 1em 0; }
       /* line 711, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
       .asciidoctor body.book #header .details {
         border: 0 !important;
         display: block;
         padding: 0 !important; }
+<<<<<<< HEAD
+      /* line 712, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+      .asciidoctor body.book #header .details span:first-child {
+        margin-left: 0 !important; }
+      /* line 713, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+      .asciidoctor body.book #header .details br {
+        display: block; }
+      /* line 714, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+      .asciidoctor body.book #header .details br + span:before {
+        content: none !important; }
+      /* line 715, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+=======
       /* line 712, /app/source-xampp-osx/stylesheets/asciidoctor.css */
       .asciidoctor body.book #header .details span:first-child {
         margin-left: 0 !important; }
@@ -8992,11 +10809,44 @@ th.hide-for-touch {
       .asciidoctor body.book #header .details br + span:before {
         content: none !important; }
       /* line 715, /app/source-xampp-osx/stylesheets/asciidoctor.css */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
       .asciidoctor body.book #toc {
         border: 0 !important;
         text-align: left !important;
         padding: 0 !important;
         margin: 0 !important; }
+<<<<<<< HEAD
+      /* line 716, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+      .asciidoctor body.book #toc, .asciidoctor body.book #preamble, .asciidoctor body.book h1.sect0, .asciidoctor body.book .sect1 > h2 {
+        page-break-before: always; }
+      /* line 717, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+      .asciidoctor .listingblock code[data-lang]:before {
+        display: block; }
+      /* line 718, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+      .asciidoctor #footer {
+        background: none !important;
+        padding: 0 0.9375em; }
+      /* line 719, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+      .asciidoctor #footer-text {
+        color: rgba(0, 0, 0, 0.6) !important;
+        font-size: 0.9em; }
+      /* line 720, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+      .asciidoctor .hide-on-print {
+        display: none !important; }
+      /* line 721, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+      .asciidoctor .print-only {
+        display: block !important; }
+      /* line 722, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+      .asciidoctor .hide-for-print {
+        display: none !important; }
+      /* line 723, /app/source-xampp-windows/stylesheets/asciidoctor.css */
+      .asciidoctor .show-for-print {
+        display: inherit !important; } }
+  /* line 625, /app/source-xampp-windows/stylesheets/all.scss */
+  .asciidoctor .imageblock > .content, .asciidoctor ul#downloads > li .imageblock > .notes, ul#downloads > li .asciidoctor .imageblock > .notes, .asciidoctor ul#downloads > li table .imageblock > ul[id$="-download"], ul#downloads > li table .asciidoctor .imageblock > ul[id$="-download"], .asciidoctor #download > div .imageblock > ul[id$="-download"], #download > div .asciidoctor .imageblock > ul[id$="-download"] {
+    text-align: center; }
+    /* line 627, /app/source-xampp-windows/stylesheets/all.scss */
+=======
       /* line 716, /app/source-xampp-osx/stylesheets/asciidoctor.css */
       .asciidoctor body.book #toc, .asciidoctor body.book #preamble, .asciidoctor body.book h1.sect0, .asciidoctor body.book .sect1 > h2 {
         page-break-before: always; }
@@ -9027,10 +10877,36 @@ th.hide-for-touch {
   .asciidoctor .imageblock > .content, .asciidoctor ul#downloads > li .imageblock > .notes, ul#downloads > li .asciidoctor .imageblock > .notes, .asciidoctor ul#downloads > li table .imageblock > ul[id$="-download"], ul#downloads > li table .asciidoctor .imageblock > ul[id$="-download"], .asciidoctor #download > div .imageblock > ul[id$="-download"], #download > div .asciidoctor .imageblock > ul[id$="-download"] {
     text-align: center; }
     /* line 627, /app/source-xampp-osx/stylesheets/all.scss */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
     .asciidoctor .imageblock > .content > img, .asciidoctor ul#downloads > li .imageblock > .notes > img, ul#downloads > li .asciidoctor .imageblock > .notes > img, .asciidoctor ul#downloads > li table .imageblock > ul[id$="-download"] > img, ul#downloads > li table .asciidoctor .imageblock > ul[id$="-download"] > img, .asciidoctor #download > div .imageblock > ul[id$="-download"] > img, #download > div .asciidoctor .imageblock > ul[id$="-download"] > img {
       padding: 0.25em;
       border: 1px solid #eee;
       max-width: 70%; }
+<<<<<<< HEAD
+  /* line 634, /app/source-xampp-windows/stylesheets/all.scss */
+  .asciidoctor h1, .asciidoctor h2, .asciidoctor h3, .asciidoctor #toctitle, .asciidoctor .sidebarblock > .content > .title, .asciidoctor ul#downloads > li .sidebarblock > .notes > .title, ul#downloads > li .asciidoctor .sidebarblock > .notes > .title, .asciidoctor ul#downloads > li table .sidebarblock > ul[id$="-download"] > .title, ul#downloads > li table .asciidoctor .sidebarblock > ul[id$="-download"] > .title, .asciidoctor #download > div .sidebarblock > ul[id$="-download"] > .title, #download > div .asciidoctor .sidebarblock > ul[id$="-download"] > .title, .asciidoctor h4, .asciidoctor h5, .asciidoctor h6 {
+    font-family: inherit;
+    color: #222222; }
+  /* line 640, /app/source-xampp-windows/stylesheets/all.scss */
+  .asciidoctor h1 {
+    font-size: 2.75rem; }
+  /* line 641, /app/source-xampp-windows/stylesheets/all.scss */
+  .asciidoctor h2 {
+    font-size: 2.3125rem; }
+  /* line 642, /app/source-xampp-windows/stylesheets/all.scss */
+  .asciidoctor h3 {
+    font-size: 1.6875rem; }
+  /* line 643, /app/source-xampp-windows/stylesheets/all.scss */
+  .asciidoctor h4 {
+    font-size: 1.4375rem; }
+  /* line 644, /app/source-xampp-windows/stylesheets/all.scss */
+  .asciidoctor h5 {
+    font-size: 1.125rem; }
+  /* line 645, /app/source-xampp-windows/stylesheets/all.scss */
+  .asciidoctor h6 {
+    font-size: 1rem; }
+  /* line 647, /app/source-xampp-windows/stylesheets/all.scss */
+=======
   /* line 634, /app/source-xampp-osx/stylesheets/all.scss */
   .asciidoctor h1, .asciidoctor h2, .asciidoctor h3, .asciidoctor #toctitle, .asciidoctor .sidebarblock > .content > .title, .asciidoctor ul#downloads > li .sidebarblock > .notes > .title, ul#downloads > li .asciidoctor .sidebarblock > .notes > .title, .asciidoctor ul#downloads > li table .sidebarblock > ul[id$="-download"] > .title, ul#downloads > li table .asciidoctor .sidebarblock > ul[id$="-download"] > .title, .asciidoctor #download > div .sidebarblock > ul[id$="-download"] > .title, #download > div .asciidoctor .sidebarblock > ul[id$="-download"] > .title, .asciidoctor h4, .asciidoctor h5, .asciidoctor h6 {
     font-family: inherit;
@@ -9054,23 +10930,74 @@ th.hide-for-touch {
   .asciidoctor h6 {
     font-size: 1rem; }
   /* line 647, /app/source-xampp-osx/stylesheets/all.scss */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor a, .asciidoctor a.anchor {
     color: #5e8949;
     text-decoration: none;
     line-height: inherit; }
+<<<<<<< HEAD
+    /* line 653, /app/source-xampp-windows/stylesheets/all.scss */
+    .asciidoctor a:hover, .asciidoctor a:focus, .asciidoctor a.anchor:hover, .asciidoctor a.anchor:focus {
+      color: #0079a1; }
+  /* line 658, /app/source-xampp-windows/stylesheets/all.scss */
+=======
     /* line 653, /app/source-xampp-osx/stylesheets/all.scss */
     .asciidoctor a:hover, .asciidoctor a:focus, .asciidoctor a.anchor:hover, .asciidoctor a.anchor:focus {
       color: #0079a1; }
   /* line 658, /app/source-xampp-osx/stylesheets/all.scss */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor > aside {
     width: 33.33333%;
     float: right;
     margin: 0 0 1.875rem 1.875rem; }
+<<<<<<< HEAD
+  /* line 664, /app/source-xampp-windows/stylesheets/all.scss */
+=======
   /* line 664, /app/source-xampp-osx/stylesheets/all.scss */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .asciidoctor i.fa {
     font-style: normal; }
 
 @media only screen and (min-width: 64.063em) {
+<<<<<<< HEAD
+  /* line 671, /app/source-xampp-windows/stylesheets/all.scss */
+  .hero #download > .columns > a, .hero #stack-list #download > li > a, #stack-list .hero #download > li > a, .hero #theme-list li#download > div > a, #theme-list .hero li#download > div > a {
+    margin-top: 0.5em; }
+  /* line 674, /app/source-xampp-windows/stylesheets/all.scss */
+  .hero #download > .columns:first-child, .hero #stack-list #download > li:first-child, #stack-list .hero #download > li:first-child, .hero #theme-list li#download > div:first-child, #theme-list .hero li#download > div:first-child {
+    display: block; }
+
+  /* line 678, /app/source-xampp-windows/stylesheets/all.scss */
+  ul#downloads li table {
+    width: 100%; } }
+@media only screen and (min-width: 40.063em) {
+  /* line 684, /app/source-xampp-windows/stylesheets/all.scss */
+  .hero h1 span {
+    font-size: inherit;
+    display: inline; } }
+/* line 690, /app/source-xampp-windows/stylesheets/all.scss */
+#search-results {
+  min-height: 10em;
+  margin-top: -2em; }
+  /* line 693, /app/source-xampp-windows/stylesheets/all.scss */
+  #search-results table {
+    margin: 0;
+    border: 0; }
+    /* line 696, /app/source-xampp-windows/stylesheets/all.scss */
+    #search-results table td {
+      line-height: 1em;
+      padding: 0; }
+  /* line 701, /app/source-xampp-windows/stylesheets/all.scss */
+  #search-results .gsc-table-result {
+    margin-top: 0.5em; }
+    /* line 703, /app/source-xampp-windows/stylesheets/all.scss */
+    #search-results .gsc-table-result td {
+      padding-left: 8px; }
+  /* line 707, /app/source-xampp-windows/stylesheets/all.scss */
+  #search-results .gsc-selected-option-container {
+    width: auto !important; }
+  /* line 710, /app/source-xampp-windows/stylesheets/all.scss */
+=======
   /* line 671, /app/source-xampp-osx/stylesheets/all.scss */
   .hero #download > .columns > a, .hero #stack-list #download > li > a, #stack-list .hero #download > li > a, .hero #theme-list li#download > div > a, #theme-list .hero li#download > div > a {
     margin-top: 0.5em; }
@@ -9108,15 +11035,24 @@ th.hide-for-touch {
   #search-results .gsc-selected-option-container {
     width: auto !important; }
   /* line 710, /app/source-xampp-osx/stylesheets/all.scss */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   #search-results .gcsc-branding-img-noclear {
     display: block;
     width: 51px !important; }
 
+<<<<<<< HEAD
+/* line 716, /app/source-xampp-windows/stylesheets/all.scss */
+ul.sub-nav {
+  border-bottom: 1px solid #ddd; }
+
+/* line 720, /app/source-xampp-windows/stylesheets/all.scss */
+=======
 /* line 716, /app/source-xampp-osx/stylesheets/all.scss */
 ul.sub-nav {
   border-bottom: 1px solid #ddd; }
 
 /* line 720, /app/source-xampp-osx/stylesheets/all.scss */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
 a.pdf {
   display: inline-block;
   background-image: url("/dashboard/images/pdf-icon.png");
@@ -9126,13 +11062,21 @@ a.pdf {
   padding-left: 45px;
   min-height: 40px;
   line-height: 1.2em; }
+<<<<<<< HEAD
+  /* line 730, /app/source-xampp-windows/stylesheets/all.scss */
+=======
   /* line 730, /app/source-xampp-osx/stylesheets/all.scss */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   a.pdf span {
     font-size: 0.8em;
     color: #777;
     display: block; }
 
+<<<<<<< HEAD
+/* line 737, /app/source-xampp-windows/stylesheets/all.scss */
+=======
 /* line 737, /app/source-xampp-osx/stylesheets/all.scss */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
 .video-wrapper {
   align-items: center;
   background-size: cover;
@@ -9143,11 +11087,19 @@ a.pdf {
   justify-content: center;
   background-repeat: no-repeat;
   margin: auto; }
+<<<<<<< HEAD
+  /* line 748, /app/source-xampp-windows/stylesheets/all.scss */
+  .video-wrapper .play-button {
+    border-radius: 3px;
+    padding: .3em 1em; }
+  /* line 753, /app/source-xampp-windows/stylesheets/all.scss */
+=======
   /* line 748, /app/source-xampp-osx/stylesheets/all.scss */
   .video-wrapper .play-button {
     border-radius: 3px;
     padding: .3em 1em; }
   /* line 753, /app/source-xampp-osx/stylesheets/all.scss */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .video-wrapper .feather {
     height: 240px;
     stroke: #fff;
@@ -9156,11 +11108,33 @@ a.pdf {
     stroke-linecap: round;
     stroke-linejoin: round;
     border-radius: 100%; }
+<<<<<<< HEAD
+  /* line 763, /app/source-xampp-windows/stylesheets/all.scss */
+=======
   /* line 763, /app/source-xampp-osx/stylesheets/all.scss */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   .video-wrapper .circle {
     fill: rgba(0, 0, 0, 0.5);
     stroke-width: 1; }
 
+<<<<<<< HEAD
+/* line 771, /app/source-xampp-windows/stylesheets/all.scss */
+ul#docs-list > li {
+  min-height: 150px;
+  margin-bottom: 1.5em; }
+  /* line 776, /app/source-xampp-windows/stylesheets/all.scss */
+  ul#docs-list > li h3 {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.5em; }
+    /* line 779, /app/source-xampp-windows/stylesheets/all.scss */
+    ul#docs-list > li h3 a {
+      color: inherit; }
+  /* line 784, /app/source-xampp-windows/stylesheets/all.scss */
+  ul#docs-list > li a.pdf {
+    margin-top: 0.5em; }
+
+/* line 790, /app/source-xampp-windows/stylesheets/all.scss */
+=======
 /* line 771, /app/source-xampp-osx/stylesheets/all.scss */
 ul#docs-list > li {
   min-height: 150px;
@@ -9177,17 +11151,26 @@ ul#docs-list > li {
     margin-top: 0.5em; }
 
 /* line 790, /app/source-xampp-osx/stylesheets/all.scss */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
 iframe.video {
   border: 1px solid #ccc;
   margin-bottom: 1em; }
 
+<<<<<<< HEAD
+/* line 795, /app/source-xampp-windows/stylesheets/all.scss */
+=======
 /* line 795, /app/source-xampp-osx/stylesheets/all.scss */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
 #addonsVideoModal {
   width: 620px;
   /* 560px 2x20px padding */
   margin-left: -25%; }
 
+<<<<<<< HEAD
+/* line 800, /app/source-xampp-windows/stylesheets/all.scss */
+=======
 /* line 800, /app/source-xampp-osx/stylesheets/all.scss */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
 .warning-message {
   background-color: #FFFBCC;
   border: 1px solid #FB8168;
@@ -9195,6 +11178,20 @@ iframe.video {
   text-align: justify; }
 
 /* PHP 7 banner */
+<<<<<<< HEAD
+/* line 808, /app/source-xampp-windows/stylesheets/all.scss */
+#php7-banner {
+  background: #5e8949;
+  text-align: center; }
+  /* line 812, /app/source-xampp-windows/stylesheets/all.scss */
+  #php7-banner h2 {
+    color: #fff; }
+  /* line 816, /app/source-xampp-windows/stylesheets/all.scss */
+  #php7-banner a {
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.8); }
+    /* line 820, /app/source-xampp-windows/stylesheets/all.scss */
+=======
 /* line 808, /app/source-xampp-osx/stylesheets/all.scss */
 #php7-banner {
   background: #5e8949;
@@ -9207,5 +11204,6 @@ iframe.video {
     font-size: 0.8em;
     color: rgba(255, 255, 255, 0.8); }
     /* line 820, /app/source-xampp-osx/stylesheets/all.scss */
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
     #php7-banner a:hover {
       text-decoration: underline; }

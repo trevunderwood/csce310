@@ -24,14 +24,22 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
   // Insert the new user into the database
+<<<<<<< HEAD
+  $sql = "INSERT INTO USER (USER_NAME, USER_LNAME, USER_FNAME, USER_PHONE, USER_EMAIL, USER_TYPE)
+=======
   $sql = "INSERT INTO user (USER_NAME, USER_LNAME, USER_FNAME, USER_PHONE, USER_EMAIL, USER_TYPE)
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
 VALUES ('$username', '$lname', '$fname', '$phone', '$email', 'APPLICANT')";
   $result = mysqli_query($conn, $sql);
     //echo "result run";
   if ($result) {
     // User was added successfully, redirect to the login page
     echo "added user";
+<<<<<<< HEAD
+    //header("Location: login.html");
+=======
     header("Location: login.html");
+>>>>>>> 838936a8a66a16874c30c2399c0c7a79aca200f0
   } else {
     // There was an error adding the user to the database
     echo "Error: " . mysqli_error($conn);
