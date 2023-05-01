@@ -23,7 +23,7 @@ if ($result->num_rows > 0) {
   
     // output data of each row
     while($row = $result->fetch_assoc()) {
-      echo "<tr style='text-align: center;'><td style='border: 1px solid black;'>".$row["APPT_ID"]."</td><td style='border: 1px solid black;'>".$row["APPT_TIME"]."</td><td style='border: 1px solid black;'>".$row["APPLICANT_ID"]."</td><td style='border: 1px solid black;'>".$row["RECRUITER_ID"]."</td></tr>";
+      echo "<tr style='text-align: center;'><td style='border: 1px solid black;'>".$row["APPT_ID"]."</td><td style='border: 1px solid black;'>".$row["APPT_TIME"]."</td><td style='border: 1px solid black;'>".$row["APPLICANT_ID"]."</td><td style='border: 1px solid black;'>".$row["RECRUITER_ID"]."</td> " . "<td><a href='edit_appointment.php?APPT_ID=" . $row['APPT_ID'] . "'>Edit Appointment</a></td>" . "</tr>";
     }
   
     // end table
@@ -38,7 +38,6 @@ $conn->close();
 ?>
 <a href="create_appointment.php">Create Appointment</a>
 
-<a href="edit_appointment.php">Edit Appointment</a>
  
  </body>
  </html>
