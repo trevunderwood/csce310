@@ -8,7 +8,7 @@
     <li><a href="login.html">Logout</a></li>
 </ul>
 <h1>Job Postings</h1>
-
+<a href="application.php">View Applications</a>
 <br>
 <div>
 <table align = "left" border = "1" cellpadding = "3" cellspacing = "0">
