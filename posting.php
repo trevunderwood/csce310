@@ -19,6 +19,8 @@
         <td>
             Job Title
         </td>
+        <td>
+        </td>
         <?php
             //define connection variables
             $servername = "localhost";
@@ -29,8 +31,8 @@
             //initiate connection
             $conn = new mysqli($servername, $username, $password, $dbname);
 
-            if ($conn->connect_error){
-                die("Connection Failed: " . $conn->connection_error);
+            if (!$conn){
+                die("Connection failed: " . mysqli_connect_error());
             }
 
             //Define query and execute
@@ -44,8 +46,9 @@
                     echo "<tr>";
                     $sql = "SELECT COMPANY_NAME from COMPANY where COMPANY_ID = ". $row["COMPANY_ID"];
                     $comp_result = $conn->query($sql);
+
                     while($name = $comp_result->fetch_assoc()){
-                        echo "<td>" . $name["COMPANY_NAME"] . "</td> <td>" . $row["POST_DESC"] . "</td>";
+                        echo "<td>" . $name["COMPANY_NAME"] . "</td> <td>" . $row["POST_DESC"] . "</td><td><a href='app.php?COMPANY_NAME=" . urlencode($name["COMPANY_NAME"]) . "&POST_ID=" . $row["POST_ID"] . "&POST_DESC=" . $row["POST_DESC"] . "'>Apply</a></td>";
                     }
                     echo "</tr>";
 
@@ -58,7 +61,5 @@
 </table>
         </div>
 <br>
-<!-- redirect to application page -->
-<p> <a href="app.php">Click here to fill out an application </a>.</p>
 </body>
 </html>
