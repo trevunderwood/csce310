@@ -5,41 +5,44 @@ $username = "root";
 $password = "";
 $dbname = "csce310";
 
-$conn = mysqli_connect($servername, $username, $password, $dbname);
+$conn = new mysqli($servername, $username, $password, $dbname);
 
 if (!$conn) {
   die("Connection failed: " . mysqli_connect_error());
 }
 
+session_start();
+$user = $_SESSION['username'];
+
 // Check if the user registration form has been submitted
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
   // Get the input values from the form
-  $username = $_POST["username"];
   $company = $_POST["company"];
   $title = $_POST["title"];
   
-  $sql = "SELECT APPLICANT_ID from APPLICANT where USER_NAME = " . $username;
+  $sql = "SELECT APPLICANT_ID FROM APPLICANT WHERE USER_NAME = '$user'";
 
-  $result = conn->query($sql);
-
-  $id = $result->fetch_assoc();
-
-  $sql = "SELECT POST_ID from APPLICANT where USER_NAME = " . $username;
-
-  $result = conn->query($sql);
+  $result = $conn->query($sql);
 
   $id = $result->fetch_assoc();
 
-  $date = date('Y-m-d H:i:s');
-  // Insert the new user into the database
-  $sql = "INSERT INTO APPLICATIONS (APPLICANT_ID, )
-VALUES ('$username')";
+  $sql = "SELECT POST_ID from JOB_POSTING where POST_DESC = '$title'";
+
+  $result = $conn->query($sql);
+
+  $postid= $result->fetch_assoc();
+
+  $date = date('Y-m-d h:i:s');
+
+  // Insert the new application into the database
+
+  $sql = "INSERT INTO APPLICATIONS (APPLICANT_ID, POST_ID, SUBMISSION_DATE) VALUES ('$id[APPLICANT_ID]', '$postid[POST_ID]', '$date')";
   $result = mysqli_query($conn, $sql);
     //echo "result run";
   if ($result) {
     // User was added successfully, redirect to the login page
-    echo "added user";
+    echo "added application";
     //header("Location: login.html");
   } else {
     // There was an error adding the user to the database
@@ -53,21 +56,18 @@ mysqli_close($conn);
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Create User Page</title>
+	<title>New Application</title>
 </head>
 <body>
-	<h2>Create a New User Account</h2>
-	<form method="post" action="create_user.php">
-		<label>Username:</label>
-		<input type="text" name="username" required>
-		<br>
+	<h2>Create a New Application</h2>
+	<form method="post" action="app.php">
         <label>Company:</label>
 		<input type="text" name="company" required>
         <br>
         <label>Job Title:</label>
 		<input type="text" name="title" required>
         <br>
-		<input type="submit" value="Create Account">
+		<input type="submit" value="Create Application">
 	</form>
 </body>
 </html>

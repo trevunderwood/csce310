@@ -15,21 +15,25 @@
             Job Title
         </td>
         <?php
+            //define connection variables
             $servername = "localhost";
             $username = "root";
             $password = "";
             $dbname = "csce310";
 
+            //initiate connection
             $conn = new mysqli($servername, $username, $password, $dbname);
 
             if ($conn->connect_error){
                 die("Connection Failed: " . $conn->connection_error);
             }
 
+            //Define query and execute
             $sql = "SELECT * from job_posting";
 
             $result = $conn->query($sql);
 
+            //create table from fetching query
             if($result->num_rows > 0){
                 while($row = $result->fetch_assoc()){
                     echo "<tr>";
@@ -49,6 +53,7 @@
 </table>
         </div>
 <br>
+<!-- redirect to application page -->
 <p> <a href="app.php">Click here to fill out an application </a>.</p>
 </body>
 </html>
