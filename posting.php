@@ -59,7 +59,7 @@
                             echo  "<td><a href='app.php?COMPANY_NAME=" . urlencode($name["COMPANY_NAME"]) . "&POST_ID=" . $row["POST_ID"] . "&POST_DESC=" . $row["POST_DESC"] . "'>Apply</a></td>";
                         }
                         else{
-                            echo "<td><a href='delete_post.php?POST_ID=" .$row["POST_ID"] . "&POST_DESC" . $row["POST_DESC"] ."'>Delete Post</td>";
+                            echo "<td><a href='delete_post.php?POST_ID=" .$row["POST_ID"] . "&POST_DESC=" . $row["POST_DESC"] ."'>Delete Post</td>";
                         }
                     }
 
