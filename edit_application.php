@@ -72,8 +72,10 @@ if(isset($_GET["APPLICATION_ID"])){
   echo $company;
   echo "<br>";
   echo "<input type='hidden' name='appid' value='$appid'>";
-  echo "<label>Job Title:</label>";
+  echo "<label>Current Job Title:</label>";
   echo $postDesc;
+  echo "<br>";
+  echo "Input Post ID of New Job Position";
   echo "<br>";
   echo "<input type ='text' name='postid'";
   echo "<br>";
@@ -87,6 +89,8 @@ if(isset($_GET["APPLICATION_ID"])){
   $result = $conn->query(($sql));
 
   if($result->num_rows > 0){
+    echo "Other Job Listings Available";
+    echo "<br>";
     echo "<table align = 'left' border = '1' cellpadding = '3' cellspacing = '0'>";
     echo "<tr>";
     echo "<td>Post ID</td><td>Job Title</td>";

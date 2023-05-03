@@ -63,9 +63,7 @@
             }
 
             $conn->close();
-            if($type["USER_TYPE"] == "Applicant"){
-                echo "<a href='application.php'>View Applications</a>";
-            }
+            echo "<a href='application.php'>View Applications</a>";
             
         ?>
 </table>
