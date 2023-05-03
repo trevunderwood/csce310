@@ -54,12 +54,26 @@
                     $comp_result = $conn->query($sql);
 
                     while($name = $comp_result->fetch_assoc()){
-                        echo "<td>" . $name["COMPANY_NAME"] . "</td> <td>" . $row["POST_DESC"] . "</td><td><a href='app.php?COMPANY_NAME=" . urlencode($name["COMPANY_NAME"]) . "&POST_ID=" . $row["POST_ID"] . "&POST_DESC=" . $row["POST_DESC"] . "'>Apply</a></td>";
+                        echo "<td>" . $name["COMPANY_NAME"] . "</td><td>" . $row["POST_DESC"] . "</td>";
+                        if($type["USER_TYPE"] == "Applicant"){
+                            echo  "<td><a href='app.php?COMPANY_NAME=" . urlencode($name["COMPANY_NAME"]) . "&POST_ID=" . $row["POST_ID"] . "&POST_DESC=" . $row["POST_DESC"] . "'>Apply</a></td>";
+                        }
+                        else{
+                            echo "<td><a href='delete_post.php?POST_ID=" .$row["POST_ID"] . "&POST_DESC" . $row["POST_DESC"] ."'>Delete Post</td>";
+                        }
                     }
+
                     echo "</tr>";
 
                     
                 }
+            }
+
+            if($type["USER_TYPE"] == "Recruiter"){
+                $sql = "SELECT COMPANY_ID FROM RECRUITER WHERE USER_NAME = '$user'";
+                $result = $conn->query($sql);
+                $id = $result->fetch_assoc();
+                echo "<a href ='create_post.php?COMPANY_ID=". $id["COMPANY_ID"] ."'>Create New Posting</a>";
             }
 
             $conn->close();

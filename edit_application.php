@@ -47,8 +47,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
   // Insert the new application into the database
 
-  echo $postid;
-
   $sql = "UPDATE APPLICATIONS SET POST_ID = '$postid', SUBMISSION_DATE = '$date' WHERE APPLICATION_ID = '$appid'";
   $result = mysqli_query($conn, $sql);
     //echo "result run";
