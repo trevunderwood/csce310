@@ -8,7 +8,6 @@
     <li><a href="login.html">Logout</a></li>
 </ul>
 <h1>Job Postings</h1>
-<a href="application.php">View Applications</a>
 <br>
 <div>
 <table align = "left" border = "1" cellpadding = "3" cellspacing = "0">
@@ -35,6 +34,13 @@
                 die("Connection failed: " . mysqli_connect_error());
             }
 
+            session_start();
+            $user = $_SESSION['username'];
+
+            $sql = "SELECT USER_TYPE FROM USER WHERE USER_NAME = '$user'";
+            $result = $conn->query($sql);
+            $type = $result->fetch_assoc();
+
             //Define query and execute
             $sql = "SELECT * from job_posting";
 
@@ -56,7 +62,11 @@
                 }
             }
 
-            $conn->close()
+            $conn->close();
+            if($type["USER_TYPE"] == "Applicant"){
+                echo "<a href='application.php'>View Applications</a>";
+            }
+            
         ?>
 </table>
         </div>

@@ -10,6 +10,8 @@
     <li><a href="user_profile.php">Profile</a></li>
     <li><a href="login.html">Logout</a></li>
 </ul>
+
+<br>
 </body>
 <table align = "left" border = "1" cellpadding = "3" cellspacing = "0">
     <tr>
@@ -63,7 +65,17 @@ if($result->num_rows > 0){
 
         
     }
+
+
 }
+
+    echo "</table>";
+    echo "<br>";
+    $sql = "SELECT USER_TYPE FROM USER WHERE USER_NAME = '$user'";
+    $result = $conn->query($sql);
+    $type = $result->fetch_assoc();
 ?>
 
+
+    
 </html>
