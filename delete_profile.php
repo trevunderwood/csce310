@@ -35,6 +35,8 @@
         // end session and close connection
         session_abort();
         mysqli_close($conn);
+        // return to login page
+        header("Location: login.html");
     }
     ?>
     <body>

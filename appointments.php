@@ -3,6 +3,12 @@
 <html> 
  <title>Appointments</title>
  <body>
+ <ul>
+    <li><a href="posting.php">Postings</a></li>
+    <li><a href="appointments.php">Appointments</a></li>
+    <li><a href="user_profile.php">Profile</a></li>
+    <li><a href="login.html">Logout</a></li>
+</ul>
  <h1>Appointments Page</h1>
  <?php
 
