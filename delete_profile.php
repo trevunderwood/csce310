@@ -1,3 +1,11 @@
+<!--
+This file was written by John Nolen
+This file contains the functionality for deleting a user.
+A user is asked for confirmation that they would like to delete their
+profile. If denied, the user is redirected back to their profile page.
+If confirmed, a DELETE removes the user from all related databases and 
+the user is redirected to the login page.
+-->
 <html>
     <head>
         <title> Delete Confirmation </title>
@@ -56,6 +64,7 @@
     }
     ?>
     <body>
+        <!-- Get confirmation for DELETE -->
         <h1> Are you sure you would like to delete your Profile? </h1>
         <form method="post">
             <input type="submit" name="confirm" value="Yes">

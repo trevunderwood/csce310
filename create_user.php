@@ -1,3 +1,11 @@
+<!--
+The create user functionality was implemented by John Nolen
+This file accepts information in fields from a user.
+A post request is made which INSERTs the new user into the user table
+along with the relevent user type table.
+If the user is an Applicant, the user and applicant tables are inserted to.
+If the user is a Recruiter, an insert is made to the user and recruiter tables.
+-->
 <?php
 // Establish a connection to the database
 $servername = "localhost";
@@ -59,8 +67,11 @@ VALUES ('$username', '$lname', '$fname', '$phone', '$email', '$usertype')";
 mysqli_close($conn);
 ?>
 <script>
+  // this function runs on click from the user type dropdown
   function showField() {
+    // get user type
     var option = document.getElementById("usertype").value;
+    // open up the company field if user is a Recruiter
     if (option == "Recruiter") {
       document.getElementById("hiddenField").style.display = "block";
     } else {
@@ -75,6 +86,7 @@ mysqli_close($conn);
 </head>
 <body>
 	<h2>Create a New User Account</h2>
+  <!-- This form collects data for the new user -->
 	<form method="post" action="create_user.php">
 		<label>Username:</label>
 		<input type="text" name="username" required>
@@ -97,6 +109,7 @@ mysqli_close($conn);
         <option value="Recruiter">Recruiter</option>
     </select>
     <br>
+    <!-- The company name is only requested if the new user is a Recruiter -->
     <div id="hiddenField" style="display:none;">
       <label>Company:</label>
       <input type="text" name="company">

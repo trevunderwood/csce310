@@ -1,3 +1,11 @@
+<!--
+This page was written by John Nolen.
+This file provides the functionality for updating users.
+A form allows users to enter updated information which
+is then used to UPDATE the corresponding attributes in the 
+user database.
+A button to delete the user redirects to delete_profile.php
+-->
 <html>
     <head>
         <title>User Profile Page</title>
@@ -58,12 +66,14 @@
     mysqli_close($conn);
     ?>
     <body>
+        <!-- Navbar -->
         <ul>
             <li><a href="posting.php">Postings</a></li>
             <li><a href="appointments.php">Appointments</a></li>
             <li><a href="user_profile.php">Profile</a></li>
         </ul>
         <h1>Edit Profile</h1>
+        <!-- Form for collenting updated information -->
         <p> Enter any updated information </p>
         <form method="post">
             First Name: <input type="text" name="fname"><br>
@@ -72,6 +82,7 @@
             E-mail: <input type="text" name="email"><br>
             <input type="submit" name="update"><br>
         </form>
+        <!-- Button to redirect to delete confirmation page -->
         <form action="delete_profile.php" method="post">
             <input type="submit" value="Delete Profile">
         </form>
