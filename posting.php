@@ -20,6 +20,8 @@
         </td>
         <td>
         </td>
+        <td>
+        </td>
         <?php
             //define connection variables
             $servername = "localhost";
@@ -55,12 +57,16 @@
 
                     while($name = $comp_result->fetch_assoc()){
                         echo "<td>" . $name["COMPANY_NAME"] . "</td><td>" . $row["POST_DESC"] . "</td>";
+                        //applicants redirect to apply
                         if($type["USER_TYPE"] == "Applicant"){
                             echo  "<td><a href='app.php?COMPANY_NAME=" . urlencode($name["COMPANY_NAME"]) . "&POST_ID=" . $row["POST_ID"] . "&POST_DESC=" . $row["POST_DESC"] . "'>Apply</a></td>";
                         }
+                        //recruites redirect to delete posting
                         else{
                             echo "<td><a href='delete_post.php?POST_ID=" .$row["POST_ID"] . "&POST_DESC=" . $row["POST_DESC"] ."'>Delete Post</td>";
                         }
+                        //redirect to comments based on post
+                        echo "<td><a href ='comments.php?POST_ID=" .$row["POST_ID"] ."'>Comments</td>";
                     }
 
                     echo "</tr>";
@@ -69,6 +75,7 @@
                 }
             }
 
+            //recruiters can create posts
             if($type["USER_TYPE"] == "Recruiter"){
                 $sql = "SELECT COMPANY_ID FROM RECRUITER WHERE USER_NAME = '$user'";
                 $result = $conn->query($sql);
