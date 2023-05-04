@@ -28,8 +28,24 @@
         session_start();
         $username = $_SESSION['username'];
 
-        $sql = "DELETE FROM user WHERE USER_NAME='$username'";
+        // check user type and delete from appropriate table
+        $sql = "SELECT USER_TYPE FROM user WHERE USER_NAME='$username'";
+        $result = mysqli_query($conn, $sql);
+        if ($result) {
+            $usertype = $result->fetch_assoc()['USER_TYPE'];
+        }
 
+        if ($usertype == 'Applicant') {
+            $sql = "DELETE FROM applicant WHERE USER_NAME='$username'";
+            $result = mysqli_query($conn, $sql);
+        }
+        if ($usertype == 'Recruiter') {
+            $sql = "DELETE FROM recruiter WHERE USER_NAME='$username'";
+            $result = mysqli_query($conn, $sql);
+        }
+
+        // delete from user table
+        $sql = "DELETE FROM user WHERE USER_NAME='$username'";
         $result = mysqli_query($conn, $sql);
 
         // end session and close connection

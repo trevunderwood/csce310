@@ -21,13 +21,23 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $fname = $_POST["fname"];
   $phone = $_POST["phone"];
   $email = $_POST["email"];
-
+  $usertype = $_POST["usertype"];
 
   // Insert the new user into the database
   $sql = "INSERT INTO user (USER_NAME, USER_LNAME, USER_FNAME, USER_PHONE, USER_EMAIL, USER_TYPE)
-VALUES ('$username', '$lname', '$fname', '$phone', '$email', 'APPLICANT')";
+VALUES ('$username', '$lname', '$fname', '$phone', '$email', '$usertype')";
   $result = mysqli_query($conn, $sql);
     //echo "result run";
+
+  // check usertype and update appropriate table
+  if ($usertype == "Applicant") {
+    $sql = "INSERT INTO applicant (USER_NAME) VALUES ('$username')";
+    $result = mysqli_query($conn, $sql);
+  }
+  if ($usertype == "Recruiter") {
+    $sql = "INSERT INTO recruiter (USER_NAME) VALUES ('$username')";
+    $result = mysqli_query($conn, $sql);
+  }
   if ($result) {
     // User was added successfully, redirect to the login page
     echo "added user";
@@ -64,6 +74,12 @@ mysqli_close($conn);
 		<label>Email:</label>
 		<input type="text" name="email" required>
 		<br>
+    <label>User Type:</label>
+    <select name="usertype">
+        <option value="Applicant">Applicant</option>
+        <option value="Recruiter">Recruiter</option>
+    </select>
+    <br>
 		<input type="submit" value="Create Account">
 	</form>
 </body>
