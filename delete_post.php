@@ -1,3 +1,4 @@
+<!-- Jace Thomas is Responsible for this code -->
 <html>
     <head>
         <title> Delete Confirmation </title>
