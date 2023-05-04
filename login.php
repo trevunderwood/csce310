@@ -27,6 +27,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // echo "Success";
     session_start();
     $_SESSION["username"] = $username;
+    // check for admin account
+    if ($result->fetch_assoc()['USER_TYPE'] == 'admin') {
+      header("Location: admin_dash.php");
+    }
     header("Location: user_profile.php");
   } else {
     // User does not exist or password is incorrect

@@ -21,7 +21,7 @@
     $username = $_SESSION['username'];
 
     // get information from user currently logged in
-    $sql = "SELECT * FROM user WHERE USER_NAME='$username'";
+    $sql = "SELECT * FROM user_profile WHERE USER_NAME='$username'";
     $response = mysqli_query($conn, $sql);
     if ($response) {
         $info = $response->fetch_assoc();
