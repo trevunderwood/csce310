@@ -27,10 +27,12 @@ $result = $conn->query($sql);
 $type = $result->fetch_assoc();
 
 if($type['USER_TYPE'] == "Applicant"){ //if user is applicant (not admin)
-
+ 
 $sql = "SELECT APPLICANT_ID FROM APPLICANT WHERE USER_NAME = '$user'"; //get applicant_id for user
 $result = $conn->query($sql);
 $app_id = $result->fetch_assoc();
+
+echo "Your APPLICANT_ID: " .$app_id["APPLICANT_ID"] . "<br>";
 
 $sql = "SELECT * FROM appointments WHERE APPLICANT_ID = " . $app_id["APPLICANT_ID"]; //get all appointments under applicant_id
 
@@ -96,7 +98,7 @@ if($type["USER_TYPE"] == "Recruiter"){ //if user is a Recruiter (admin)
   $sql = "SELECT RECRUITER_ID FROM RECRUITER WHERE USER_NAME = '$user'"; //get user_id from username
   $result = $conn->query($sql);
   $recruit_id = $result->fetch_assoc();
-  
+  echo "Your RECRUITER_ID: " .$recruit_id["RECRUITER_ID"] . "<br>";
   $sql = "SELECT * FROM appointments WHERE RECRUITER_ID = " . $recruit_id["RECRUITER_ID"]; //select all appointments for recruiter_id
   
   $result = $conn->query($sql); //run query
