@@ -1,4 +1,5 @@
 <?php
+// Trevor Underwood wrote this file. This code manages the functionality for the login page to log in to your account.
 
 $servername = "localhost";
 $username = "root";

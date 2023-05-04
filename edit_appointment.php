@@ -1,4 +1,5 @@
 <?php
+// Trevor Underwood wrote this file. This code manages the edit appointment page to edit an appointment.
 
 $servername = "localhost";
 $username = "root";
