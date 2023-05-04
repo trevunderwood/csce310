@@ -59,8 +59,8 @@
     ?>
     <body>
         <ul>
-            <li><a href="#">Postings</a></li>
-            <li><a href="#">Appointments</a></li>
+            <li><a href="posting.php">Postings</a></li>
+            <li><a href="appointments.php">Appointments</a></li>
             <li><a href="user_profile.php">Profile</a></li>
         </ul>
         <h1>Edit Profile</h1>

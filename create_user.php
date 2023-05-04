@@ -41,7 +41,7 @@ VALUES ('$username', '$lname', '$fname', '$phone', '$email', '$usertype')";
   if ($result) {
     // User was added successfully, redirect to the login page
     echo "added user";
-    header("Location: login.html");
+    //header("Location: login.html");
   } else {
     // There was an error adding the user to the database
     echo "Error: " . mysqli_error($conn);
