@@ -1,16 +1,21 @@
 <html>
-    <head>
-        <title> Delete Confirmation </title>
-    </head>
+<head>
+    <title>Delete Confirmation</title>
+</head>
+<body>
     <?php
-    // check for confirmation
-    if (isset($_POST['deny'])) {
-        // send back to profile page
+    // Check if appointment ID is set in the URL
+    if (!isset($_GET['APPT_ID'])) {
+        // If appointment ID is not set, redirect to appointments page
         header("Location: appointments.php");
+        exit();
     }
-    if (isset($_POST['confirm'])) {
-        // Delete user, return to login
 
+    // Store appointment ID from URL parameter
+    $appt_id = $_GET['APPT_ID'];
+
+    // Check if confirmation form is submitted
+    if (isset($_POST['confirm'])) {
         // Connect to database server
         $servername = "localhost";
         $username   = "root";
@@ -25,22 +30,24 @@
             die("Connection failed: " . $conn->connect_error);
         }
 
-        $appt_id = $_POST["appt_id"];
+        // Delete appointment from database
         $sql = "DELETE FROM appointments WHERE APPT_ID='$appt_id'";
-
         $result = mysqli_query($conn, $sql);
 
-        // end session and close connection
-        header("Location: appointments.php");
+        // Close database connection
         mysqli_close($conn);
+
+        // Redirect to appointments page
+        header("Location: appointments.php");
+        exit();
     }
     ?>
-    <body>
-        <h1> Are you sure you would like to delete your appointment? </h1>
-        <form method="post">
-            <input type="hidden" name="appt_id" value="$appt_id">
-            <input type="submit" name="confirm" value="Yes">
-            <input type="submit" name="deny" value="No">
-        </form>
-    </body>
+
+    <h1>Are you sure you would like to delete your appointment?</h1>
+    <form method="post">
+        <input type="submit" name="confirm" value="Yes">
+        <a href="appointments.php"><button type="button">No</button></a>
+        <input type="hidden" name="appt_id" value="<?php echo $appt_id; ?>">
+    </form>
+</body>
 </html>
