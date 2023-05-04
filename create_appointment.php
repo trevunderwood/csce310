@@ -1,4 +1,5 @@
 <?php
+// Trevor Underwood wrote this file. This code manages the create appointment page to create an appointment.
 
 $servername = "localhost";
 $username = "root";

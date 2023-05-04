@@ -1,4 +1,6 @@
 <html>
+<!-- Trevor Underwood wrote this file. This code manages the delete appointment page to delete an appointment -->
+
 <head>
     <title>Delete Confirmation</title>
 </head>
