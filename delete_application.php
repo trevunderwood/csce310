@@ -23,6 +23,7 @@
     $username = $_SESSION['username'];
 
     if(isset($_GET["APPLICATION_ID"])){
+        //get values from url
         $appid = $_GET["APPLICATION_ID"];
 
         $company = $_GET["COMPANY_NAME"];
@@ -32,7 +33,7 @@
         echo "Application Details:";
 
         echo "<br>";
-
+        //display relevant information
         echo $company;
 
         echo "<br>";
@@ -43,21 +44,21 @@
     }
     // check for confirmation
     if (isset($_POST['deny'])) {
-        // send back to profile page
+        // send back to application page
         header("Location: application.php");
     }
     if (isset($_POST['confirm'])) {
-        // Delete user, return to login
+        // Delete application
             $sql = "DELETE FROM APPLICATIONS WHERE APPLICATION_ID='$appid'";
 
             $result = mysqli_query($conn, $sql);
+            header("Location: application.php");
+            // return to applications page
         }
 
         // end session and close connection
         session_abort();
         mysqli_close($conn);
-        header("Location: application.php");
-        // return to login page
     ?>
     <body>
         <form method="post">

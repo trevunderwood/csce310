@@ -62,6 +62,8 @@ if($type["USER_TYPE"] == "Applicant"){
 
     // $result = $conn->query($sql);
 
+    //select details from the created view and display
+
     $sql = "SELECT * FROM DETAILS WHERE APPLICANT_ID = " . $id["APPLICANT_ID"];
 
     $result = $conn->query($sql);

@@ -23,6 +23,7 @@
     $username = $_SESSION['username'];
 
     if(isset($_GET["POST_ID"])){
+        //get values from url
         $postid = $_GET["POST_ID"];
 
         $post = $_GET["POST_DESC"];
@@ -30,18 +31,18 @@
         echo "Application Details:";
 
         echo "<br>";
-
+        //display relevant information
         echo $post;
 
         echo "<br>";
     }
     // check for confirmation
     if (isset($_POST['deny'])) {
-        // send back to profile page
+        // send back to posting page
         header("Location: posting.php");
     }
     if (isset($_POST['confirm'])) {
-        // Delete user, return to login
+        // Delete posting and any entity with foreign keys related to the post
             $sql = "DELETE FROM APPLICATIONS WHERE POST_ID= '$postid'";
 
             $result = mysqli_query($conn, $sql);
@@ -60,7 +61,6 @@
         // end session and close connection
         session_abort();
         mysqli_close($conn);
-        // return to login page
     ?>
     <body>
         <form method="post">
