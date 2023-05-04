@@ -1,3 +1,4 @@
+<!-- Jace Thomas is Responsible for this code -->
 <!DOCTYPE html>
 <html>
 <head>
@@ -16,7 +17,7 @@
 <table align = "left" border = "1" cellpadding = "3" cellspacing = "0">
     <tr>
         <td>
-            User Name
+            Company
         </td>
         <td>
             Job Title
@@ -47,6 +48,7 @@ $sql = "SELECT USER_TYPE FROM USER WHERE USER_NAME = '$user'";
 $result = $conn->query($sql);
 $type = $result->fetch_assoc();
 
+//restrict access to applicants only
 if($type["USER_TYPE"] == "Applicant"){
 
     $sql = "SELECT APPLICANT_ID FROM APPLICANT WHERE USER_NAME = '$user'";
@@ -55,14 +57,19 @@ if($type["USER_TYPE"] == "Applicant"){
 
     $id = $result->fetch_assoc();
 
+    //create view
+
     // $sql = "CREATE VIEW DETAILS AS SELECT APPLICATIONS.APPLICATION_ID, APPLICATIONS.APPLICANT_ID, APPLICATIONS.POST_ID, JOB_POSTING.POST_DESC, COMPANY.COMPANY_NAME FROM APPLICATIONS, JOB_POSTING, COMPANY WHERE APPLICATIONS.POST_ID = JOB_POSTING.POST_ID AND JOB_POSTING.COMPANY_ID = COMPANY.COMPANY_ID";
 
     // $result = $conn->query($sql);
+
+    //select details from the created view and display
 
     $sql = "SELECT * FROM DETAILS WHERE APPLICANT_ID = " . $id["APPLICANT_ID"];
 
     $result = $conn->query($sql);
 
+    //create table
     if($result->num_rows > 0){
         while($row = $result->fetch_assoc()){
             echo "<tr>";
@@ -94,7 +101,7 @@ else{
     $name = $result->fetch_assoc();
 
     // $sql = "CREATE VIEW DETAILS AS SELECT APPLICATIONS.APPLICATION_ID, APPLICATIONS.APPLICANT_ID, APPLICATIONS.POST_ID, JOB_POSTING.POST_DESC, COMPANY.COMPANY_NAME FROM APPLICATIONS, JOB_POSTING, COMPANY WHERE APPLICATIONS.POST_ID = JOB_POSTING.POST_ID AND JOB_POSTING.COMPANY_ID = COMPANY.COMPANY_ID";
-
+    
     // $result = $conn->query($sql);
 
     $sql = "SELECT * FROM DETAILS WHERE COMPANY_NAME = '" . $name["COMPANY_NAME"] . "'";

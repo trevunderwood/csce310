@@ -16,7 +16,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
   // Get the input values from the form
   $username = $_POST["username"];
-  $password = $_POST["password"];
+  //$password = $_POST["password"];
   $lname = $_POST["lname"];
   $fname = $_POST["fname"];
   $phone = $_POST["phone"];
@@ -31,17 +31,25 @@ VALUES ('$username', '$lname', '$fname', '$phone', '$email', '$usertype')";
 
   // check usertype and update appropriate table
   if ($usertype == "Applicant") {
+    // update applicant table
     $sql = "INSERT INTO applicant (USER_NAME) VALUES ('$username')";
     $result = mysqli_query($conn, $sql);
   }
   if ($usertype == "Recruiter") {
-    $sql = "INSERT INTO recruiter (USER_NAME) VALUES ('$username')";
+    // get company ID
+    $companyname = $_POST["company"];
+    $sql = "SELECT COMPANY_ID from company WHERE COMPANY_NAME='$companyname'";
+    $result = mysqli_query($conn, $sql);
+
+    // update recruiter table
+    $companyID = $result->fetch_assoc()['COMPANY_ID'];
+    $sql = "INSERT INTO recruiter (USER_NAME,COMPANY_ID) VALUES ('$username','$companyID')";
     $result = mysqli_query($conn, $sql);
   }
   if ($result) {
     // User was added successfully, redirect to the login page
-    echo "added user";
-    //header("Location: login.html");
+    //echo "added user";
+    header("Location: login.html");
   } else {
     // There was an error adding the user to the database
     echo "Error: " . mysqli_error($conn);
@@ -50,7 +58,16 @@ VALUES ('$username', '$lname', '$fname', '$phone', '$email', '$usertype')";
 
 mysqli_close($conn);
 ?>
-
+<script>
+  function showField() {
+    var option = document.getElementById("usertype").value;
+    if (option == "Recruiter") {
+      document.getElementById("hiddenField").style.display = "block";
+    } else {
+      document.getElementById("hiddenField").style.display = "none";
+    }
+  }
+</script>
 <!DOCTYPE html>
 <html>
 <head>
@@ -75,11 +92,15 @@ mysqli_close($conn);
 		<input type="text" name="email" required>
 		<br>
     <label>User Type:</label>
-    <select name="usertype">
+    <select id="usertype" name="usertype" onchange="showField()">
         <option value="Applicant">Applicant</option>
         <option value="Recruiter">Recruiter</option>
     </select>
     <br>
+    <div id="hiddenField" style="display:none;">
+      <label>Company:</label>
+      <input type="text" name="company">
+    </div>
 		<input type="submit" value="Create Account">
 	</form>
 </body>

@@ -1,3 +1,4 @@
+<!-- Jace Thomas is Responsible for this code -->
 <!DOCTYPE html>
 <html>
 <head>
@@ -35,17 +36,22 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
     $compid = $_POST["compid"];
 
+    //create new entity
     $sql = "INSERT INTO JOB_POSTING (COMPANY_ID, POST_DESC) VALUES ($compid, '$postdesc')";
 
     $result = $conn->query($sql);
 
     if($result){
+        //redirect upon success
         header("Location: posting.php");
     }
 
 }
 
+//Post submission form
+
 if(isset($_GET["COMPANY_ID"])){
+    //get value from URL
     $compid = $_GET["COMPANY_ID"];
     echo "<form method='post' action='create_post.php'>";
     echo "<input type='hidden' name='compid' value='$compid'";

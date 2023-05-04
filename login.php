@@ -1,40 +1,33 @@
 <?php
-// Establish a connection to the database
+// Trevor Underwood wrote this file. This code manages the functionality for the login page to log in to your account.
+
 $servername = "localhost";
 $username = "root";
 $password = "";
 $dbname = "csce310";
 
-$conn = mysqli_connect($servername, $username, $password, $dbname);
+$conn = mysqli_connect($servername, $username, $password, $dbname); //connect to database
 
 if (!$conn) {
   die("Connection failed: " . mysqli_connect_error());
 }
 
-// Check if the login form has been submitted
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
+if ($_SERVER["REQUEST_METHOD"] == "POST") { //if form is completed
 
-  // Get the input values from the form
-  $username = $_POST["username"];
-  $password = $_POST["password"];
+  $username = $_POST["username"]; //get username from form
+  $password = $_POST["password"]; //get password from form
 
-  // Query the database to check if the user exists
-  $sql = "SELECT * FROM USER WHERE USER_NAME = '$username'";
-  $result = mysqli_query($conn, $sql);
+  $sql = "SELECT * FROM USER WHERE USER_NAME = '$username'"; //get from user based on username to see if username is in there
+  $result = mysqli_query($conn, $sql); //execute query
 
-  if (mysqli_num_rows($result) == 1) {
-    // User exists, log them in
-    // echo "Success";
+  if (mysqli_num_rows($result) == 1) { //if there is a user, log in
+
     session_start();
-    $_SESSION["username"] = $username;
-    // check for admin account
-    if ($result->fetch_assoc()['USER_TYPE'] == 'admin') {
-      header("Location: admin_dash.php");
-    }
-    header("Location: user_profile.php");
+    $_SESSION["username"] = $username; //store username
+    header("Location: user_profile.php"); //reroute to home page
   } else {
-    // User does not exist or password is incorrect
-    echo "Invalid username or password";
+    
+    echo "Invalid username or password"; //user does not exist
   }
 }
 

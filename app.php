@@ -1,3 +1,4 @@
+<!-- Jace Thomas is Responsible for this code -->
 <!DOCTYPE html>
 <html>
 <head>
@@ -57,6 +58,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     echo "Error: " . mysqli_error($conn);
   }
 }
+
+//disply submission form if the variables have been set
 if(isset($_GET["COMPANY_NAME"])){
   $company = urldecode($_GET["COMPANY_NAME"]);
   $postid = $_GET["POST_ID"];

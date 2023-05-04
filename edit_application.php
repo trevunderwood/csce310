@@ -1,3 +1,4 @@
+<!-- Jace Thomas is Responsible for this code -->
 <!DOCTYPE html>
 <html>
 <head>
@@ -61,6 +62,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 //Display information related to appointment to be updated
 if(isset($_GET["APPLICATION_ID"])){
+  //get values from url
   $company = urldecode($_GET["COMPANY_NAME"]);
   $appid = $_GET["APPLICATION_ID"];
   $postDesc = $_GET["POST_DESC"];
@@ -85,7 +87,7 @@ if(isset($_GET["APPLICATION_ID"])){
   $compid = $result->fetch_assoc();
   $sql = "SELECT * FROM JOB_POSTING WHERE COMPANY_ID = " . $compid["COMPANY_ID"];
   $result = $conn->query(($sql));
-
+  //display other listings for user
   if($result->num_rows > 0){
     echo "Other Job Listings Available";
     echo "<br>";

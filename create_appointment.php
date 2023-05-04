@@ -1,36 +1,32 @@
 <?php
-// Establish a connection to the database
+// Trevor Underwood wrote this file. This code manages the create appointment page to create an appointment.
+
 $servername = "localhost";
 $username = "root";
 $password = "";
 $dbname = "csce310";
 
-$conn = mysqli_connect($servername, $username, $password, $dbname);
+$conn = mysqli_connect($servername, $username, $password, $dbname); //connect to database
 
 if (!$conn) {
   die("Connection failed: " . mysqli_connect_error());
 }
 
-// Check if the user registration form has been submitted
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
+if ($_SERVER["REQUEST_METHOD"] == "POST") { //if form has been submitted
 
-  // Get the input values from the form
-  //$appt_id = $_POST["appt_id"];
-  $appt_time = $_POST["appt_time"];
-  $applicant_id = $_POST["applicant_id"];
-  $recruiter_id = $_POST["recruiter_id"];
+  $appt_time = $_POST["appt_time"]; //appt_id from form
+  $applicant_id = $_POST["applicant_id"]; //applicant_id from form
+  $recruiter_id = $_POST["recruiter_id"]; //post_id from form
 
 
 
-  // Insert the new user into the database
   $sql = "INSERT INTO appointments (APPT_TIME, APPLICANT_ID, RECRUITER_ID)
-VALUES ('$appt_time', '$applicant_id', '$recruiter_id')";
-  $result = mysqli_query($conn, $sql);
+VALUES ('$appt_time', '$applicant_id', '$recruiter_id')"; //insert new appointment into appointments
+  $result = mysqli_query($conn, $sql); //run query
     //echo "result run";
-  if ($result) {
-    // User was added successfully, redirect to the login page
-    echo "added appointment";
-    //header("Location: appointments.php");
+  if ($result) { //if successful
+    echo "added appointment"; 
+    header("Location: appointments.php"); //reroute back to appointments page
   } else {
     // There was an error adding the user to the database
     echo "Error: " . mysqli_error($conn);
