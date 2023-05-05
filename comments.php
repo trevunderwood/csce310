@@ -1,5 +1,4 @@
-
-
+<!-- styling for the comments -->
 <style>
 .comment-box {
   border: 1px solid #ccc;
@@ -24,6 +23,7 @@
   display: block;
 }
 </style>
+
 <?php
 if (isset($_GET['POST_ID'])) {
   $post_id = $_GET['POST_ID'];
@@ -41,37 +41,35 @@ if (!$conn) {
 }
 
 // Query the database to retrieve comments and user names
+// uses a view called comment_username 
 $sql = "SELECT * FROM comment_username WHERE POST_ID = '$post_id'";
 $result = $conn->query($sql);
 
-// Get the job posting title
-$job_posting = "Job Posting Title"; // Replace with actual job posting title
+$job_posting = "Job Posting Title"; 
 
 // Output the title and the button
 echo "<h1 style='text-align:center;'>Showing comments </h1>";
 echo "<a href='posting.php'>Back to the job posting</a>";
 
+// gets the username from login 
 session_start();
 $username2 = $_SESSION['username'];
-// Check if there are any results
 if (mysqli_num_rows($result) > 0) {
-  // Loop through the rows and output the data
+  // looping through the rows of the output of the query
   while ($row = mysqli_fetch_assoc($result)) {
     $applicant_id = $row["APPLICANT_ID"];
-    // $sql2 = "SELECT USER_NAME FROM applicant WHERE APPLICANT_ID =" . $applicant_id;
-    // $result2 = $conn->query($sql2);
-    // $name = $result2->fetch_assoc();
     $user_name = $row["USER_NAME"];
 
-    // Output the comment details and the associated user name in a rectangular box
+    // outputs the comment details and the associated user name in a rectangular box
     echo "<div class='comment-box'><div class='applicant-id'>" . $user_name . "</div><div class='comment-body'>" . $row["COMMENT_BODY"] . "</div>";
     
     
     // Check if the comment was made by the current session's user
     if ($username2 == $user_name) {
-      // Output the delete link/button
+      // output the delete link
       echo "<a href='delete_comment.php?comment_id=" . $row["COMMENT_ID"] . "&POST_ID=" .$post_id . "'>Delete</a>";
       
+      // output the edit link 
       echo "<a href='#' onclick='document.getElementById(\"edit-form-" . $row["COMMENT_ID"] . "\").classList.add(\"show\")'>Edit</a>";
       echo "<form id='edit-form-" . $row["COMMENT_ID"] . "' class='edit-form' action='edit_comment.php' method='POST'>";
       echo "<input type='hidden' name='comment_id' value='" . $row["COMMENT_ID"] . "'>";
@@ -91,6 +89,7 @@ session_abort();
 mysqli_close($conn);
 ?>
 
+<!-- passing information for posting a comment -->
 <div style='margin-top:50px;text-align:center;'>
   <form action='add_comment.php?POST_ID=<?php echo $post_id; ?>' method='POST'>
     <label for='comment'>Leave a comment:</label><br>
@@ -99,7 +98,7 @@ mysqli_close($conn);
   </form>
 </div>
 
-<!-- Edit form -->
+<!-- The edit form -->
 <div id="edit-form" style="display:none;margin-top:50px;text-align:center;">
   <form action="edit_comment.php" method="POST">
     <input type="hidden" name="comment_id" value="">
