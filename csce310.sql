@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 27, 2023 at 12:34 AM
+-- Generation Time: May 05, 2023 at 08:33 PM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.2.0
 
@@ -44,10 +44,22 @@ INSERT INTO `applicant` (`APPLICANT_ID`, `USER_NAME`) VALUES
 -- --------------------------------------------------------
 
 --
+-- Stand-in structure for view `applicant_time`
+-- (See below for the actual view)
+--
+CREATE TABLE `applicant_time` (
+`APPT_TIME` timestamp
+,`APPLICANT_ID` int(11)
+);
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `applications`
 --
 
 CREATE TABLE `applications` (
+  `APPLICATION_ID` int(11) NOT NULL,
   `APPLICANT_ID` int(11) NOT NULL,
   `POST_ID` int(11) DEFAULT NULL,
   `SUBMISSION_DATE` datetime DEFAULT NULL
@@ -57,10 +69,14 @@ CREATE TABLE `applications` (
 -- Dumping data for table `applications`
 --
 
-INSERT INTO `applications` (`APPLICANT_ID`, `POST_ID`, `SUBMISSION_DATE`) VALUES
-(1, 1, '2023-04-26 17:25:31'),
-(2, 2, '2023-04-26 17:26:02'),
-(3, 4, '2023-04-26 17:26:11');
+INSERT INTO `applications` (`APPLICATION_ID`, `APPLICANT_ID`, `POST_ID`, `SUBMISSION_DATE`) VALUES
+(1, 1, 7, '2023-05-05 02:12:35'),
+(12, 3, 2, '2023-05-02 03:45:44'),
+(13, 3, 4, '2023-05-02 03:47:55'),
+(14, 2, 2, '2023-05-02 03:48:36'),
+(16, 1, 6, '2023-05-03 11:29:53'),
+(17, 3, 9, '2023-05-05 12:14:42'),
+(18, 1, 2, '2023-05-05 02:11:50');
 
 -- --------------------------------------------------------
 
@@ -82,7 +98,8 @@ CREATE TABLE `appointments` (
 INSERT INTO `appointments` (`APPT_ID`, `APPT_TIME`, `APPLICANT_ID`, `RECRUITER_ID`) VALUES
 (1, '2023-04-26 22:25:02', 1, 1),
 (2, '2023-04-26 22:25:09', 2, 2),
-(3, '2023-04-26 22:25:21', 3, 3);
+(3, '2023-04-26 22:25:21', 3, 3),
+(5, '2023-05-04 22:25:02', 1, 2);
 
 -- --------------------------------------------------------
 
@@ -102,9 +119,24 @@ CREATE TABLE `comments` (
 --
 
 INSERT INTO `comments` (`COMMENT_ID`, `APPLICANT_ID`, `POST_ID`, `COMMENT_BODY`) VALUES
-(1, 1, 1, 'Love Texas A&M, great place to work and great position'),
 (2, 2, 2, 'Great pay but very hard work'),
-(3, 3, 4, 'Doesn\'t pay very well, boss is cheap, no time off allowed');
+(3, 3, 4, 'Doesn\'t pay very well, boss is cheap, no time off allowed'),
+(4, NULL, 2, 'hello great job'),
+(5, NULL, 2, 'hey');
+
+-- --------------------------------------------------------
+
+--
+-- Stand-in structure for view `comment_username`
+-- (See below for the actual view)
+--
+CREATE TABLE `comment_username` (
+`COMMENT_ID` int(11)
+,`APPLICANT_ID` int(11)
+,`POST_ID` int(11)
+,`COMMENT_BODY` varchar(255)
+,`USER_NAME` varchar(200)
+);
 
 -- --------------------------------------------------------
 
@@ -129,6 +161,20 @@ INSERT INTO `company` (`COMPANY_ID`, `COMPANY_NAME`) VALUES
 -- --------------------------------------------------------
 
 --
+-- Stand-in structure for view `details`
+-- (See below for the actual view)
+--
+CREATE TABLE `details` (
+`APPLICATION_ID` int(11)
+,`APPLICANT_ID` int(11)
+,`POST_ID` int(11)
+,`POST_DESC` varchar(255)
+,`COMPANY_NAME` varchar(255)
+);
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `job_posting`
 --
 
@@ -143,9 +189,13 @@ CREATE TABLE `job_posting` (
 --
 
 INSERT INTO `job_posting` (`POST_ID`, `COMPANY_ID`, `POST_DESC`) VALUES
-(1, 1, 'Computer Science Professor'),
 (2, 2, 'Project Manager'),
-(4, 3, 'Fry Cook');
+(4, 3, 'Fry Cook'),
+(5, 2, 'Software Engineer'),
+(6, 1, 'Student Worker'),
+(7, 3, 'Cashier'),
+(8, 1, 'Professor'),
+(9, 1, 'Computer Science Professor');
 
 -- --------------------------------------------------------
 
@@ -192,8 +242,58 @@ INSERT INTO `user` (`USER_NAME`, `USER_LNAME`, `USER_FNAME`, `USER_PHONE`, `USER
 ('eugene_krabs', 'Krabs', 'Eugene', '9999999999', 'eugene_krabs@email.com', 'Recruiter'),
 ('jane_doe', 'Doe', 'Jane', '1234567890', 'jane_doe@email.com', 'Recruiter'),
 ('john_smith', 'Smith', 'John', '1234567890', 'john_smith@email.com', 'Applicant'),
-('spongebob_squarepants', 'Squarepants', 'Spongebob', '7777777777', 'spongebob_squarepants@email.com', 'Applicant'),
+('spongebob_squarepants', 'Squarepants', 'BOB', '7777777777', 'spongebob_squarepants@email.com', 'Applicant'),
 ('steve_jobs', 'Jobs', 'Steve', '1231234567', 'steve_jobs@email.com', 'Recruiter');
+
+-- --------------------------------------------------------
+
+--
+-- Stand-in structure for view `user_profile`
+-- (See below for the actual view)
+--
+CREATE TABLE `user_profile` (
+`USER_NAME` varchar(200)
+,`USER_LNAME` varchar(200)
+,`USER_FNAME` varchar(200)
+,`USER_PHONE` varchar(200)
+,`USER_EMAIL` varchar(200)
+);
+
+-- --------------------------------------------------------
+
+--
+-- Structure for view `applicant_time`
+--
+DROP TABLE IF EXISTS `applicant_time`;
+
+CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW `applicant_time`  AS SELECT `appointments`.`APPT_TIME` AS `APPT_TIME`, `appointments`.`APPLICANT_ID` AS `APPLICANT_ID` FROM `appointments``appointments`  ;
+
+-- --------------------------------------------------------
+
+--
+-- Structure for view `comment_username`
+--
+DROP TABLE IF EXISTS `comment_username`;
+
+CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW `comment_username`  AS SELECT `comments`.`COMMENT_ID` AS `COMMENT_ID`, `comments`.`APPLICANT_ID` AS `APPLICANT_ID`, `comments`.`POST_ID` AS `POST_ID`, `comments`.`COMMENT_BODY` AS `COMMENT_BODY`, `applicant`.`USER_NAME` AS `USER_NAME` FROM (`comments` join `applicant` on(`comments`.`APPLICANT_ID` = `applicant`.`APPLICANT_ID`))  ;
+
+-- --------------------------------------------------------
+
+--
+-- Structure for view `details`
+--
+DROP TABLE IF EXISTS `details`;
+
+CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW `details`  AS SELECT `applications`.`APPLICATION_ID` AS `APPLICATION_ID`, `applications`.`APPLICANT_ID` AS `APPLICANT_ID`, `applications`.`POST_ID` AS `POST_ID`, `job_posting`.`POST_DESC` AS `POST_DESC`, `company`.`COMPANY_NAME` AS `COMPANY_NAME` FROM ((`applications` join `job_posting`) join `company`) WHERE `applications`.`POST_ID` = `job_posting`.`POST_ID` AND `job_posting`.`COMPANY_ID` = `company`.`COMPANY_ID``COMPANY_ID`  ;
+
+-- --------------------------------------------------------
+
+--
+-- Structure for view `user_profile`
+--
+DROP TABLE IF EXISTS `user_profile`;
+
+CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW `user_profile`  AS SELECT `user`.`USER_NAME` AS `USER_NAME`, `user`.`USER_LNAME` AS `USER_LNAME`, `user`.`USER_FNAME` AS `USER_FNAME`, `user`.`USER_PHONE` AS `USER_PHONE`, `user`.`USER_EMAIL` AS `USER_EMAIL` FROM `user``user`  ;
 
 --
 -- Indexes for dumped tables
@@ -210,7 +310,7 @@ ALTER TABLE `applicant`
 -- Indexes for table `applications`
 --
 ALTER TABLE `applications`
-  ADD PRIMARY KEY (`APPLICANT_ID`),
+  ADD PRIMARY KEY (`APPLICATION_ID`),
   ADD KEY `POST_ID` (`POST_ID`);
 
 --
@@ -219,7 +319,9 @@ ALTER TABLE `applications`
 ALTER TABLE `appointments`
   ADD PRIMARY KEY (`APPT_ID`),
   ADD KEY `APPLICANT_ID` (`APPLICANT_ID`),
-  ADD KEY `RECRUITER_ID` (`RECRUITER_ID`);
+  ADD KEY `RECRUITER_ID` (`RECRUITER_ID`),
+  ADD KEY `idx_recruiter_id` (`RECRUITER_ID`),
+  ADD KEY `RECRUITER_ID_2` (`RECRUITER_ID`);
 
 --
 -- Indexes for table `comments`
@@ -240,7 +342,8 @@ ALTER TABLE `company`
 --
 ALTER TABLE `job_posting`
   ADD PRIMARY KEY (`POST_ID`),
-  ADD KEY `COMPANY_ID` (`COMPANY_ID`);
+  ADD KEY `COMPANY_ID` (`COMPANY_ID`),
+  ADD KEY `POST_DESC` (`POST_DESC`);
 
 --
 -- Indexes for table `recruiter`
@@ -254,7 +357,8 @@ ALTER TABLE `recruiter`
 -- Indexes for table `user`
 --
 ALTER TABLE `user`
-  ADD PRIMARY KEY (`USER_NAME`);
+  ADD PRIMARY KEY (`USER_NAME`),
+  ADD KEY `USER_LNAME` (`USER_LNAME`);
 
 --
 -- AUTO_INCREMENT for dumped tables
@@ -270,19 +374,19 @@ ALTER TABLE `applicant`
 -- AUTO_INCREMENT for table `applications`
 --
 ALTER TABLE `applications`
-  MODIFY `APPLICANT_ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `APPLICATION_ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
 
 --
 -- AUTO_INCREMENT for table `appointments`
 --
 ALTER TABLE `appointments`
-  MODIFY `APPT_ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `APPT_ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT for table `comments`
 --
 ALTER TABLE `comments`
-  MODIFY `COMMENT_ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `COMMENT_ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT for table `company`
@@ -294,13 +398,13 @@ ALTER TABLE `company`
 -- AUTO_INCREMENT for table `job_posting`
 --
 ALTER TABLE `job_posting`
-  MODIFY `POST_ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `POST_ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 
 --
 -- AUTO_INCREMENT for table `recruiter`
 --
 ALTER TABLE `recruiter`
-  MODIFY `RECRUITER_ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `RECRUITER_ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- Constraints for dumped tables
