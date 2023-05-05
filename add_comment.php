@@ -1,3 +1,5 @@
+
+<!-- this code is for generating a query to insert a comment into the comments database -->
 <?php
 $servername = "localhost";
 $username = "root";
@@ -27,9 +29,10 @@ $applicant_id = $row['applicant_id'];
 
 $comment_body = $_POST['comment'];
 // inserting the comment into the database
+// creating a sql statement with placeholders
 $sql = "INSERT INTO comments (comment_id, applicant_id, post_id, comment_body) VALUES (?, ?, ?, ?)";
-$new_count++;
 $stmt = mysqli_prepare($conn, $sql);
+// binding the values to the sql statment
 mysqli_stmt_bind_param($stmt, "iiis", $comment_id, $applicant_id, $post_id,$comment_body);
 mysqli_stmt_execute($stmt);
 

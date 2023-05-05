@@ -1,29 +1,3 @@
-<!-- styling for the comments -->
-<style>
-.comment-box {
-  border: 1px solid #ccc;
-  padding: 10px;
-  margin-bottom: 10px;
-}
-
-.applicant-id {
-  font-weight: bold;
-  font-size: 16px;
-}
-
-.comment-body {
-  margin-top: 10px;
-}
-
-.edit-form {
-  display: none;
-}
-
-.edit-form.show {
-  display: block;
-}
-</style>
-
 <?php
 if (isset($_GET['POST_ID'])) {
   $post_id = $_GET['POST_ID'];
@@ -62,7 +36,6 @@ if (mysqli_num_rows($result) > 0) {
 
     // outputs the comment details and the associated user name in a rectangular box
     echo "<div class='comment-box'><div class='applicant-id'>" . $user_name . "</div><div class='comment-body'>" . $row["COMMENT_BODY"] . "</div>";
-    
     
     // Check if the comment was made by the current session's user
     if ($username2 == $user_name) {
@@ -107,7 +80,7 @@ mysqli_close($conn);
   </form>
 </div>
 
- 
+<!-- styling for the comments -->
 <style>
 .comment-box {
   border: 1px solid #ccc;
@@ -122,6 +95,14 @@ mysqli_close($conn);
 
 .comment-body {
   margin-top: 10px;
+}
+
+.edit-form {
+  display: none;
+}
+
+.edit-form.show {
+  display: block;
 }
 </style>
 

@@ -1,3 +1,5 @@
+
+<!-- this code is for generating a query to update a comment in the comments database -->
 <?php
 if (isset($_POST['comment_id']) && isset($_POST['comment_body'])) {
   $comment_id = $_POST['comment_id'];
@@ -15,7 +17,7 @@ if (isset($_POST['comment_id']) && isset($_POST['comment_body'])) {
     die("Connection failed: " . mysqli_connect_error());
   }
 
-  // Update the comment body in the database
+  // updating the comment in the database with the new comment_body
   $sql = "UPDATE comments SET COMMENT_BODY = '$comment_body' WHERE COMMENT_ID = '$comment_id'";
   if (mysqli_query($conn, $sql)) {
     echo "Comment updated successfully!";
@@ -25,10 +27,9 @@ if (isset($_POST['comment_id']) && isset($_POST['comment_body'])) {
 
   mysqli_close($conn);
 }
-// if (isset($_GET['post_id'])) {
-//   $post_id = $_GET['post_id'];
-// }
+
 $post_id = $_POST['post_id'];
+// returing user back to comment page with the proper post_id
 header("Location: comments.php?POST_ID=" . $post_id);
 exit();
 ?>

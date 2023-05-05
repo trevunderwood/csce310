@@ -1,12 +1,6 @@
+<!-- this code is for generating a query to delete a comment in the comments database -->
 <?php
 session_start();
-
-// Make sure the user is logged in
-if (!isset($_SESSION['username'])) {
-    header("Location: login.php");
-    exit();
-}
-
 
 $comment_id = $_GET['comment_id'];
 
@@ -23,14 +17,14 @@ if (!$conn) {
 }
 
 // SQL query to delete the comment
+// creating a sql statement with placeholders
 $sql = "DELETE FROM comments WHERE COMMENT_ID = ?";
 
 // preparing the statement and bind the parameter
 $stmt = mysqli_prepare($conn, $sql);
+// binding the values to the sql statment
 mysqli_stmt_bind_param($stmt, "i", $comment_id);
-
 mysqli_stmt_execute($stmt);
-
 
 if (isset($_GET['POST_ID'])) {
     $post_id = $_GET['POST_ID'];
